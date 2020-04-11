@@ -55,7 +55,7 @@ my @dates = sort keys %dates;
 
 
 my %batchDates = ();
-my $batchNumDays = 4;
+my $batchNumDays = 3;
 
 #enrich with deltas and fill in blank dates
 while (my ($cid,$r) = each %data) {
