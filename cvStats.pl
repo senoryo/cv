@@ -11,7 +11,16 @@ my $URL = 'https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-cou
 #date,county,state,fips,cases,deaths
 #2020-01-21,Snohomish,Washington,53061,1,0
 
-my $USAGE = "Usage: $0 <reported-output-file> <deltas-output-file> <batch-deltas-output-file> <speed-output-file>";
+my $USAGE = "Usage: $0 [--git-commit] <reported-output-file> <deltas-output-file> <batch-deltas-output-file> <speed-output-file>";
+
+my $gitCommit = 0;
+if ($ARGV[0] =~ m/^-/) {
+    $ARGV[0] eq '--git-commit' or die "Invalid option '$ARGV[0]'\n$USAGE\n";
+    shift @ARGV;
+    $gitCommit = 1; 
+}
+
+
 my $reportedFile = shift @ARGV or die "$USAGE\n";
 my $deltasFile = shift @ARGV or die "$USAGE\n";
 my $batchDeltasFile = shift @ARGV or die "$USAGE\n";
@@ -235,4 +244,15 @@ for my $cid (sort {$doubleSpeed{$a}{doubleSpeed} <=> $doubleSpeed{$b}{doubleSpee
 close SPEEDFILE;
 
 
+if ($gitCommit) {
+    my $time = `date`;
+    chomp $time;
 
+    my $cmd = '';
+    
+    $cmd = "git commit -m 'Updated data at $time'";
+    system $cmd and die "Failed to execute '$cmd'\n$!\n";
+    
+    $cmd = "git push -u origin master";
+    system $cmd and die "Failed to execute '$cmd'\n$!\n";    
+}
