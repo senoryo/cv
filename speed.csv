@@ -1,0 +1,36 @@
+state,county,latestCases,doubleSpeed
+Texas,Harris,3047,3.7
+Connecticut,New Haven,2183,4.5
+Pennsylvania,Philadelphia,5029,5.3
+New Jersey,Middlesex,4628,5.6
+New Jersey,Union,5203,5.7
+New Jersey,Passaic,4690,5.8
+New Jersey,Hudson,5879,5.8
+New Jersey,Morris,2645,5.9
+New Jersey,Essex,6069,6.1
+Massachusetts,Essex,2336,6.4
+Massachusetts,Norfolk,2007,6.4
+New Jersey,Monmouth,3248,6.4
+New Jersey,Ocean,3093,6.4
+Connecticut,Fairfield,4882,6.5
+Massachusetts,Middlesex,4045,6.5
+Massachusetts,Suffolk,4041,6.6
+Michigan,Macomb,2783,6.7
+Louisiana,Jefferson,4480,6.8
+Illinois,Cook,11415,6.9
+Florida,Miami-Dade,5897,6.9
+New Jersey,Bergen,8343,6.9
+New York,Orange,4090,7.0
+New York,Suffolk,17413,7.0
+Michigan,Wayne,10093,7.0
+California,Los Angeles,7955,7.1
+Michigan,Oakland,4247,7.3
+New York,Nassau,20140,7.5
+Indiana,Marion,2415,7.5
+Louisiana,Orleans,5242,7.6
+Nevada,Clark,2009,7.7
+New York,Rockland,6665,8.0
+Florida,Broward,2480,8.8
+New York,New York City,87028,8.9
+New York,Westchester,17004,11.0
+Washington,King,3888,12.5
