@@ -11,7 +11,7 @@ my $URL = 'https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-cou
 #date,county,state,fips,cases,deaths
 #2020-01-21,Snohomish,Washington,53061,1,0
 
-my $USAGE = "Usage: $0 [--git-commit] <reported-output-file> <deltas-output-file> <batch-deltas-output-file> <speed-output-file>";
+my $USAGE = "Usage: $0 [--git-commit] <output-dir>";
 
 my $gitCommit = 0;
 if ($ARGV[0] =~ m/^-/) {
@@ -20,12 +20,13 @@ if ($ARGV[0] =~ m/^-/) {
     $gitCommit = 1; 
 }
 
+my $dir = shift @ARGV or die "$USAGE\n";
 
-my $reportedFile = shift @ARGV or die "$USAGE\n";
-my $deltasFile = shift @ARGV or die "$USAGE\n";
-my $batchDeltasFile = shift @ARGV or die "$USAGE\n";
-my $speedFile = shift @ARGV or die "$USAGE\n";
-
+my $reportedFile = "$dir/reported.csv";
+my $deltasFile = "$dir/deltas.csv";
+my $batchDeltasFile = "$dir/batch.csv";
+my $narrowBatchDeltasFile = "$dir/batch-narrow.csv";
+my $speedFile = "$dir/speed.csv";
 
 my $data = get $URL or die "Failed to open '$URL'\n$0";
 
@@ -56,6 +57,9 @@ my @dates = sort keys %dates;
 
 my %batchDates = ();
 my $batchNumDays = 3;
+my @batchFilter = ('New York,New York City','New York,Nassau','Arizona,Maricopa');
+my %batchFilter = map {$_ => 1} @batchFilter;
+
 
 #enrich with deltas and fill in blank dates
 while (my ($cid,$r) = each %data) {
@@ -220,10 +224,26 @@ for my $cid (sort {$data{$b}{$dates[-1]}{cases} <=> $data{$a}{$dates[-1]}{cases}
     }
     print BATCHFILE "\n";
 }
-
 close BATCHFILE;
 
 
+open NARROWBATCHFILE, ">$narrowBatchDeltasFile" or die "Failed to open $narrowBatchDeltasFile for writing\n$!\n";
+
+print NARROWBATCHFILE "date";
+for my $cid (@batchFilter) {
+    $cid =~ s/,/-/;
+    print ",$cid";
+}
+print NARROWBATCHFILE "\n";
+
+for my $date (@batchDates) {
+    print NARROWBATCHFILE "$date";
+    for my $cid (@batchFilter) {
+	print NARROWBATCHFILE ",$data{$cid}{$date}{batchDeltaCases}";	
+    }
+    print NARROWBATCHFILE "\n";
+}
+close NARROWBATCHFILE;
 
 
 
