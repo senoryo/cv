@@ -226,13 +226,15 @@ for my $cid (sort {$data{$b}{$dates[-1]}{cases} <=> $data{$a}{$dates[-1]}{cases}
 }
 close BATCHFILE;
 
+#print Dumper(\%data);
 
 open NARROWBATCHFILE, ">$narrowBatchDeltasFile" or die "Failed to open $narrowBatchDeltasFile for writing\n$!\n";
 
 print NARROWBATCHFILE "date";
 for my $cid (@batchFilter) {
-    $cid =~ s/,/-/;
-    print ",$cid";
+    my $formattedCID = $cid;
+    $formattedCID =~ s/\,/-/;
+    print NARROWBATCHFILE ",$formattedCID";
 }
 print NARROWBATCHFILE "\n";
 
