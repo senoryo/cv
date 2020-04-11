@@ -250,7 +250,7 @@ if ($gitCommit) {
 
     my $cmd = '';
     
-    $cmd = "git commit -m 'Updated data at $time'";
+    $cmd = "git commit -a -m 'Updated data at $time'";
     system $cmd and die "Failed to execute '$cmd'\n$!\n";
     
     $cmd = "git push -u origin master";
