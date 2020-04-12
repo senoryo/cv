@@ -30,6 +30,28 @@ my $speedFile = "$dir/speed.csv";
 
 my $data = get $URL or die "Failed to open '$URL'\n$0";
 
+#REMOVE ME:
+my $fakeData = 
+"date,county,state,fips,cases,deaths
+03-01-2020,NYC,NY,123,0,0
+03-02-2020,NYC,NY,123,1,0
+03-03-2020,NYC,NY,123,2,0
+03-04-2020,NYC,NY,123,3,0
+03-05-2020,NYC,NY,123,4,0
+03-06-2020,NYC,NY,123,6,0
+03-07-2020,NYC,NY,123,8,0
+03-08-2020,NYC,NY,123,12,0
+03-09-2020,NYC,NY,123,16,0
+03-10-2020,NYC,NY,123,24,0
+03-11-2020,NYC,NY,123,32,0
+03-12-2020,NYC,NY,123,48,0
+03-13-2020,NYC,NY,123,64,0
+03-14-2020,NYC,NY,123,96,0
+03-15-2020,NYC,NY,123,128,0
+";
+
+#$data = $fakeData; #REMOVE ME
+
 open DATA, "<", \$data;
 
 my $header = <DATA>;
@@ -41,6 +63,7 @@ $header eq $headerExp or die "Expected header '$headerExp'\nGot '$header'\n";
 my %data = ();
 my %dates = ();
 
+my $dateCount = 0;
 while (my $line = <DATA>) {
     chomp $line;
     my ($date,$county,$state,$fips,$cases,$deaths) = split ',', $line;
@@ -48,7 +71,10 @@ while (my $line = <DATA>) {
 
     my $countyID = "$state,$county"; #unique countID (but also convenient "state,county"
     $data{$countyID}{$date} = {cases=>$cases, deaths=>$deaths, _date=>$date};
-    $dates{$date} = 1;
+    
+    if (!exists($dates{$date})) {
+	$dates{$date} = ++$dateCount;
+    }
 }
 close DATA;
 
@@ -60,6 +86,9 @@ my $batchNumDays = 3;
 my @batchFilter = ('New York,New York City','New York,Nassau','Arizona,Maricopa');
 my %batchFilter = map {$_ => 1} @batchFilter;
 
+sub log2 {
+    return log($_[0])/log(2);
+}
 
 #enrich with deltas and fill in blank dates
 while (my ($cid,$r) = each %data) {
@@ -70,17 +99,24 @@ while (my ($cid,$r) = each %data) {
     for my $date (sort {$b cmp $a} @dates) { #reverse order
 	my $curr = undef;
 	if (!exists($r->{$date})) {
-	    $r->{$date} = {cases=>0,deaths=>0,deltaCases=>0,deltaDeaths=>0};
+	    $r->{$date} = {_date=>$date,cases=>0,deaths=>0,deltaCases=>0,deltaDeaths=>0};
 	}
 	
 	$curr = $r->{$date};
 
+	if ($curr->{cases} > 0) {
+	    $curr->{logCases} = log2($curr->{cases});
+	}
+	
 	#print "CURR [$date]: ";print Dumper($curr);
 	
 	## 1-Day delta ##
 	if (defined $prev) {
 	    $prev->{deltaCases} = $prev->{cases} - $curr->{cases};
 	    $prev->{deltaDeaths} = $prev->{deaths} - $curr->{deaths};
+	    if (exists($curr->{logCases}) && exists($prev->{logCases})) {
+		$prev->{deltaLogCases} = $prev->{logCases} - $curr->{logCases};
+	    }
 	}
 	$prev = $curr;
 	
@@ -90,7 +126,8 @@ while (my ($cid,$r) = each %data) {
 	++$batchDay;
 	$batchDay = 1 if($batchDay > $batchNumDays);
 	
-	if ($batchDay == 1) {
+	if ($batchDay == 1) { #UNCOMMENT ME
+#	if ($batchDay == 0) { #REMOVE ME
 	    if (defined $batchHead) {
 		$batchHead->{batchDeltaCases} = $batchHead->{cases} - $curr->{cases};
 		$batchHead->{batchDeltaDeaths} = $batchHead->{deaths} - $curr->{deaths};
@@ -103,63 +140,40 @@ while (my ($cid,$r) = each %data) {
 
 my @batchDates = sort keys %batchDates;
 
-#print Dumper(\%data);
-
-
-#calculate "double speed" -- i.e. # of days it takes to double
-my %doubleSpeed = ();
-
+#calc double speed
 while (my ($cid,$r) = each %data) {
-    my $benchDate = '';
-    my $prevDate = '';
-    
-    my $days = undef;
-    for my $date (sort {$b cmp $a} @dates) { #iterate in reverse
-	if ($benchDate eq '') {
-	    $benchDate = $date;
-	    $prevDate = $date;
-	    $days = 0;
-	}
-	else {
-	    my $benchCases = $r->{$benchDate}{cases};
-	    my $prevCases = $r->{$prevDate}{cases};
-	    my $cases = $r->{$date}{cases};
+    for my $outDate (sort {$b cmp $a} @dates) { # reverse order - outer loop
+	my $curr = $r->{$outDate};
+
+	if (defined $curr->{deltaLogCases}) {
+	    my $runningLogDelta = $curr->{deltaLogCases};
+	    my $doubleSpeed = 1;
 	    
-	    my $halfBench = $benchCases / 2;
-	    
-	    #print "\n$state - $county\n";
-	    #print "  date=$date\n";
-	    #print "  benchDate=$benchDate\n";
-	    #print "  prevDate=$prevDate\n";
-	    #print "  benchCases=$benchCases\n";
-	    #print "  prevCases=$prevCases\n";
-	    #print "  cases=$cases\n";
-	    #print "  halfBench=$halfBench\n";
-	    #print "  days=$days\n";
-	    
-	    if ($benchCases == 0) {
-		last;
+	    if ($runningLogDelta < 1) {
+		for my $inDate (sort {$b cmp $a} @dates) { #reverse order - inner loop
+		    next if ($inDate ge $outDate);
+		    
+		    my $temp = $r->{$inDate};
+		    if (defined $temp->{deltaLogCases}) {
+			if (int($runningLogDelta + $temp->{deltaLogCases} + .0001) >= 1) {
+			    if ($temp->{deltaLogCases} > 0) {
+				$doubleSpeed += (1-$runningLogDelta)/$temp->{deltaLogCases};
+			    }
+			    last;
+			}
+			++$doubleSpeed;
+			$runningLogDelta += $temp->{deltaLogCases};
+		    }
+		}
 	    }
-	    
-	    if ($cases <= $halfBench) { #i.e. bench > 2x cases
-		my $benchToPrev = $prevCases - $halfBench;
-		my $casesToPrev = $prevCases - $cases;
-		my $fraction = $benchToPrev / $casesToPrev;
-		
-		$doubleSpeed{$cid}{doubleSpeed} = $days + $fraction;
-		$doubleSpeed{$cid}{latestCases} = $benchCases; 
-		
-		last;
-	    }
-	    
-	    ++$days;
-	    $prevDate = $date;
+	    $curr->{doubleSpeed} = $doubleSpeed;
 	}
     }
-}    
+}
 
-#print "\nDouble speed:\n";
-#print Dumper(\%doubleSpeed);
+#print STDERR Dumper(\%data);die;#remove me
+
+
 
 #OUTPUT:
 
@@ -255,12 +269,19 @@ close NARROWBATCHFILE;
 
 open SPEEDFILE, ">$speedFile" or die "Failed to open $speedFile for writing\n$!\n";
 
-print SPEEDFILE "state,county,latestCases,doubleSpeed\n";
+print SPEEDFILE "state,county";
+for my $date (@dates) {
+    my $monthDay = $date; $monthDay =~ s/^202.-//;    
+    print SPEEDFILE ",$monthDay";    
+}
+print SPEEDFILE "\n";
 
-for my $cid (sort {$doubleSpeed{$a}{doubleSpeed} <=> $doubleSpeed{$b}{doubleSpeed}} keys %doubleSpeed) {
-    if ($doubleSpeed{$cid}{latestCases} >= 2000) {
-	printf SPEEDFILE "$cid,$doubleSpeed{$cid}{latestCases},%.1f\n", $doubleSpeed{$cid}{doubleSpeed};
+for my $cid (sort {$data{$b}{$dates[-1]}{cases} <=> $data{$a}{$dates[-1]}{cases}} keys %data) {
+    print SPEEDFILE "$cid";
+    for my $date (@dates) {
+	print SPEEDFILE ",$data{$cid}{$date}{doubleSpeed}";
     }
+    print SPEEDFILE "\n";
 }
 
 close SPEEDFILE;
