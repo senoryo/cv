@@ -25,7 +25,6 @@ my $dir = shift @ARGV or die "$USAGE\n";
 my $reportedFile = "$dir/reported.csv";
 my $deltasFile = "$dir/deltas.csv";
 my $batchDeltasFile = "$dir/batch.csv";
-my $narrowBatchDeltasFile = "$dir/batch-narrow.csv";
 my $speedFile = "$dir/speed.csv";
 
 my $data = get $URL or die "Failed to open '$URL'\n$0";
@@ -83,8 +82,9 @@ my @dates = sort keys %dates;
 
 my %batchDates = ();
 my $batchNumDays = 3;
-my @batchFilter = ('New York,New York City','New York,Nassau','Arizona,Maricopa');
-my %batchFilter = map {$_ => 1} @batchFilter;
+
+my @focusAreas = ('New York,New York City','New York,Nassau','Arizona,Maricopa');
+my %focusAreas = map {$_ => 1} @focusAreas;
 
 sub log2 {
     return log($_[0])/log(2);
@@ -178,114 +178,75 @@ while (my ($cid,$r) = each %data) {
 #OUTPUT:
 
 
-open REPORTEDFILE, ">$reportedFile" or die "Failed to open $reportedFile for writing\n$!\n";
-
-print REPORTEDFILE "state,county";
-for my $date (@dates) {
-    my $monthDay = $date; $monthDay =~ s/^202.-//;    
-    print REPORTEDFILE ",$monthDay";
-}
-print REPORTEDFILE "\n";
-
-for my $cid (sort {$data{$b}{$dates[-1]}{cases} <=> $data{$a}{$dates[-1]}{cases}} keys %data) {
-    print REPORTEDFILE "$cid";
-    for my $date (@dates) {
-	print REPORTEDFILE ",$data{$cid}{$date}{cases}";
+sub printCsvData {
+    my $data = shift;
+    my $dates = shift;
+    my $dir = shift;
+    my $filePrefix = shift;
+    my $stat = shift;
+    my $sortByStat = shift;
+    
+    my $filepath = "$dir/${filePrefix}.csv";
+    
+    open FILE, ">$filepath" or die "Failed to open '$filepath' for writing.\n$!\n";
+    
+    print FILE "state,county";
+    for my $date (@$dates) {
+	print FILE ",$date";
     }
-    print REPORTEDFILE "\n";
-}
-
-close REPORTEDFILE;
-
-
-
-
-
-open DELTASFILE, ">$deltasFile" or die "Failed to open $deltasFile for writing\n$!\n";
-
-print DELTASFILE "state,county";
-for my $date (@dates) {
-    my $monthDay = $date; $monthDay =~ s/^202.-//;    
-    print DELTASFILE ",$monthDay";
-}
-print DELTASFILE "\n";
-
-for my $cid (sort {$data{$b}{$dates[-1]}{cases} <=> $data{$a}{$dates[-1]}{cases}} keys %data) {
-    print DELTASFILE "$cid";
-    for my $date (@dates) {
-	print DELTASFILE ",$data{$cid}{$date}{deltaCases}";
+    print FILE "\n";
+    
+    
+    for my $cid (sort {$data->{$b}{$dates->[-1]}{cases} <=> $data->{$a}{$dates->[-1]}{cases}} keys %$data) {
+	print FILE "$cid";
+	for my $date (@$dates) {
+	    print FILE ",$data->{$cid}{$date}{$stat}";
+	}
+	print FILE "\n";
     }
-    print DELTASFILE "\n";
+    
+    close FILE;    
 }
 
-close DELTASFILE;
+sub printCsvFocusAreas {
+    my $data = shift;
+    my $dates = shift;
+    my $dir = shift;
+    my $filePrefix = shift;
+    my $stat = shift;
+    my $focusAreas = shift; #array
+    
+    my $filepath = "$dir/${filePrefix}-Focus.csv";
 
-
-
-open BATCHFILE, ">$batchDeltasFile" or die "Failed to open $batchDeltasFile for writing\n$!\n";
-
-print BATCHFILE "state,county";
-for my $date (@batchDates) {
-    my $monthDay = $date; $monthDay =~ s/^202.-//;    
-    print BATCHFILE ",$monthDay";    
-}
-print BATCHFILE "\n";
-
-for my $cid (sort {$data{$b}{$dates[-1]}{cases} <=> $data{$a}{$dates[-1]}{cases}} keys %data) {
-    print BATCHFILE "$cid";
-    for my $date (@batchDates) {
-	print BATCHFILE ",$data{$cid}{$date}{batchDeltaCases}";
+    open FILE, ">$filepath" or die "Failed to open '$filepath' for writing\n$!\n";
+    
+    print FILE "date";
+    for my $cid (@$focusAreas) {
+	my $formattedCID = $cid;
+	$formattedCID =~ s/\,/-/;
+	print FILE ",$formattedCID";
     }
-    print BATCHFILE "\n";
-}
-close BATCHFILE;
-
-#print Dumper(\%data);
-
-open NARROWBATCHFILE, ">$narrowBatchDeltasFile" or die "Failed to open $narrowBatchDeltasFile for writing\n$!\n";
-
-print NARROWBATCHFILE "date";
-for my $cid (@batchFilter) {
-    my $formattedCID = $cid;
-    $formattedCID =~ s/\,/-/;
-    print NARROWBATCHFILE ",$formattedCID";
-}
-print NARROWBATCHFILE "\n";
-
-for my $date (@batchDates) {
-    print NARROWBATCHFILE "$date";
-    for my $cid (@batchFilter) {
-	print NARROWBATCHFILE ",$data{$cid}{$date}{batchDeltaCases}";	
+    print FILE "\n";
+    
+    for my $date (@$dates) {
+	print FILE "$date";
+	for my $cid (@$focusAreas) {
+	    print FILE ",$data{$cid}{$date}{$stat}";	
+	}
+	print FILE "\n";
     }
-    print NARROWBATCHFILE "\n";
-}
-close NARROWBATCHFILE;
-
-
-
-
-
-
-
-open SPEEDFILE, ">$speedFile" or die "Failed to open $speedFile for writing\n$!\n";
-
-print SPEEDFILE "state,county";
-for my $date (@dates) {
-    my $monthDay = $date; $monthDay =~ s/^202.-//;    
-    print SPEEDFILE ",$monthDay";    
-}
-print SPEEDFILE "\n";
-
-for my $cid (sort {$data{$b}{$dates[-1]}{cases} <=> $data{$a}{$dates[-1]}{cases}} keys %data) {
-    print SPEEDFILE "$cid";
-    for my $date (@dates) {
-	print SPEEDFILE ",$data{$cid}{$date}{doubleSpeed}";
-    }
-    print SPEEDFILE "\n";
+    close FILE;    
 }
 
-close SPEEDFILE;
+printCsvData(\%data,\@dates,     $dir,'Total'      ,'cases'          ,'cases');
+printCsvData(\%data,\@dates,     $dir,'Delta'      ,'deltaCases'     ,'cases');
+printCsvData(\%data,\@batchDates,$dir,'3DayDelta'  ,'batchDeltaCases','cases');
+printCsvData(\%data,\@dates,     $dir,'DoubleSpeed','doubleSpeed'    ,'cases');
 
+printCsvFocusAreas(\%data,\@dates,     $dir,'Total'      ,'cases'          ,\@focusAreas);
+printCsvFocusAreas(\%data,\@dates,     $dir,'Delta'      ,'deltaCases'     ,\@focusAreas);
+printCsvFocusAreas(\%data,\@batchDates,$dir,'3DayDelta'  ,'batchDeltaCases',\@focusAreas);
+printCsvFocusAreas(\%data,\@dates,     $dir,'DoubleSpeed','doubleSpeed'    ,\@focusAreas);
 
 if ($gitCommit) {
     my $time = `date`;
