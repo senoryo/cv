@@ -1,0 +1,2712 @@
+state,county,2020-01-26,2020-02-02,2020-02-09,2020-02-16,2020-02-23,2020-03-01,2020-03-08,2020-03-15,2020-03-22,2020-03-29,2020-04-05,2020-04-12
+New York,New York City,,0,0,0,0,1,13,316,8715,24723,33784,35656
+New York,Nassau,,0,0,0,0,0,5,93,1802,4545,7953,9155
+New York,Suffolk,,0,0,0,0,0,1,46,987,3989,7910,7883
+New York,Westchester,,0,0,0,0,0,81,114,1678,6646,5203,5591
+Illinois,Cook,,1,0,0,0,1,4,69,729,2640,4598,6542
+Michigan,Wayne,,0,0,0,0,0,0,13,464,2227,4814,3646
+New Jersey,Bergen,,0,0,0,0,0,4,28,425,1712,4018,3597
+California,Los Angeles,,0,0,0,0,0,13,55,352,1715,3804,3252
+New York,Rockland,,0,0,0,0,0,2,11,442,1754,3153,2359
+New Jersey,Hudson,,0,0,0,0,0,0,10,116,848,2950,3545
+New Jersey,Essex,,0,0,0,0,0,0,11,161,1055,2855,3328
+Florida,Miami-Dade,,0,0,0,0,0,0,13,215,1243,2674,2912
+Pennsylvania,Philadelphia,,0,0,0,0,0,0,8,83,774,2270,3217
+New Jersey,Union,,0,0,0,0,0,0,4,120,772,2320,2964
+New Jersey,Middlesex,,0,0,0,0,0,0,9,138,791,2012,2743
+Massachusetts,Middlesex,,0,0,0,0,0,10,65,124,782,1651,3028
+Louisiana,Orleans,,0,0,0,0,0,0,75,376,899,2716,1534
+New Jersey,Passaic,,0,0,0,0,0,1,4,90,736,2396,2363
+Connecticut,Fairfield,,0,0,0,0,0,1,15,192,1037,1805,2484
+Massachusetts,Suffolk,,1,0,0,0,0,8,22,95,814,1718,2701
+New York,Orange,,0,0,0,0,0,0,6,241,1000,1855,1925
+Louisiana,Jefferson,,0,0,0,0,0,0,14,170,577,2327,1902
+Michigan,Oakland,,0,0,0,0,0,0,14,263,893,1904,1841
+Washington,King,,0,0,0,0,11,80,330,615,1127,1006,1259
+New Jersey,Monmouth,,0,0,0,0,0,0,11,147,712,1484,1431
+Texas,Harris,,0,0,0,0,0,6,7,61,452,869,2234
+New Jersey,Ocean,,0,0,0,0,0,0,2,100,657,1418,1377
+Michigan,Macomb,,0,0,0,0,0,0,5,135,480,1383,1251
+Massachusetts,Essex,,0,0,0,0,0,0,6,54,510,936,1664
+New Jersey,Morris,,0,0,0,0,0,0,6,113,447,1234,1299
+Connecticut,New Haven,,0,0,0,0,0,0,3,26,251,882,1784
+Florida,Broward,,0,0,0,0,0,3,34,180,795,874,1059
+Indiana,Marion,,0,0,0,0,0,1,5,76,594,1084,1127
+Massachusetts,Norfolk,,0,0,0,0,0,7,24,44,473,723,1378
+Nevada,Clark,,0,0,0,0,0,2,14,110,402,991,805
+Pennsylvania,Montgomery,,0,0,0,0,0,4,20,86,378,623,1053
+Maryland,Prince George's,,0,0,0,0,0,0,9,31,207,538,1250
+Massachusetts,Worcester,,0,0,0,0,0,1,5,31,300,641,1054
+Massachusetts,Plymouth,,0,0,0,0,0,0,3,22,300,638,1061
+Arizona,Maricopa,,0,0,0,0,0,1,2,77,465,780,634
+Connecticut,Hartford,,0,0,0,0,0,0,3,51,222,475,1163
+District of Columbia,District of Columbia,,0,0,0,0,0,1,16,99,226,656,877
+Washington,Snohomish,,0,0,0,0,1,34,139,305,587,491,308
+New York,Dutchess,,0,0,0,0,0,0,7,75,238,757,761
+California,San Diego,,0,0,1,0,0,0,39,165,314,807,478
+New Jersey,Somerset,,0,0,0,0,0,0,0,51,244,538,899
+Texas,Dallas,,0,0,0,0,0,0,14,118,311,669,611
+Wisconsin,Milwaukee,,0,0,0,0,0,0,7,176,382,583,562
+Pennsylvania,Lehigh,,0,0,0,0,0,0,1,18,132,726,807
+Massachusetts,Hampden,,0,0,0,0,0,0,1,11,189,567,879
+Florida,Palm Beach,,0,0,0,0,0,0,5,65,312,616,646
+Missouri,St. Louis,,0,0,0,0,0,1,1,53,281,547,750
+Maryland,Montgomery,,0,0,0,0,0,4,8,71,218,392,938
+California,Santa Clara,,2,0,0,0,5,30,77,189,343,561,414
+California,Riverside,,0,0,0,0,0,1,11,33,150,604,820
+Pennsylvania,Delaware,,0,0,0,0,0,1,6,36,233,432,886
+New York,Erie,,0,0,0,0,0,0,3,51,326,679,512
+New Jersey,Mercer,,0,0,0,0,0,0,1,39,162,452,913
+Georgia,Fulton,,0,0,0,0,0,5,15,91,314,545,525
+Illinois,Lake,,0,0,0,0,0,0,3,66,231,442,703
+Pennsylvania,Luzerne,,0,0,0,0,0,0,1,6,87,647,670
+Tennessee,Davidson,,0,0,0,0,0,1,16,150,227,530,424
+Massachusetts,Bristol,,0,0,0,0,0,0,1,23,184,451,668
+Rhode Island,Providence,,0,0,0,0,0,0,0,0,148,390,740
+California,Orange,,0,0,0,0,0,2,14,78,336,403,443
+New Jersey,Unknown,,0,0,0,0,0,0,1,220,2799,801,-2547
+New Jersey,Camden,,0,0,0,0,0,1,1,20,141,393,714
+Maryland,Baltimore,,0,0,0,0,0,0,3,25,134,428,667
+Colorado,Denver,,0,0,0,0,0,2,26,97,283,417,422
+Pennsylvania,Bucks,,0,0,0,0,0,0,4,30,215,385,595
+Illinois,Will,,0,0,0,0,0,0,0,21,171,476,560
+Louisiana,East Baton Rouge,,0,0,0,0,0,0,0,20,144,492,567
+Tennessee,Shelby,,0,0,0,0,0,1,1,64,296,392,462
+Georgia,Dougherty,,0,0,0,0,0,0,6,46,195,441,490
+Illinois,DuPage,,0,0,0,0,0,0,1,78,195,382,506
+Ohio,Cuyahoga,,0,0,0,0,0,0,14,111,324,377,326
+Utah,Salt Lake,,0,0,0,0,1,0,14,69,240,417,385
+New Jersey,Burlington,,0,0,0,0,0,0,4,22,116,405,548
+Colorado,Arapahoe,,0,0,0,0,0,0,15,30,196,367,475
+Pennsylvania,Northampton,,0,0,0,0,0,0,1,20,105,510,446
+Pennsylvania,Berks,,0,0,0,0,0,0,0,13,55,208,759
+Louisiana,Caddo,,0,0,0,0,0,0,2,14,203,428,371
+Virginia,Fairfax,,0,0,0,0,0,2,8,21,156,239,582
+Rhode Island,Unknown,,0,0,0,0,2,1,17,63,23,132,751
+Michigan,Genesee,,0,0,0,0,0,0,0,14,113,377,451
+North Carolina,Mecklenburg,,0,0,0,0,0,0,4,62,270,328,290
+Florida,Orange,,0,0,0,0,0,0,2,30,235,445,236
+Ohio,Franklin,,0,0,0,0,0,0,3,31,213,350,346
+Washington,Pierce,,0,0,0,0,0,4,25,78,210,377,243
+Puerto Rico,Unknown,,0,0,0,0,0,0,5,18,104,348,422
+Georgia,DeKalb,,0,0,0,0,0,0,10,43,220,276,344
+California,San Bernardino,,0,0,0,0,0,0,1,16,94,261,515
+Delaware,New Castle,,0,0,0,0,0,0,7,32,102,295,444
+California,San Francisco,,2,0,0,0,1,8,26,74,232,228,304
+Louisiana,St. Tammany,,0,0,0,0,0,0,4,21,113,422,304
+California,Alameda,,0,0,0,0,1,2,34,90,164,296,277
+Pennsylvania,Allegheny,,0,0,0,0,0,0,3,37,225,340,252
+Maryland,Baltimore city,,0,0,0,0,0,0,1,23,105,265,418
+Texas,Tarrant,,0,0,0,0,0,0,4,43,92,265,402
+New York,Monroe,,0,0,0,0,0,0,2,55,162,329,250
+Pennsylvania,Monroe,,0,0,0,0,0,0,7,24,104,393,267
+Texas,Travis,,0,0,0,0,0,0,6,73,100,281,314
+Pennsylvania,Lancaster,,0,0,0,0,0,0,0,5,62,304,401
+Colorado,Jefferson,,0,0,0,0,0,1,11,39,162,306,244
+Florida,Hillsborough,,0,0,0,0,1,1,4,52,167,311,223
+Indiana,Lake,,0,0,0,0,0,0,0,10,75,250,409
+Colorado,Weld,,0,0,0,0,0,0,4,33,143,290,268
+Texas,Bexar,,0,0,2,2,7,0,1,38,90,281,313
+Georgia,Cobb,,0,0,0,0,0,3,16,48,161,246,254
+Guam,Unknown,,0,0,0,0,0,0,3,24,31,207,451
+Michigan,Washtenaw,,0,0,0,0,0,0,7,27,197,290,195
+California,Sacramento,,0,0,0,1,2,0,29,20,112,277,266
+Georgia,Gwinnett,,0,0,0,0,0,1,3,23,118,265,291
+Florida,Duval,,0,0,0,0,0,0,4,35,103,271,255
+Maryland,Anne Arundel,,0,0,0,0,0,0,2,17,80,220,340
+California,San Mateo,,0,0,0,0,0,1,31,85,160,278,97
+Colorado,Adams,,0,0,0,0,0,0,6,12,92,244,293
+Arizona,Pima,,0,0,0,0,0,0,3,14,136,219,250
+Florida,Lee,,0,0,0,0,0,2,3,21,125,227,238
+Missouri,St. Louis city,,0,0,0,0,0,0,0,14,83,201,316
+Georgia,Unknown,,0,0,0,0,0,0,0,27,201,55,330
+Colorado,El Paso,,0,0,0,0,0,1,3,47,163,221,178
+New York,Ulster,,0,0,0,0,0,1,4,21,153,179,254
+Alabama,Jefferson,,0,0,0,0,0,0,13,58,175,172,179
+Pennsylvania,Chester,,0,0,0,0,0,0,4,19,114,132,293
+Minnesota,Hennepin,,0,0,0,0,0,0,12,45,114,96,290
+Louisiana,St. John the Baptist,,0,0,0,0,0,0,1,9,47,288,200
+California,Contra Costa,,0,0,0,0,0,9,16,36,114,211,153
+Texas,Fort Bend,,0,0,0,0,0,6,3,20,90,149,268
+Washington,Yakima,,0,0,0,0,0,0,4,20,123,216,172
+Ohio,Hamilton,,0,0,0,0,0,0,0,19,66,234,216
+New Jersey,Gloucester,,0,0,0,0,0,0,0,8,64,176,284
+South Dakota,Minnehaha,,0,0,0,0,0,0,3,2,20,79,423
+Idaho,Ada,,0,0,0,0,0,0,2,11,100,289,115
+Kentucky,Jefferson,,0,0,0,0,0,1,5,20,82,196,199
+Ohio,Lucas,,0,0,0,0,0,0,1,4,89,208,201
+Connecticut,Unknown,,0,0,0,0,0,0,0,0,0,222,279
+Massachusetts,Barnstable,,0,0,0,0,0,0,1,23,124,199,154
+Washington,Unknown,,0,0,0,0,0,0,0,0,0,0,499
+New York,Putnam,,0,0,0,0,0,0,2,35,107,170,183
+South Carolina,Richland,,0,0,0,0,0,0,0,31,67,200,196
+New Jersey,Sussex,,0,0,0,0,0,0,0,12,81,174,216
+Texas,Denton,,0,0,0,0,0,0,1,29,135,139,178
+Michigan,Unknown,,0,0,0,0,0,0,0,0,77,229,174
+New York,Albany,,0,0,0,0,0,0,11,112,82,100,173
+Indiana,Hamilton,,0,0,0,0,0,0,1,17,65,217,178
+North Carolina,Wake,,0,0,0,0,0,1,13,35,97,158,166
+Louisiana,Lafourche,,0,0,0,0,0,0,1,11,24,192,240
+Delaware,Sussex,,0,0,0,0,0,0,0,12,54,85,313
+Nevada,Washoe,,0,0,0,0,0,2,7,16,82,157,197
+Florida,Pinellas,,0,0,0,0,0,0,2,36,78,243,96
+Alabama,Mobile,,0,0,0,0,0,0,0,2,39,86,327
+Idaho,Blaine,,0,0,0,0,0,0,2,19,94,295,44
+Colorado,Eagle,,0,0,0,0,0,1,23,56,107,152,113
+Texas,Collin,,0,0,0,0,0,0,8,30,96,134,173
+New Mexico,Bernalillo,,0,0,0,0,0,0,10,24,67,145,194
+Oklahoma,Oklahoma,,0,0,0,0,0,0,1,25,94,145,170
+Tennessee,Sumner,,0,0,0,0,0,0,0,22,71,228,114
+Louisiana,Ascension,,0,0,0,0,0,0,0,17,122,147,142
+Pennsylvania,Lackawanna,,0,0,0,0,0,0,0,6,50,116,255
+Ohio,Mahoning,,0,0,0,0,0,0,0,18,66,177,156
+Louisiana,St. Charles,,0,0,0,0,0,0,2,6,23,229,144
+Illinois,Kane,,0,0,0,0,0,0,3,10,87,120,183
+Connecticut,Litchfield,,0,0,0,0,0,0,4,8,75,110,206
+New York,Onondaga,,0,0,0,0,0,0,0,29,123,197,48
+California,Kern,,0,0,0,0,0,0,0,5,46,174,171
+New Jersey,Warren,,0,0,0,0,0,0,0,9,47,139,200
+Virginia,Prince William,,0,0,0,0,0,0,3,15,54,103,214
+New Hampshire,Hillsborough,,0,0,0,0,0,0,1,15,52,181,136
+Virginia,Henrico,,0,0,0,0,0,0,0,8,32,154,185
+Oregon,Multnomah,,0,0,0,0,0,0,1,18,72,142,141
+Massachusetts,Unknown,,0,0,0,0,0,0,0,34,428,-247,158
+Georgia,Clayton,,0,0,0,0,0,0,2,11,46,179,134
+Maryland,Howard,,0,0,0,0,0,0,1,23,57,118,172
+Maryland,Frederick,,0,0,0,0,0,0,0,1,23,88,256
+Louisiana,Ouachita,,0,0,0,0,0,0,0,4,37,141,185
+Virginia,Arlington,,0,0,0,0,0,0,8,18,58,97,185
+Vermont,Chittenden,,0,0,0,0,0,0,2,20,95,154,93
+Florida,Collier,,0,0,0,0,0,0,5,28,78,120,130
+Louisiana,St. Bernard,,0,0,0,0,0,0,1,12,32,197,119
+New York,Sullivan,,0,0,0,0,0,0,0,16,72,146,124
+Texas,Galveston,,0,0,0,0,0,0,1,10,59,170,115
+Louisiana,Lafayette,,0,0,0,0,0,0,0,6,44,197,107
+Hawaii,Honolulu,,0,0,0,0,0,2,2,37,78,162,69
+Massachusetts,Berkshire,,0,0,0,0,0,1,8,14,128,107,92
+Oregon,Washington,,0,0,0,0,2,6,5,42,99,105,89
+New Hampshire,Rockingham,,0,0,0,0,0,1,8,19,72,130,115
+Louisiana,Tangipahoa,,0,0,0,0,0,0,0,3,7,161,173
+South Carolina,Greenville,,0,0,0,0,0,0,1,18,52,115,153
+South Carolina,Charleston,,0,0,0,0,0,1,0,12,103,158,65
+Arizona,Navajo,,0,0,0,0,0,0,0,13,49,133,140
+Wisconsin,Dane,,0,1,0,0,0,0,5,55,118,90,65
+Oklahoma,Tulsa,,0,0,0,0,0,1,2,3,55,179,92
+Kansas,Wyandotte,,0,0,0,0,0,0,1,13,41,106,171
+Missouri,St. Charles,,0,0,0,0,0,0,0,3,40,114,171
+Florida,Osceola,,0,0,0,0,0,0,1,23,65,140,94
+Indiana,Johnson,,0,0,0,0,0,0,3,9,59,96,150
+Indiana,Hendricks,,0,0,0,0,0,1,1,6,40,129,138
+New Jersey,Hunterdon,,0,0,0,0,0,0,0,16,50,123,125
+California,Ventura,,0,0,0,0,0,0,5,25,79,112,93
+Utah,Utah,,0,0,0,0,0,0,1,6,44,165,97
+Tennessee,Williamson,,0,0,0,0,0,1,13,34,53,157,54
+Virginia,Loudoun,,0,0,0,0,0,0,5,10,46,106,142
+Missouri,Kansas City,,0,0,0,0,0,0,0,13,89,73,133
+Pennsylvania,York,,0,0,0,0,0,0,0,10,33,128,136
+Utah,Summit,,0,0,0,0,0,0,8,42,109,97,48
+Kansas,Johnson,,0,0,0,0,0,1,5,22,80,84,108
+Connecticut,Middlesex,,0,0,0,0,0,0,0,6,32,72,189
+Colorado,Douglas,,0,0,0,0,0,3,5,25,69,121,75
+Maine,Cumberland,,0,0,0,0,0,0,10,46,86,96,54
+Michigan,Kent,,0,0,0,0,0,0,5,16,51,93,122
+Georgia,Hall,,0,0,0,0,0,0,0,9,24,84,165
+Delaware,Kent,,0,0,0,0,0,0,0,5,20,61,195
+Washington,Spokane,,0,0,0,0,4,0,3,13,120,79,59
+North Carolina,Durham,,0,0,0,0,0,0,0,40,65,81,92
+Oregon,Marion,,0,0,0,0,0,1,1,20,87,89,78
+Michigan,Saginaw,,0,0,0,0,0,0,0,2,22,94,156
+California,San Joaquin,,0,0,0,0,0,0,8,33,80,82,70
+Nebraska,Douglas,,0,0,0,11,2,3,14,16,33,79,112
+Pennsylvania,Lebanon,,0,0,0,0,0,0,0,3,16,87,164
+Texas,Lubbock,,0,0,0,0,0,0,0,9,32,110,119
+Texas,El Paso,,0,0,0,0,0,0,2,4,34,66,163
+California,Santa Barbara,,0,0,0,0,0,0,1,17,50,106,93
+Oklahoma,Cleveland,,0,0,0,0,0,0,1,12,38,120,93
+Colorado,Boulder,,0,0,0,0,0,0,7,30,53,87,87
+Georgia,Henry,,0,0,0,0,0,0,1,6,49,112,95
+Washington,Whatcom,,0,0,0,0,0,0,3,16,97,108,39
+Louisiana,Calcasieu,,0,0,0,0,0,0,0,4,31,104,120
+Ohio,Summit,,0,0,0,0,0,0,2,21,76,85,73
+Arkansas,Pulaski,,0,0,0,0,0,0,8,44,42,67,95
+Louisiana,Terrebonne,,0,0,0,0,0,0,2,10,17,119,107
+Florida,Seminole,,0,0,0,0,0,0,1,18,62,110,64
+Florida,Polk,,0,0,0,0,0,0,0,11,35,111,97
+Indiana,Madison,,0,0,0,0,0,0,0,2,16,68,168
+Maryland,Charles,,0,0,0,0,0,0,1,4,23,83,142
+New Jersey,Atlantic,,0,0,0,0,0,0,0,5,19,97,132
+Texas,Montgomery,,0,0,0,0,0,0,1,12,51,78,109
+Michigan,Ingham,,0,0,0,0,0,0,1,10,32,129,78
+Washington,Benton,,0,0,0,0,0,0,0,8,93,65,84
+Mississippi,Hinds,,0,0,0,0,0,0,2,18,46,88,93
+Georgia,Lee,,0,0,0,0,0,0,2,14,27,95,106
+Arizona,Coconino,,0,0,0,0,0,0,0,15,53,87,88
+Iowa,Linn,,0,0,0,0,0,0,0,4,38,119,82
+Virginia,Virginia Beach city,,0,0,0,0,0,0,4,13,32,121,73
+Georgia,Sumter,,0,0,0,0,0,0,0,2,13,68,156
+Maryland,Carroll,,0,0,0,0,0,0,1,3,79,59,94
+Florida,Manatee,,0,0,0,0,1,1,2,9,25,98,100
+Alabama,Lee,,0,0,0,0,0,0,1,15,41,53,126
+New Mexico,Sandoval,,0,0,0,0,0,0,2,5,11,85,132
+Illinois,McHenry,,0,0,0,0,0,0,2,10,40,81,102
+Tennessee,Rutherford,,0,0,0,0,0,0,1,7,40,99,88
+Louisiana,Iberville,,0,0,0,0,0,0,0,1,21,100,110
+Pennsylvania,Dauphin,,0,0,0,0,0,0,0,1,34,83,111
+California,Tulare,,0,0,0,0,0,0,3,9,23,81,111
+Florida,Sarasota,,0,0,0,0,0,0,2,15,44,79,86
+Texas,Brazoria,,0,0,0,0,0,0,2,12,47,83,81
+Florida,Escambia,,0,0,0,0,0,0,0,4,33,88,99
+Pennsylvania,Westmoreland,,0,0,0,0,0,0,0,5,42,100,76
+Washington,Clark,,0,0,0,0,0,1,2,7,80,55,75
+Massachusetts,Hampshire,,0,0,0,0,0,0,0,4,33,91,91
+Florida,Alachua,,0,0,0,0,0,0,4,31,37,51,92
+Georgia,Bartow,,0,0,0,0,0,0,9,47,63,41,53
+Missouri,Jackson,,0,0,0,0,0,0,0,5,43,91,74
+Alabama,Shelby,,0,0,0,0,0,0,2,15,62,66,68
+Pennsylvania,Pike,,0,0,0,0,0,0,1,2,30,81,98
+South Carolina,Lexington,,0,0,0,0,0,0,1,11,23,82,95
+Georgia,Carroll,,0,0,0,0,0,0,0,16,54,88,52
+Wisconsin,Waukesha,,0,0,0,0,0,0,3,27,53,71,55
+Michigan,Livingston,,0,0,0,0,0,0,0,8,51,76,74
+Virginia,Chesterfield,,0,0,0,0,0,0,1,7,5,95,101
+Illinois,Kankakee,,0,0,0,0,0,0,0,2,36,38,128
+Louisiana,St. James,,0,0,0,0,0,0,0,1,54,100,49
+Iowa,Johnson,,0,0,0,0,0,3,12,17,33,41,97
+California,Fresno,,0,0,0,0,0,1,1,8,33,65,93
+Florida,Volusia,,0,0,0,0,0,1,4,9,46,91,50
+Alabama,Chambers,,0,0,0,0,0,0,0,2,25,63,110
+Utah,Davis,,0,0,0,0,0,1,2,16,50,73,57
+Michigan,St. Clair,,0,0,0,0,0,0,2,5,13,74,105
+New York,Schenectady,,0,0,0,0,0,0,2,37,37,52,71
+Ohio,Montgomery,,0,0,0,0,0,0,0,5,20,59,114
+Virginia,Alexandria city,,0,0,0,0,0,0,1,4,20,49,124
+New York,Saratoga,,0,0,0,0,0,2,1,38,61,46,48
+New York,Oneida,,0,0,0,0,0,0,0,5,21,61,108
+Texas,Cameron,,0,0,0,0,0,0,0,6,14,57,118
+Kentucky,Fayette,,0,0,0,0,0,2,3,9,61,78,41
+Kansas,Sedgwick,,0,0,0,0,0,0,0,2,40,66,86
+South Carolina,Beaufort,,0,0,0,0,0,0,3,11,36,106,38
+Indiana,St. Joseph,,0,0,0,0,0,0,1,7,24,70,90
+Washington,Skagit,,0,0,0,0,0,0,4,30,67,60,30
+Texas,Webb,,0,0,0,0,0,0,0,2,28,72,89
+Connecticut,New London,,0,0,0,0,0,0,0,3,17,37,133
+Illinois,St. Clair,,0,0,0,0,0,0,2,1,28,55,103
+Pennsylvania,Schuylkill,,0,0,0,0,0,0,0,1,20,69,98
+Texas,Hidalgo,,0,0,0,0,0,0,0,0,27,59,102
+Alabama,Madison,,0,0,0,0,0,0,0,16,64,57,50
+Colorado,Larimer,,0,0,0,0,0,0,1,31,52,69,34
+Georgia,Cherokee,,0,0,0,0,0,1,3,14,42,64,63
+Louisiana,Bossier,,0,0,0,0,0,0,1,4,51,77,53
+New York,Niagara,,0,0,0,0,0,0,0,6,32,78,67
+Michigan,Monroe,,0,0,0,0,0,0,1,5,32,70,75
+Connecticut,Tolland,,0,0,0,0,0,0,0,14,26,54,88
+South Carolina,Kershaw,,0,0,0,0,0,4,10,30,39,65,31
+Iowa,Polk,,0,0,0,0,0,0,1,9,40,72,55
+Ohio,Lorain,,0,0,0,0,0,0,2,17,55,36,66
+South Carolina,Spartanburg,,0,0,0,0,0,1,0,1,23,50,99
+Florida,St. Johns,,0,0,0,0,0,0,2,14,43,82,32
+Wisconsin,Kenosha,,0,0,0,0,0,0,0,10,20,68,75
+Michigan,Jackson,,0,0,0,0,0,0,0,1,27,62,81
+Mississippi,DeSoto,,0,0,0,0,0,0,0,18,53,61,39
+Tennessee,Knox,,0,0,0,0,0,0,1,4,33,77,54
+Rhode Island,Kent,,0,0,0,0,0,0,0,0,28,64,77
+Ohio,Trumbull,,0,0,0,0,0,0,2,1,33,53,79
+Louisiana,Rapides,,0,0,0,0,0,0,0,3,38,59,65
+New Jersey,Cumberland,,0,0,0,0,0,0,0,1,10,43,111
+California,Marin,,0,0,0,0,1,0,3,34,55,48,23
+Florida,Clay,,0,0,0,0,0,0,3,4,28,44,84
+Arizona,Pinal,,0,0,0,0,0,3,2,11,35,52,60
+Nebraska,Hall,,0,0,0,0,0,0,0,0,6,38,117
+Florida,Pasco,,0,0,0,0,0,0,2,9,24,67,58
+Georgia,Douglas,,0,0,0,0,0,0,0,4,34,53,68
+Washington,Island,,0,0,0,0,0,0,6,15,74,37,26
+Louisiana,St. Martin,,0,0,0,0,0,0,0,0,13,64,80
+Colorado,Unknown,,0,0,0,0,0,0,0,1,185,72,-102
+Georgia,Muscogee,,0,0,0,0,0,0,0,2,7,28,119
+Idaho,Canyon,,0,0,0,0,0,0,0,3,37,61,54
+Virginia,Richmond city,,0,0,0,0,0,0,0,6,19,74,55
+Ohio,Stark,,0,0,0,0,0,0,3,7,19,66,59
+Minnesota,Ramsey,,0,0,0,0,0,1,7,10,28,45,61
+Florida,St. Lucie,,0,0,0,0,0,0,0,3,21,58,70
+New Mexico,San Juan,,0,0,0,0,0,0,0,1,21,36,93
+North Carolina,Orange,,0,0,0,0,0,0,0,5,24,23,98
+Florida,Lake,,0,0,0,0,0,0,0,6,38,57,49
+South Carolina,Sumter,,0,0,0,0,0,0,0,3,27,50,68
+Georgia,Chatham,,0,0,0,0,0,0,0,4,12,74,58
+Louisiana,Washington,,0,0,0,0,0,0,0,2,10,69,66
+California,Sonoma,,0,0,0,0,1,2,2,6,46,50,40
+Indiana,Allen,,0,0,0,0,0,0,0,4,22,37,84
+Pennsylvania,Beaver,,0,0,0,0,0,0,0,3,25,56,61
+New Jersey,Cape May,,0,0,0,0,0,0,0,2,7,68,68
+Maine,York,,0,0,0,0,0,0,0,8,39,54,43
+Georgia,Richmond,,0,0,0,0,0,0,0,10,2,39,93
+New Mexico,McKinley,,0,0,0,0,0,0,0,2,7,31,104
+Minnesota,Olmsted,,0,0,0,0,0,0,2,12,33,48,48
+Massachusetts,Franklin,,0,0,0,0,0,0,0,2,39,59,43
+Mississippi,Jackson,,0,0,0,0,0,0,0,5,29,52,54
+Texas,Brazos,,0,0,0,0,0,0,0,12,32,31,65
+Ohio,Portage,,0,0,0,0,0,0,0,1,26,57,55
+Montana,Gallatin,,0,0,0,0,0,0,1,9,52,53,23
+Georgia,Mitchell,,0,0,0,0,0,0,0,0,15,41,82
+Louisiana,Plaquemines,,0,0,0,0,0,0,0,5,15,72,45
+Louisiana,Iberia,,0,0,0,0,0,0,0,3,8,58,67
+Mississippi,Lauderdale,,0,0,0,0,0,0,0,0,15,50,70
+North Carolina,Guilford,,0,0,0,0,0,0,0,11,28,57,39
+Tennessee,Wilson,,0,0,0,0,0,0,0,3,24,66,42
+South Carolina,York,,0,0,0,0,0,0,0,4,32,49,49
+South Carolina,Horry,,0,0,0,0,0,0,3,8,20,33,70
+Georgia,Forsyth,,0,0,0,0,0,0,0,5,23,45,60
+Pennsylvania,Butler,,0,0,0,0,0,0,0,1,46,40,46
+Florida,Brevard,,0,0,0,0,0,0,0,7,23,49,54
+Washington,Kitsap,,0,0,0,0,0,1,4,15,36,46,30
+California,Stanislaus,,0,0,0,0,0,0,2,6,23,40,60
+Maryland,Harford,,0,0,0,0,0,1,1,3,18,29,77
+Alaska,Anchorage,,0,0,0,0,0,0,1,5,53,26,42
+Indiana,Decatur,,0,0,0,0,0,0,0,0,40,40,47
+Virginia,James City,,0,0,0,0,0,0,9,23,38,47,9
+New York,Broome,,0,0,0,0,0,0,1,2,26,42,55
+California,Solano,,0,0,0,0,12,0,1,6,20,39,48
+Oregon,Clackamas,,0,0,0,0,0,0,1,11,27,45,41
+Georgia,Early,,0,0,0,0,0,0,0,2,14,54,55
+California,Placer,,0,0,0,0,0,7,1,4,41,50,21
+Louisiana,De Soto,,0,0,0,0,0,0,0,2,23,55,44
+Florida,Martin,,0,0,0,0,0,0,0,2,25,33,62
+New York,Steuben,,0,0,0,0,0,0,0,3,14,47,57
+Georgia,Houston,,0,0,0,0,0,0,0,1,14,47,59
+Virginia,Chesapeake city,,0,0,0,0,0,0,0,0,15,57,49
+Alabama,Montgomery,,0,0,0,0,0,0,1,2,19,49,49
+Washington,Franklin,,0,0,0,0,0,0,0,2,30,27,61
+Louisiana,Livingston,,0,0,0,0,0,0,0,2,13,52,53
+Florida,Leon,,0,0,0,0,0,0,0,4,12,25,78
+Washington,Grant,,0,0,0,0,0,0,1,17,40,29,32
+Alabama,Tuscaloosa,,0,0,0,0,0,0,3,4,16,37,59
+Indiana,Hancock,,0,0,0,0,0,0,0,2,20,39,57
+Indiana,Porter,,0,0,0,0,0,0,0,0,14,45,59
+Wisconsin,Racine,,0,0,0,0,0,0,1,3,13,37,63
+Ohio,Butler,,0,0,0,0,0,0,6,11,10,41,49
+Ohio,Miami,,0,0,0,0,0,0,0,13,30,33,41
+Texas,Williamson,,0,0,0,0,0,0,0,9,28,40,40
+North Carolina,Cabarrus,,0,0,0,0,0,0,1,3,25,38,50
+Louisiana,Assumption,,0,0,0,0,0,0,0,1,13,45,57
+Rhode Island,Washington,,0,0,0,0,0,0,0,0,21,32,63
+Missouri,Jefferson,,0,0,0,0,0,0,0,0,17,54,44
+Iowa,Scott,,0,0,0,0,0,0,0,1,9,31,74
+North Carolina,Forsyth,,0,0,0,0,0,0,2,10,23,51,28
+Ohio,Lake,,0,0,0,0,0,0,0,6,29,44,35
+California,San Luis Obispo,,0,0,0,0,0,0,2,25,44,24,19
+Louisiana,St. Mary,,0,0,0,0,0,0,0,1,6,60,46
+Louisiana,St. Landry,,0,0,0,0,0,0,0,3,7,37,66
+Florida,Charlotte,,0,0,0,0,0,1,0,1,14,31,66
+Indiana,Clark,,0,0,0,0,0,0,0,4,16,46,46
+Georgia,Randolph,,0,0,0,0,0,0,0,1,2,15,93
+North Carolina,Rowan,,0,0,0,0,0,0,0,2,15,28,66
+Ohio,Medina,,0,0,0,0,0,0,1,9,35,33,32
+Florida,Sumter,,0,0,0,0,0,0,0,5,40,30,35
+Indiana,Bartholomew,,0,0,0,0,0,0,0,5,5,44,56
+Mississippi,Harrison,,0,0,0,0,0,0,0,15,28,30,37
+Pennsylvania,Cumberland,,0,0,0,0,0,0,5,6,11,36,52
+Illinois,Madison,,0,0,0,0,0,0,0,2,10,36,62
+Georgia,Terrell,,0,0,0,0,0,0,0,2,8,48,51
+Florida,Santa Rosa,,0,0,0,0,0,1,0,2,18,34,54
+New York,Tompkins,,0,0,0,0,0,0,1,12,39,43,14
+Indiana,Boone,,0,0,0,0,0,0,1,2,10,44,52
+Georgia,Floyd,,0,0,0,0,0,0,4,5,19,54,26
+Indiana,Floyd,,0,0,0,0,0,0,0,3,11,36,57
+North Dakota,Cass,,0,0,0,0,0,0,0,1,19,34,53
+South Carolina,Anderson,,0,0,0,0,0,0,2,8,19,40,37
+Pennsylvania,Columbia,,0,0,0,0,0,0,0,1,5,16,84
+Georgia,Coweta,,0,0,0,0,0,0,2,7,14,44,39
+Illinois,Kendall,,0,0,0,0,0,0,0,4,11,34,56
+New York,Rensselaer,,0,0,0,0,0,0,0,26,13,35,31
+Ohio,Columbiana,,0,0,0,0,0,0,0,2,9,31,63
+Tennessee,Hamilton,,0,0,0,0,0,0,1,7,27,44,26
+Oklahoma,Washington,,0,0,0,0,0,0,0,2,16,17,69
+Michigan,Berrien,,0,0,0,0,0,0,0,3,26,29,46
+Utah,Wasatch,,0,0,0,0,0,0,0,8,32,38,25
+Mississippi,Madison,,0,0,0,0,0,0,0,9,28,35,31
+Pennsylvania,Carbon,,0,0,0,0,0,0,0,0,9,41,52
+Texas,Bell,,0,0,0,0,0,0,1,7,20,30,43
+New York,Madison,,0,0,0,0,0,0,0,1,23,65,12
+Colorado,Gunnison,,0,0,0,0,0,0,9,13,57,14,8
+Indiana,Morgan,,0,0,0,0,0,0,0,1,19,45,36
+Michigan,Lapeer,,0,0,0,0,0,0,0,0,4,41,56
+North Carolina,Union,,0,0,0,0,0,0,0,9,29,29,34
+Florida,Okaloosa,,0,0,0,0,0,1,0,12,18,30,39
+Georgia,Fayette,,0,0,0,0,0,0,5,4,18,40,33
+Texas,Jefferson,,0,0,0,0,0,0,0,0,16,35,49
+Alabama,Marshall,,0,0,0,0,0,0,0,0,5,21,73
+Mississippi,Rankin,,0,0,0,0,0,0,0,7,28,37,27
+Louisiana,Acadia,,0,0,0,0,0,0,0,1,8,66,24
+Alabama,Tallapoosa,,0,0,0,0,0,0,0,0,8,22,69
+Georgia,Rockdale,,0,0,0,0,0,0,0,2,16,59,20
+North Carolina,Johnston,,0,0,0,0,0,0,2,1,7,22,65
+Texas,Smith,,0,0,0,0,0,0,4,6,21,26,39
+Iowa,Muscatine,,0,0,0,0,0,0,0,2,8,23,63
+Minnesota,Dakota,,0,0,0,0,0,0,3,8,28,24,32
+Mississippi,Forrest,,0,0,0,0,0,0,3,8,8,23,53
+Arkansas,Jefferson,,0,0,0,0,0,0,5,15,6,36,33
+Kentucky,Kenton,,0,0,0,0,0,0,0,7,12,35,41
+Illinois,Winnebago,,0,0,0,0,0,0,1,3,8,30,52
+Illinois,Unknown,,0,0,0,0,0,0,0,0,58,-10,46
+Ohio,Delaware,,0,0,0,0,0,0,0,6,25,39,24
+Arkansas,Crittenden,,0,0,0,0,0,0,0,1,16,36,40
+California,Yolo,,0,0,0,0,0,1,1,4,10,21,56
+Florida,Marion,,0,0,0,0,0,0,0,3,19,28,43
+West Virginia,Berkeley,,0,0,0,0,0,0,0,0,10,44,38
+Illinois,Rock Island,,0,0,0,0,0,0,0,1,4,35,51
+Michigan,Clinton,,0,0,0,0,0,0,0,2,12,41,36
+Maryland,Calvert,,0,0,0,0,0,0,0,2,12,25,51
+Virginia,Norfolk city,,0,0,0,0,0,0,0,3,11,45,31
+North Carolina,Granville,,0,0,0,0,0,0,0,1,5,31,52
+Texas,Hays,,0,0,0,0,0,0,1,5,7,37,39
+Tennessee,Montgomery,,0,0,0,0,0,0,0,3,10,38,37
+California,Santa Cruz,,0,0,0,0,0,1,1,13,29,25,19
+Utah,Weber,,0,0,0,0,0,0,1,5,31,16,34
+Georgia,Colquitt,,0,0,0,0,0,0,0,0,6,45,36
+California,Monterey,,0,0,0,0,0,0,0,14,18,30,25
+Georgia,Worth,,0,0,0,0,0,0,0,2,8,27,50
+California,Imperial,,0,0,0,0,0,0,0,4,21,32,30
+Iowa,Tama,,0,0,0,0,0,0,0,3,6,21,56
+Kentucky,Daviess,,0,0,0,0,0,0,0,6,14,38,28
+Illinois,Champaign,,0,0,0,0,0,0,0,2,19,34,31
+West Virginia,Kanawha,,0,0,0,0,0,0,0,3,16,32,35
+Kentucky,Hopkins,,0,0,0,0,0,0,0,0,7,26,52
+Tennessee,Putnam,,0,0,0,0,0,0,0,6,11,64,4
+New York,St. Lawrence,,0,0,0,0,0,0,0,1,11,46,27
+North Carolina,Davidson,,0,0,0,0,0,0,0,1,15,41,28
+South Carolina,Clarendon,,0,0,0,0,0,0,0,1,15,38,31
+Indiana,Ripley,,0,0,0,0,0,0,0,1,18,41,24
+Hawaii,Maui,,0,0,0,0,0,0,1,8,11,23,41
+Georgia,Paulding,,0,0,0,0,0,0,0,4,19,28,33
+North Carolina,Cumberland,,0,0,0,0,0,0,0,2,11,29,42
+Michigan,Kalamazoo,,0,0,0,0,0,0,0,0,19,34,31
+Georgia,Clarke,,0,0,0,0,0,0,2,8,25,27,22
+Alabama,Walker,,0,0,0,0,0,0,0,1,29,19,34
+Mississippi,Pearl River,,0,0,0,0,0,0,2,8,17,22,34
+Indiana,Monroe,,0,0,0,0,0,0,0,1,21,26,35
+Ohio,Licking,,0,0,0,0,0,0,0,1,16,38,28
+West Virginia,Monongalia,,0,0,0,0,0,0,0,2,28,19,34
+South Carolina,Berkeley,,0,0,0,0,0,0,0,2,11,33,37
+Indiana,Elkhart,,0,0,0,0,0,0,0,1,11,23,48
+Georgia,Newton,,0,0,0,0,0,0,1,3,14,37,27
+Maryland,St. Mary's,,0,0,0,0,0,0,0,1,8,31,42
+Iowa,Washington,,0,0,0,0,0,0,0,3,10,36,32
+Missouri,Franklin,,0,0,0,0,0,0,0,0,7,18,56
+North Carolina,Gaston,,0,0,0,0,0,0,0,3,18,24,36
+Tennessee,Robertson,,0,0,0,0,0,0,0,3,22,34,22
+Arkansas,Garland,,0,0,0,0,0,0,2,7,17,15,40
+Vermont,Franklin,,0,0,0,0,0,0,0,2,7,18,54
+Washington,Thurston,,0,0,0,0,0,0,4,7,25,31,14
+Ohio,Fairfield,,0,0,0,0,0,0,0,0,14,32,35
+Colorado,Broomfield,,0,0,0,0,0,0,0,1,16,33,31
+Virginia,Harrisonburg city,,0,0,0,0,0,0,1,0,4,20,56
+Missouri,Boone,,0,0,0,0,0,0,0,11,39,26,4
+Minnesota,Washington,,0,0,0,0,0,0,1,6,20,35,18
+Kansas,Leavenworth,,0,0,0,0,0,0,0,4,13,21,42
+Idaho,Twin Falls,,0,0,0,0,0,0,0,1,2,34,42
+New York,Columbia,,0,0,0,0,0,0,0,5,18,38,18
+Alaska,Fairbanks North Star Borough,,0,0,0,0,0,0,0,7,21,25,26
+Virginia,Newport News city,,0,0,0,0,0,0,0,2,15,34,27
+Alabama,Etowah,,0,0,0,0,0,0,0,0,6,30,41
+Georgia,Thomas,,0,0,0,0,0,0,0,0,7,21,49
+Illinois,McLean,,0,0,0,0,0,0,0,6,8,32,31
+Texas,Victoria,,0,0,0,0,0,0,0,0,3,29,45
+Texas,Nueces,,0,0,0,0,0,0,0,0,21,29,26
+Iowa,Louisa,,0,0,0,0,0,0,0,0,0,6,70
+North Carolina,Henderson,,0,0,0,0,0,0,0,1,12,37,26
+Michigan,Hillsdale,,0,0,0,0,0,0,0,0,10,34,31
+Ohio,Warren,,0,0,0,0,0,0,0,3,17,16,39
+New Mexico,Santa Fe,,0,0,0,0,0,0,3,7,24,28,13
+Maryland,Washington,,0,0,0,0,0,0,0,1,5,28,41
+Kansas,Shawnee,,0,0,0,0,0,0,0,0,13,25,37
+Michigan,Eaton,,0,0,0,0,0,0,0,2,6,47,19
+Florida,Indian River,,0,0,0,0,0,0,0,8,12,35,19
+Rhode Island,Newport,,0,0,0,0,0,0,0,0,17,25,32
+Maryland,Cecil,,0,0,0,0,0,0,0,1,12,23,38
+Michigan,Calhoun,,0,0,0,0,0,0,0,2,13,27,32
+Georgia,Spalding,,0,0,0,0,0,0,0,2,10,14,47
+Louisiana,Allen,,0,0,0,0,0,0,0,0,9,31,33
+New Hampshire,Merrimack,,0,0,0,0,0,0,0,4,14,27,28
+Arizona,Apache,,0,0,0,0,0,0,0,3,10,10,49
+Virginia,Stafford,,0,0,0,0,0,0,0,5,8,28,31
+South Carolina,Florence,,0,0,0,0,0,0,0,1,12,23,36
+Wisconsin,Ozaukee,,0,0,0,0,0,0,0,13,21,22,16
+Wisconsin,Washington,,0,0,0,0,0,0,0,14,17,26,14
+South Carolina,Dorchester,,0,0,0,0,0,0,0,1,9,34,27
+Florida,Hernando,,0,0,0,0,0,0,0,5,15,23,28
+Missouri,Greene,,0,0,0,0,0,0,2,8,31,20,10
+Alabama,Baldwin,,0,0,0,0,0,0,1,1,13,19,37
+Texas,McLennan,,0,0,0,0,0,0,0,16,20,15,20
+Texas,Ellis,,0,0,0,0,0,0,0,5,10,17,39
+Indiana,Shelby,,0,0,0,0,0,0,0,1,11,25,34
+Florida,Citrus,,0,0,0,0,0,0,1,7,8,27,28
+Louisiana,East Feliciana,,0,0,0,0,0,0,0,0,8,19,44
+North Carolina,Iredell,,0,0,0,0,0,0,0,6,15,23,26
+Georgia,Bibb,,0,0,0,0,0,0,0,1,13,25,31
+Arkansas,Cleburne,,0,0,0,0,0,0,0,25,31,9,5
+Pennsylvania,Centre,,0,0,0,0,0,0,0,1,21,21,27
+Texas,Potter,,0,0,0,0,0,0,0,2,2,36,30
+Indiana,Jackson,,0,0,0,0,0,0,0,0,7,29,34
+North Carolina,Wayne,,0,0,0,0,0,0,1,0,2,12,54
+New York,Genesee,,0,0,0,0,0,0,0,1,8,13,47
+Indiana,Franklin,,0,0,0,0,0,0,0,4,22,27,16
+Oklahoma,Wagoner,,0,0,0,0,0,0,0,0,8,39,22
+Georgia,Crisp,,0,0,0,0,0,0,0,0,6,22,41
+Georgia,Columbia,,0,0,0,0,0,0,0,3,9,24,33
+Minnesota,Anoka,,0,0,0,0,0,0,2,3,12,19,32
+Pennsylvania,Washington,,0,0,0,0,0,0,1,6,17,26,18
+Indiana,Lawrence,,0,0,0,0,0,0,0,0,8,31,29
+Wisconsin,Brown,,0,0,0,0,0,0,0,3,3,23,39
+Louisiana,West Baton Rouge,,0,0,0,0,0,0,0,3,9,28,28
+Colorado,Summit,,0,0,0,0,0,0,2,5,4,34,23
+Mississippi,Bolivar,,0,0,0,0,0,0,0,3,8,34,23
+Kentucky,Christian,,0,0,0,0,0,0,0,2,4,17,44
+Florida,Suwannee,,0,0,0,0,0,0,0,0,2,16,49
+North Carolina,Moore,,0,0,0,0,0,0,0,2,4,3,57
+Indiana,Delaware,,0,0,0,0,0,0,0,2,12,23,29
+Connecticut,Windham,,0,0,0,0,0,0,0,1,6,25,34
+Michigan,Ottawa,,0,0,0,0,0,0,1,5,19,19,22
+California,Merced,,0,0,0,0,0,0,0,0,8,21,36
+South Carolina,Lancaster,,0,0,0,0,0,0,2,3,8,28,24
+Virginia,Hampton city,,0,0,0,0,0,0,0,0,7,33,25
+Virginia,Frederick,,0,0,0,0,0,0,0,0,8,19,38
+North Carolina,Wilson,,0,0,0,0,0,0,1,1,8,18,36
+Pennsylvania,Franklin,,0,0,0,0,0,0,0,1,10,19,34
+North Carolina,Franklin,,0,0,0,0,0,0,0,4,1,9,50
+Texas,Randall,,0,0,0,0,0,0,0,0,3,31,30
+North Carolina,Chatham,,0,0,0,0,0,1,0,2,10,8,42
+Arizona,Yavapai,,0,0,0,0,0,0,0,3,9,33,18
+Pennsylvania,Wayne,,0,0,0,0,0,1,0,1,5,26,30
+North Carolina,Pitt,,0,0,0,0,0,0,0,3,12,21,27
+New York,Chenango,,0,0,0,0,0,0,0,3,12,28,20
+Mississippi,Yazoo,,0,0,0,0,0,0,0,1,4,26,32
+Louisiana,Webster,,0,0,0,0,0,0,0,1,8,40,13
+Louisiana,Avoyelles,,0,0,0,0,0,0,0,1,12,24,24
+Ohio,Geauga,,0,0,0,0,0,0,0,2,15,21,23
+New Jersey,Salem,,0,0,0,0,0,0,0,1,2,23,35
+North Carolina,Northampton,,0,0,0,0,0,0,0,0,25,17,19
+Texas,Hardin,,0,0,0,0,0,0,0,0,9,17,35
+Georgia,Troup,,0,0,0,0,0,0,0,4,6,24,26
+North Carolina,Burke,,0,0,0,0,0,0,0,0,4,11,45
+Alabama,Calhoun,,0,0,0,0,0,0,0,1,2,21,36
+New York,Chemung,,0,0,0,0,0,0,0,0,15,23,22
+Indiana,Dearborn,,0,0,0,0,0,0,0,0,10,23,27
+Michigan,Muskegon,,0,0,0,0,0,0,0,0,13,18,28
+Colorado,Morgan,,0,0,0,0,0,0,0,2,3,12,42
+Georgia,Tift,,0,0,0,0,0,0,0,2,11,21,25
+Georgia,Lowndes,,0,0,0,0,0,0,2,6,12,17,22
+New Hampshire,Strafford,,0,0,0,0,0,0,0,3,14,27,15
+Texas,Taylor,,0,0,0,0,0,0,0,0,7,20,32
+Arkansas,Faulkner,,0,0,0,0,0,0,0,7,23,17,12
+Florida,Monroe,,0,0,0,0,0,0,0,1,22,21,15
+Montana,Yellowstone,,0,0,0,0,0,0,1,5,20,14,18
+Georgia,Coffee,,0,0,0,0,0,0,0,1,9,5,43
+Wyoming,Laramie,,0,0,0,0,0,0,0,6,13,25,14
+Ohio,Pickaway,,0,0,0,0,0,0,0,0,4,25,29
+Colorado,Pueblo,,0,0,0,0,0,0,1,2,15,26,14
+Colorado,Montrose,,0,0,0,0,0,0,0,1,7,24,25
+New York,Ontario,,0,0,0,0,0,0,0,6,12,17,22
+Tennessee,Madison,,0,0,0,0,0,0,0,0,3,16,37
+Oklahoma,Canadian,,0,0,0,0,0,0,0,2,10,21,23
+Wyoming,Teton,,0,0,0,0,0,0,0,2,12,25,17
+Georgia,Upson,,0,0,0,0,0,0,0,0,5,8,43
+Florida,Highlands,,0,0,0,0,0,0,0,1,11,23,21
+Indiana,Jennings,,0,0,0,0,0,0,0,1,12,22,21
+Indiana,Vanderburgh,,0,0,0,0,0,0,0,1,16,20,19
+Wisconsin,Rock,,0,0,0,0,0,0,0,3,11,14,28
+Texas,Wichita,,0,0,0,0,0,0,0,5,23,18,10
+Colorado,Garfield,,0,0,0,0,0,0,1,7,17,21,9
+Georgia,Barrow,,0,0,0,0,0,0,0,1,5,19,30
+Indiana,Harrison,,0,0,0,0,0,0,0,1,13,19,22
+Oklahoma,Creek,,0,0,0,0,0,0,0,0,16,28,11
+Vermont,Addison,,0,0,0,0,0,0,0,3,14,23,15
+Washington,Chelan,,0,0,0,0,0,1,0,2,12,14,26
+Virginia,Mecklenburg,,0,0,0,0,0,0,0,1,3,8,43
+Louisiana,Unknown,,0,0,0,0,0,0,0,11,1,19,23
+Georgia,Ware,,0,0,0,0,0,0,0,0,5,13,36
+Kentucky,Boone,,0,0,0,0,0,0,0,0,4,23,27
+Vermont,Windham,,0,0,0,0,0,0,0,5,6,20,23
+Wisconsin,Fond du Lac,,0,0,0,0,0,0,11,5,4,23,11
+North Carolina,New Hanover,,0,0,0,0,0,0,0,3,19,15,17
+Mississippi,Pike,,0,0,0,0,0,0,0,3,11,12,28
+Pennsylvania,Fayette,,0,0,0,0,0,0,0,1,9,17,27
+Michigan,Bay,,0,0,0,0,0,0,1,0,4,25,24
+Nebraska,Lancaster,,0,0,0,0,0,0,0,2,4,12,36
+Ohio,Wood,,0,0,0,0,0,0,0,1,11,17,25
+Mississippi,Scott,,0,0,0,0,0,0,0,1,6,16,31
+Oregon,Deschutes,,0,0,0,0,0,0,4,6,13,16,15
+Michigan,Shiawassee,,0,0,0,0,0,0,0,0,5,18,31
+Nebraska,Adams,,0,0,0,0,0,0,0,1,1,9,43
+Ohio,Marion,,0,0,0,0,0,0,0,1,5,13,34
+Georgia,Baldwin,,0,0,0,0,0,0,0,2,0,13,38
+Mississippi,Washington,,0,0,0,0,0,0,0,3,13,20,17
+Oregon,Linn,,0,0,0,0,0,0,10,9,17,7,9
+Alabama,Marion,,0,0,0,0,0,0,0,1,9,9,33
+Virgin Islands,Unknown,,0,0,0,0,0,0,1,16,6,19,9
+Virginia,Portsmouth city,,0,0,0,0,0,0,0,1,3,22,25
+Mississippi,Adams,,0,0,0,0,0,0,0,1,6,12,32
+North Carolina,Randolph,,0,0,0,0,0,0,0,0,15,14,21
+Ohio,Wayne,,0,0,0,0,0,0,0,0,4,22,24
+Virginia,Spotsylvania,,0,0,0,0,0,0,1,1,3,19,26
+South Carolina,Aiken,,0,0,0,0,0,0,0,1,8,18,23
+Oklahoma,Delaware,,0,0,0,0,0,0,0,0,4,8,38
+Oklahoma,Osage,,0,0,0,0,0,0,0,0,10,17,23
+North Dakota,Burleigh,,0,0,0,0,0,0,0,15,13,9,13
+California,Humboldt,,0,0,0,1,0,0,0,1,16,26,6
+Ohio,Belmont,,0,0,0,0,0,0,2,0,6,12,30
+Oklahoma,Greer,,0,0,0,0,0,0,0,0,0,25,24
+Colorado,Pitkin,,0,0,0,0,0,0,11,5,11,11,11
+Texas,Guadalupe,,0,0,0,0,0,0,0,0,10,18,21
+Oklahoma,Comanche,,0,0,0,0,0,0,0,0,11,28,10
+West Virginia,Jefferson,,0,0,0,0,0,0,0,3,2,16,28
+Texas,Matagorda,,0,0,0,0,0,0,0,4,8,29,8
+Pennsylvania,Lawrence,,0,0,0,0,0,0,0,0,8,15,26
+New Mexico,Doña Ana,,0,0,0,0,0,0,0,4,13,12,20
+Arkansas,Benton,,0,0,0,0,0,0,0,1,32,9,6
+Virginia,Suffolk city,,0,0,0,0,0,0,0,1,0,21,26
+Pennsylvania,Adams,,0,0,0,0,0,0,0,5,3,14,26
+Missouri,Clay,,0,0,0,0,0,0,0,0,11,22,15
+Indiana,Howard,,0,0,0,0,0,0,1,5,6,15,21
+Louisiana,Franklin,,0,0,0,0,0,0,0,0,4,21,23
+Texas,Nacogdoches,,0,0,0,0,0,0,0,0,2,14,31
+Iowa,Black Hawk,,0,0,0,0,0,0,0,3,3,6,35
+Louisiana,Union,,0,0,0,0,0,0,0,0,9,10,28
+Michigan,Lenawee,,0,0,0,0,0,0,0,0,15,16,16
+Oregon,Jackson,,0,0,0,0,0,2,0,0,17,14,13
+New York,Warren,,0,0,0,0,0,0,0,1,17,7,21
+Virginia,Albemarle,,0,0,0,0,0,0,0,2,15,15,14
+Illinois,Monroe,,0,0,0,0,0,0,0,0,3,7,36
+South Dakota,Lincoln,,0,0,0,0,0,0,0,0,4,19,23
+Tennessee,Blount,,0,0,0,0,0,0,0,1,8,27,10
+Louisiana,West Feliciana,,0,0,0,0,0,0,0,0,4,15,27
+New York,Jefferson,,0,0,0,0,0,0,0,1,6,19,20
+Kentucky,Warren,,0,0,0,0,0,0,0,5,5,10,26
+Mississippi,Lincoln,,0,0,0,0,0,0,0,4,5,7,30
+New Hampshire,Grafton,,0,0,0,0,0,3,0,12,15,11,4
+Mississippi,Leflore,,0,0,0,0,0,0,1,7,7,7,23
+Mississippi,Wilkinson,,0,0,0,0,0,0,0,3,9,18,15
+Michigan,Tuscola,,0,0,0,0,0,0,0,1,3,18,23
+Indiana,Tippecanoe,,0,0,0,0,0,0,0,2,9,18,16
+Georgia,Pierce,,0,0,0,0,0,0,0,0,2,14,29
+Georgia,Calhoun,,0,0,0,0,0,0,0,0,3,14,28
+Kentucky,Campbell,,0,0,0,0,0,0,0,0,4,23,18
+Florida,Flagler,,0,0,0,0,0,0,0,1,12,18,14
+Ohio,Darke,,0,0,0,0,0,0,0,1,2,29,13
+Idaho,Kootenai,,0,0,0,0,0,0,0,3,10,29,3
+Louisiana,Jefferson Davis,,0,0,0,0,0,0,0,0,2,11,31
+Tennessee,Tipton,,0,0,0,0,0,0,0,5,10,18,11
+Colorado,La Plata,,0,0,0,0,0,0,0,0,21,10,13
+Mississippi,Holmes,,0,0,0,0,0,0,0,6,7,8,23
+Texas,Orange,,0,0,0,0,0,0,0,0,1,21,22
+Georgia,Dooly,,0,0,0,0,0,0,0,0,0,15,29
+New York,Greene,,0,0,0,0,0,0,2,0,5,20,17
+Alabama,Houston,,0,0,0,0,0,0,0,0,8,12,24
+Virginia,Rockingham,,0,0,0,0,0,0,0,2,2,12,27
+Texas,Ector,,0,0,0,0,0,0,0,0,3,19,21
+Illinois,Sangamon,,0,0,0,0,0,0,2,2,5,24,10
+Mississippi,Tippah,,0,0,0,0,0,0,0,7,16,12,8
+Kentucky,Muhlenberg,,0,0,0,0,0,0,0,0,2,6,35
+Louisiana,Pointe Coupee,,0,0,0,0,0,0,0,0,2,15,26
+New York,Otsego,,0,0,0,0,0,0,0,0,10,19,14
+Oklahoma,Kay,,0,0,0,0,0,0,1,3,16,10,13
+Florida,Putnam,,0,0,0,0,0,0,0,2,10,7,24
+Mississippi,Lee,,0,0,0,0,0,0,0,6,15,9,13
+Kentucky,Adair,,0,0,0,0,0,0,0,0,0,3,40
+New York,Clinton,,0,0,0,0,0,0,0,4,9,20,10
+Maryland,Wicomico,,0,0,0,0,0,0,0,2,4,5,31
+Georgia,Walton,,0,0,0,0,0,0,0,0,4,17,21
+New York,Wayne,,0,0,0,0,0,0,0,3,9,20,10
+Alabama,St. Clair,,0,0,0,0,0,0,0,3,10,15,14
+Indiana,Vigo,,0,0,0,0,0,0,0,2,5,11,24
+Louisiana,Natchitoches,,0,0,0,0,0,0,0,0,2,12,27
+Nebraska,Sarpy,,0,0,0,0,0,0,0,3,8,17,13
+Louisiana,Claiborne,,0,0,0,0,0,0,0,1,3,19,18
+Ohio,Clermont,,0,0,0,0,0,0,0,5,3,13,20
+North Carolina,Harnett,,0,0,0,0,0,0,2,6,6,11,16
+Tennessee,Cumberland,,0,0,0,0,0,0,0,2,7,17,14
+Minnesota,Clay,,0,0,0,0,0,0,0,2,2,9,27
+Mississippi,Hancock,,0,0,0,0,0,0,0,4,11,16,9
+Pennsylvania,Mercer,,0,0,0,0,0,0,0,1,6,11,22
+Illinois,Randolph,,0,0,0,0,0,0,0,0,0,24,16
+Wyoming,Fremont,,0,0,0,0,0,0,1,9,13,14,3
+Pennsylvania,Indiana,,0,0,0,0,0,0,0,0,2,11,27
+Texas,Gregg,,0,0,0,0,0,0,1,0,3,9,26
+New York,Delaware,,0,0,0,0,0,0,1,2,5,22,9
+Kansas,Douglas,,0,0,0,0,0,0,0,4,19,10,6
+Pennsylvania,Erie,,0,0,0,0,0,0,0,2,5,12,20
+Michigan,Isabella,,0,0,0,0,0,0,0,0,4,8,27
+Alabama,Cullman,,0,0,0,0,0,0,0,2,5,8,24
+Hawaii,Hawaii,,0,0,0,0,0,0,0,3,9,10,17
+Ohio,Washington,,0,0,0,0,0,0,0,0,3,5,31
+South Carolina,Darlington,,0,0,0,0,0,0,0,3,7,9,20
+Alabama,Morgan,,0,0,0,0,0,0,0,0,17,10,12
+Rhode Island,Bristol,,0,0,0,0,0,0,0,0,11,14,14
+Louisiana,Lincoln,,0,0,0,0,0,0,0,0,7,11,21
+Pennsylvania,Juniata,,0,0,0,0,0,0,0,0,1,6,31
+New York,Oswego,,0,0,0,0,0,0,0,0,8,22,8
+Minnesota,St. Louis,,0,0,0,0,0,0,0,1,9,5,23
+Minnesota,Martin,,0,0,0,0,0,0,0,8,13,11,6
+Mississippi,Coahoma,,0,0,0,0,0,0,0,7,11,10,10
+Georgia,Oconee,,0,0,0,0,0,0,0,2,9,13,14
+Virginia,Hanover,,0,0,0,0,0,0,1,0,3,8,26
+Georgia,Gordon,,0,0,0,0,0,0,2,2,10,9,15
+Kansas,Coffey,,0,0,0,0,0,0,0,0,8,16,14
+North Carolina,Cleveland,,0,0,0,0,0,0,0,0,5,10,23
+Georgia,Turner,,0,0,0,0,0,0,0,1,1,10,25
+Mississippi,Oktibbeha,,0,0,0,0,0,0,0,2,13,12,10
+North Carolina,Rutherford,,0,0,0,0,0,0,0,0,0,14,23
+Texas,Comal,,0,0,0,0,0,0,0,0,9,12,16
+Oregon,Lane,,0,0,0,0,0,0,0,4,6,17,10
+Florida,Bay,,0,0,0,0,0,0,0,1,5,18,13
+Alabama,Limestone,,0,0,0,0,0,0,1,0,15,16,5
+Washington,Adams,,0,0,0,0,0,0,0,0,7,19,11
+Wisconsin,Walworth,,0,0,0,0,0,0,0,3,3,14,17
+Pennsylvania,Northumberland,,0,0,0,0,0,0,0,0,1,13,23
+Iowa,Dallas,,0,0,0,0,0,0,1,5,11,18,2
+New York,Herkimer,,0,0,0,0,0,0,1,3,6,12,15
+Illinois,Clinton,,0,0,0,0,0,0,1,2,3,4,27
+Missouri,Johnson,,0,0,0,0,0,0,0,1,8,20,8
+Tennessee,Sullivan,,0,0,0,0,0,0,1,0,7,13,16
+Tennessee,Washington,,0,0,0,0,0,0,0,2,12,9,14
+Texas,Washington,,0,0,0,0,0,0,0,0,5,12,20
+South Carolina,Orangeburg,,0,0,0,0,0,0,0,3,13,11,10
+Arkansas,Washington,,0,0,0,0,0,0,0,5,10,14,8
+Alabama,Randolph,,0,0,0,0,0,0,0,0,2,9,25
+Mississippi,Monroe,,0,0,0,0,0,0,0,2,3,8,23
+North Carolina,Buncombe,,0,0,0,0,0,0,0,1,18,9,8
+Utah,Washington,,0,0,0,0,0,1,0,1,6,16,12
+Vermont,Rutland,,0,0,0,0,0,0,0,3,3,21,9
+Indiana,Warrick,,0,0,0,0,0,0,0,0,8,5,23
+Ohio,Richland,,0,0,0,0,0,0,0,1,4,12,19
+North Carolina,Alamance,,0,0,0,0,0,0,0,0,6,12,18
+Colorado,Routt,,0,0,0,0,0,0,1,2,13,13,7
+Missouri,Cole,,0,0,0,0,0,0,0,3,14,13,6
+Nebraska,Buffalo,,0,0,0,0,0,0,0,2,3,12,19
+Indiana,Grant,,0,0,0,0,0,0,0,2,5,11,18
+Louisiana,Evangeline,,0,0,0,0,0,0,0,2,2,15,17
+Texas,Tom Green,,0,0,0,0,0,0,0,0,3,17,15
+Colorado,Mesa,,0,0,0,0,0,0,1,1,9,11,13
+Mississippi,Sunflower,,0,0,0,0,0,0,0,2,8,9,16
+Iowa,Dubuque,,0,0,0,0,0,0,0,4,12,8,11
+Texas,Bowie,,0,0,0,0,0,0,0,1,2,14,18
+California,Napa,,0,0,0,0,1,0,0,2,8,10,14
+Missouri,Perry,,0,0,0,0,0,0,0,0,7,18,10
+Illinois,Macon,,0,0,0,0,0,0,0,0,2,4,29
+California,San Benito,,0,0,0,0,0,0,1,4,9,9,12
+Illinois,DeKalb,,0,0,0,0,0,0,0,1,7,14,12
+Illinois,Jackson,,0,0,0,0,0,0,0,1,2,9,22
+Maine,Penobscot,,0,0,0,0,0,0,0,2,9,11,12
+Virginia,Manassas city,,0,0,0,0,0,0,0,0,5,9,20
+West Virginia,Marion,,0,0,0,0,0,0,0,0,5,9,20
+Montana,Flathead,,0,0,0,0,0,0,0,2,6,17,9
+Alabama,Talladega,,0,0,0,0,0,0,0,1,3,16,14
+California,Nevada,,0,0,0,0,0,0,0,1,11,19,3
+Georgia,Laurens,,0,0,0,0,0,0,0,2,10,3,19
+Wisconsin,Sheboygan,,0,0,0,0,0,0,3,3,2,13,13
+Florida,Nassau,,0,0,0,0,0,0,1,0,7,13,13
+New York,Washington,,0,0,0,0,0,0,0,1,6,11,16
+Texas,Shelby,,0,0,0,0,0,0,0,0,1,10,23
+Texas,Coryell,,0,0,0,0,0,0,0,0,1,4,29
+Mississippi,Marshall,,0,0,0,0,0,0,0,3,10,7,13
+North Carolina,Brunswick,,0,0,0,0,0,0,1,4,7,12,9
+Wyoming,Natrona,,0,0,0,0,0,0,0,1,8,14,10
+Ohio,Allen,,0,0,0,0,0,0,0,0,4,14,15
+Alabama,Elmore,,0,0,0,0,0,0,1,5,7,6,14
+Mississippi,Jones,,0,0,0,0,0,0,0,1,4,6,22
+Utah,Cache,,0,0,0,0,0,0,0,2,3,14,14
+Georgia,Glynn,,0,0,0,0,0,0,0,4,4,21,4
+Indiana,LaPorte,,0,0,0,0,0,0,1,1,4,15,12
+California,Madera,,0,0,0,0,0,1,0,2,15,12,3
+Louisiana,Bienville,,0,0,0,0,0,0,0,1,2,9,21
+Michigan,Otsego,,0,0,0,0,0,0,0,1,16,7,9
+Utah,Tooele,,0,0,0,0,0,0,0,3,6,10,14
+North Carolina,Nash,,0,0,0,0,0,0,0,1,2,18,11
+Maine,Kennebec,,0,0,0,0,0,0,0,4,6,12,10
+Alabama,Coffee,,0,0,0,0,0,0,0,0,0,7,25
+Mississippi,Lamar,,0,0,0,0,0,0,0,0,4,9,19
+Missouri,Cass,,0,0,0,0,0,0,0,6,2,15,9
+Tennessee,Maury,,0,0,0,0,0,0,0,2,6,13,11
+Texas,Midland,,0,0,0,0,0,0,0,1,10,13,8
+North Dakota,Stark,,0,0,0,0,0,0,0,0,10,15,7
+Indiana,Putnam,,0,0,0,0,0,0,0,1,4,12,15
+Virginia,Goochland,,0,0,0,0,0,0,0,2,4,9,17
+North Carolina,Catawba,,0,0,0,0,0,0,0,1,13,8,10
+Arkansas,Saline,,0,0,0,0,0,0,1,0,5,23,3
+Virginia,Montgomery,,0,0,0,0,0,0,0,0,1,5,26
+California,El Dorado,,0,0,0,0,0,0,0,2,10,10,10
+Arkansas,St. Francis,,0,0,0,0,0,0,0,0,0,11,21
+Mississippi,Neshoba,,0,0,0,0,0,0,0,0,4,5,22
+Louisiana,Morehouse,,0,0,0,0,0,0,0,0,2,8,21
+New York,Wyoming,,0,0,0,0,0,0,0,2,6,14,9
+Iowa,Marshall,,0,0,0,0,0,0,0,0,6,4,21
+Arkansas,Craighead,,0,0,0,0,0,0,0,1,5,14,11
+Vermont,Bennington,,0,0,0,0,0,1,1,2,12,8,7
+Tennessee,Bradley,,0,0,0,0,0,0,0,2,6,13,10
+Virginia,Lynchburg city,,0,0,0,0,0,0,0,0,3,7,21
+North Carolina,Columbus,,0,0,0,0,0,0,0,0,1,4,26
+Virginia,Charlottesville city,,0,0,0,0,0,0,0,4,8,11,8
+South Carolina,Georgetown,,0,0,0,0,0,0,0,0,10,8,13
+Mississippi,Copiah,,0,0,0,0,0,0,2,2,4,8,15
+Kentucky,Pulaski,,0,0,0,0,0,0,0,2,5,5,19
+Virginia,Isle of Wight,,0,0,0,0,0,0,0,1,2,15,13
+Michigan,Midland,,0,0,0,0,0,0,0,5,3,10,13
+Tennessee,Fayette,,0,0,0,0,0,0,0,3,7,10,10
+Arizona,Mohave,,0,0,0,0,0,0,0,0,6,10,14
+Alabama,Wilcox,,0,0,0,0,0,0,0,0,2,10,18
+Texas,Johnson,,0,0,0,0,0,0,0,2,6,15,7
+Oregon,Polk,,0,0,0,0,0,0,1,0,12,11,6
+Tennessee,Dickson,,0,0,0,0,0,0,0,4,7,12,7
+Minnesota,Winona,,0,0,0,0,0,0,0,0,4,10,16
+Oregon,Yamhill,,0,0,0,0,0,0,1,5,7,13,4
+Alabama,Chilton,,0,0,0,0,0,0,0,0,8,10,12
+Arkansas,Lonoke,,0,0,0,0,0,0,0,0,4,13,13
+Montana,Missoula,,0,0,0,0,0,0,2,2,7,10,9
+New York,Livingston,,0,0,0,0,0,0,0,2,8,9,11
+Arkansas,Pope,,0,0,0,0,0,0,0,1,3,9,17
+Florida,Bradford,,0,0,0,0,0,0,0,1,1,5,22
+Virginia,York,,0,0,0,0,0,0,0,5,4,11,9
+Texas,Chambers,,0,0,0,0,0,0,0,0,3,8,18
+Kansas,Lyon,,0,0,0,0,0,0,0,0,7,16,6
+South Carolina,Lee,,0,0,0,0,0,0,0,1,4,12,12
+Georgia,Bryan,,0,0,0,0,0,0,0,0,7,10,12
+North Carolina,Onslow,,0,0,0,0,0,0,1,0,3,12,13
+New York,Cayuga,,0,0,0,0,0,0,0,0,2,6,21
+Georgia,Decatur,,0,0,0,0,0,0,0,0,4,13,12
+Maine,Waldo,,0,0,0,0,0,0,0,0,2,1,26
+New York,Montgomery,,0,0,0,0,0,0,1,2,3,9,14
+Georgia,Butts,,0,0,0,0,0,0,0,2,3,7,17
+Mississippi,Lafayette,,0,0,0,0,0,0,0,5,8,9,7
+Pennsylvania,Montour,,0,0,0,0,0,0,0,1,4,32,-8
+Wisconsin,Outagamie,,0,0,0,0,0,0,0,2,4,15,8
+Idaho,Jerome,,0,0,0,0,0,0,0,0,0,13,16
+Iowa,Clinton,,0,0,0,0,0,0,0,0,1,15,13
+Florida,Walton,,0,0,0,0,0,0,0,4,11,8,6
+Missouri,Cape Girardeau,,0,0,0,0,0,0,0,0,6,11,11
+Colorado,Chaffee,,0,0,0,0,0,0,0,3,12,7,6
+South Carolina,Pickens,,0,0,0,0,0,0,0,1,10,7,10
+Ohio,Greene,,0,0,0,0,0,0,0,1,2,10,15
+New York,Cattaraugus,,0,0,0,0,0,0,0,0,4,6,18
+New Hampshire,Carroll,,0,0,0,0,0,0,0,6,4,9,9
+Arkansas,White,,0,0,0,0,0,0,0,0,6,19,3
+Oklahoma,Payne,,0,0,0,0,0,0,1,1,11,7,8
+Maine,Androscoggin,,0,0,0,0,0,0,1,2,5,12,8
+West Virginia,Harrison,,0,0,0,0,0,0,0,0,7,17,4
+Kentucky,Bullitt,,0,0,0,0,0,0,0,0,2,10,16
+Texas,Wharton,,0,0,0,0,0,0,0,0,6,3,19
+Georgia,Burke,,0,0,0,0,0,0,0,0,4,5,19
+Washington,Jefferson,,0,0,0,0,0,1,2,3,8,8,6
+Vermont,Washington,,0,0,0,0,0,0,1,1,10,10,6
+Ohio,Shelby,,0,0,0,0,0,0,0,0,3,9,15
+Texas,Bastrop,,0,0,0,0,0,0,0,1,4,4,18
+West Virginia,Jackson,,0,0,0,0,0,0,0,1,7,6,13
+Ohio,Tuscarawas,,0,0,0,0,0,0,1,1,3,15,7
+Pennsylvania,Armstrong,,0,0,0,0,0,0,0,0,3,9,15
+Illinois,Peoria,,0,0,0,0,0,0,0,3,5,6,13
+Louisiana,Beauregard,,0,0,0,0,0,0,0,1,3,15,8
+Kentucky,Jessamine,,0,0,0,0,0,0,0,1,9,5,12
+Michigan,Branch,,0,0,0,0,0,0,0,0,0,13,14
+Arkansas,Clark,,0,0,0,0,0,0,0,1,17,9,0
+Oklahoma,Adair,,0,0,0,0,0,0,0,0,4,14,9
+Wisconsin,Winnebago,,0,0,0,0,0,0,1,4,3,12,7
+Mississippi,Leake,,0,0,0,0,0,0,0,1,4,5,17
+Georgia,Jackson,,0,0,0,0,0,0,0,0,2,13,12
+Missouri,Lafayette,,0,0,0,0,0,0,0,0,4,23,0
+Arkansas,Van Buren,,0,0,0,0,0,0,0,1,17,3,5
+Louisiana,Vermilion,,0,0,0,0,0,0,0,0,2,14,10
+Oklahoma,Pawnee,,0,0,0,0,0,0,0,3,12,7,4
+Georgia,Dawson,,0,0,0,0,0,0,0,1,3,12,10
+Alabama,DeKalb,,0,0,0,0,0,0,0,0,4,10,12
+Wisconsin,Sauk,,0,0,0,0,0,0,0,2,10,6,8
+Nebraska,Gage,,0,0,0,0,0,0,0,0,0,9,17
+New York,Allegany,,0,0,0,0,0,0,0,2,4,10,10
+Tennessee,Greene,,0,0,0,0,0,0,0,2,7,8,9
+Missouri,Lincoln,,0,0,0,0,0,0,0,0,2,15,9
+Georgia,Greene,,0,0,0,0,0,0,0,0,1,11,14
+Missouri,Camden,,0,0,0,0,0,0,0,0,7,17,2
+Illinois,Whiteside,,0,0,0,0,0,0,1,0,2,15,8
+Indiana,Newton,,0,0,0,0,0,0,0,0,1,3,22
+Virginia,Prince George,,0,0,0,0,0,0,0,0,4,14,8
+Florida,Columbia,,0,0,0,0,0,0,0,2,1,10,13
+Ohio,Ashtabula,,0,0,0,0,0,0,0,2,4,6,14
+Texas,Kaufman,,0,0,0,0,0,0,0,0,2,8,16
+Kentucky,Scott,,0,0,0,0,0,0,0,1,5,15,5
+Oklahoma,Pottawatomie,,0,0,0,0,0,0,0,0,2,10,14
+Minnesota,Mower,,0,0,0,0,0,0,0,6,5,6,8
+Oregon,Klamath,,0,0,0,0,0,1,0,0,3,11,10
+Virginia,Fauquier,,0,0,0,0,0,0,0,0,6,4,15
+Illinois,Adams,,0,0,0,0,0,0,0,1,1,1,22
+Minnesota,Carlton,,0,0,0,0,0,0,0,0,0,8,17
+Wisconsin,La Crosse,,0,0,0,0,0,0,0,5,10,6,4
+New Mexico,Cibola,,0,0,0,0,0,0,0,0,2,12,11
+Alabama,Jackson,,0,0,0,0,0,0,0,1,4,9,11
+Missouri,Platte,,0,0,0,0,0,0,0,0,6,9,10
+North Carolina,Craven,,0,0,0,0,0,0,1,1,3,10,10
+Virginia,Louisa,,0,0,0,0,0,0,0,1,6,7,11
+Indiana,Washington,,0,0,0,0,0,0,0,2,3,13,7
+Pennsylvania,Susquehanna,,0,0,0,0,0,0,0,0,1,5,19
+New York,Orleans,,0,0,0,0,0,0,0,0,3,8,14
+West Virginia,Ohio,,0,0,0,0,0,0,0,0,7,11,7
+Arkansas,Unknown,,0,0,0,0,0,0,0,27,34,-47,11
+Montana,Toole,,0,0,0,0,0,0,0,0,5,11,9
+Tennessee,Macon,,0,0,0,0,0,0,0,0,3,6,16
+Oklahoma,Rogers,,0,0,0,0,0,0,0,0,1,12,12
+Georgia,Polk,,0,0,0,0,0,1,0,3,6,8,7
+Vermont,Windsor,,0,0,0,0,0,0,3,5,10,4,3
+Kentucky,Hardin,,0,0,0,0,0,0,0,1,4,5,14
+Kentucky,Unknown,,0,0,0,0,0,0,0,6,55,-52,15
+Texas,Rockwall,,0,0,0,0,0,0,0,0,4,7,13
+Wisconsin,Columbia,,0,0,0,0,0,0,0,5,4,10,5
+Ohio,Jefferson,,0,0,0,0,0,0,0,0,5,9,10
+Tennessee,Marion,,0,0,0,0,0,0,0,1,4,11,8
+Mississippi,Smith,,0,0,0,0,0,0,0,1,0,9,14
+Alabama,Russell,,0,0,0,0,0,0,0,0,1,9,14
+Illinois,Christian,,0,0,0,0,0,0,0,1,18,2,3
+Mississippi,Tate,,0,0,0,0,0,0,0,1,8,6,9
+Minnesota,Freeborn,,0,0,0,0,0,0,0,0,0,10,14
+Mississippi,Chickasaw,,0,0,0,0,0,0,0,1,9,5,9
+Mississippi,Lowndes,,0,0,0,0,0,0,0,4,6,5,9
+California,Shasta,,0,0,0,0,0,0,1,1,2,16,4
+Georgia,Wilcox,,0,0,0,0,0,0,0,0,0,1,23
+Georgia,Whitfield,,0,0,0,0,0,0,0,2,6,8,8
+Virginia,Washington,,0,0,0,0,0,0,0,0,2,3,19
+North Carolina,Edgecombe,,0,0,0,0,0,0,0,0,1,4,18
+Oregon,Benton,,0,0,0,0,0,0,0,4,5,10,4
+Washington,Cowlitz,,0,0,0,0,0,0,0,3,10,5,5
+Michigan,Sanilac,,0,0,0,0,0,0,0,0,2,11,10
+Georgia,Macon,,0,0,0,0,0,0,0,0,1,3,19
+Texas,Donley,,0,0,0,0,0,0,0,0,0,7,16
+West Virginia,Cabell,,0,0,0,0,0,0,0,0,1,4,18
+Georgia,Peach,,0,0,0,0,0,0,0,3,3,7,10
+Georgia,Meriwether,,0,0,0,0,0,0,0,0,5,6,12
+Kentucky,Henderson,,0,0,0,0,0,0,0,5,0,10,8
+California,Mono,,0,0,0,0,0,0,0,0,11,8,4
+Ohio,Madison,,0,0,0,0,0,0,0,0,4,13,6
+Pennsylvania,Greene,,0,0,0,0,0,0,0,0,6,6,11
+Wisconsin,Jefferson,,0,0,0,0,0,0,0,2,6,6,9
+Kentucky,Boyd,,0,0,0,0,0,0,0,0,4,16,3
+Missouri,St. Francois,,0,0,0,0,0,0,0,0,4,11,8
+Virginia,Botetourt,,0,0,0,0,0,0,0,1,1,13,8
+Indiana,Henry,,0,0,0,0,0,0,0,0,2,9,12
+Pennsylvania,Lycoming,,0,0,0,0,0,0,0,0,3,6,14
+Georgia,McDuffie,,0,0,0,0,0,0,0,0,1,5,17
+California,Sutter,,0,0,0,0,0,0,0,0,6,10,6
+Indiana,Montgomery,,0,0,0,0,0,0,0,0,5,9,8
+South Carolina,Chesterfield,,0,0,0,0,0,0,0,0,4,9,9
+Tennessee,Hawkins,,0,0,0,0,0,0,0,0,2,8,12
+Alabama,Pickens,,0,0,0,0,0,0,0,0,2,10,10
+Missouri,Saline,,0,0,0,0,0,0,0,0,0,3,19
+Illinois,Henry,,0,0,0,0,0,0,0,0,2,6,14
+Arkansas,Miller,,0,0,0,0,0,0,0,0,0,8,14
+Texas,Moore,,0,0,0,0,0,0,0,0,0,6,16
+Michigan,Montcalm,,0,0,0,0,0,0,1,0,2,11,8
+Michigan,Marquette,,0,0,0,0,0,0,0,0,2,12,8
+South Carolina,Union,,0,0,0,0,0,0,0,0,1,10,11
+Georgia,Effingham,,0,0,0,0,0,0,0,2,2,8,10
+New Hampshire,Belknap,,0,0,0,0,0,0,0,4,5,8,5
+Georgia,Washington,,0,0,0,0,0,0,0,0,2,4,16
+Minnesota,Blue Earth,,0,0,0,0,0,0,0,4,4,7,7
+Mississippi,Panola,,0,0,0,0,0,0,0,2,3,12,5
+New York,Chautauqua,,0,0,0,0,0,0,0,0,5,7,10
+Tennessee,Franklin,,0,0,0,0,0,0,0,1,5,6,10
+Indiana,Cass,,0,0,0,0,0,0,0,0,0,4,18
+Alabama,Lauderdale,,0,0,0,0,0,0,0,2,10,4,5
+Tennessee,Grundy,,0,0,0,0,0,0,0,0,2,10,9
+South Carolina,Fairfield,,0,0,0,0,0,0,0,1,3,10,7
+North Dakota,Mountrail,,0,0,0,0,0,0,0,0,2,17,2
+Oklahoma,Muskogee,,0,0,0,0,0,0,0,1,6,13,1
+Illinois,Grundy,,0,0,0,0,0,0,0,0,3,6,12
+Kentucky,McCracken,,0,0,0,0,0,0,0,0,5,5,11
+Virginia,Fluvanna,,0,0,0,0,0,0,0,1,2,4,14
+Washington,Walla Walla,,0,0,0,0,0,1,0,0,6,5,9
+New York,Fulton,,0,0,0,0,0,0,0,1,0,8,12
+Michigan,St. Joseph,,0,0,0,0,0,0,0,0,0,10,11
+Georgia,Camden,,0,0,0,0,0,0,0,0,2,7,12
+Michigan,Allegan,,0,0,0,0,0,0,0,1,1,12,7
+Wisconsin,Eau Claire,,0,0,0,0,0,0,0,4,6,11,0
+South Dakota,Beadle,,0,0,0,0,0,0,1,9,10,1,0
+North Carolina,Carteret,,0,0,0,0,0,0,0,2,6,7,6
+Michigan,Emmet,,0,0,0,0,0,0,0,1,3,9,8
+Mississippi,Marion,,0,0,0,0,0,0,0,0,4,3,14
+Alabama,Marengo,,0,0,0,0,0,0,0,0,5,8,8
+Iowa,Allamakee,,0,0,0,0,0,0,2,3,2,10,4
+Michigan,Van Buren,,0,0,0,0,0,0,0,0,4,10,7
+Hawaii,Kauai,,0,0,0,0,0,0,2,1,9,4,5
+Minnesota,Le Sueur,,0,0,0,0,0,0,0,1,10,9,1
+Tennessee,Sevier,,0,0,0,0,0,0,0,3,3,8,7
+Mississippi,Tunica,,0,0,0,0,0,0,0,2,4,11,4
+Louisiana,Catahoula,,0,0,0,0,0,0,0,1,0,8,12
+Vermont,Lamoille,,0,0,0,0,0,0,0,0,12,5,4
+North Carolina,Davie,,0,0,0,0,0,0,0,1,5,10,5
+Georgia,Harris,,0,0,0,0,0,0,0,0,3,4,13
+Florida,DeSoto,,0,0,0,0,0,0,0,1,6,5,8
+Nevada,Humboldt,,0,0,0,0,0,0,0,0,1,10,9
+Alabama,Sumter,,0,0,0,0,0,0,0,0,0,7,13
+Wisconsin,Chippewa,,0,0,0,0,0,0,0,1,3,12,4
+Kansas,Riley,,0,0,0,0,0,0,0,1,1,11,7
+South Dakota,Yankton,,0,0,0,0,0,0,0,0,4,10,6
+Nebraska,Washington,,0,0,0,0,0,0,0,0,9,11,0
+Florida,Hendry,,0,0,0,0,0,0,0,0,2,5,13
+Virginia,Gloucester,,0,0,0,0,0,0,0,2,4,4,10
+Missouri,Buchanan,,0,0,0,0,0,0,0,0,3,5,12
+Minnesota,Scott,,0,0,0,0,0,0,0,3,6,4,7
+Indiana,Fayette,,0,0,0,0,0,0,0,1,4,11,4
+Alabama,Pike,,0,0,0,0,0,0,0,0,4,10,6
+Illinois,LaSalle,,0,0,0,0,0,0,0,1,3,4,12
+North Carolina,Halifax,,0,0,0,0,0,0,0,0,2,8,10
+Pennsylvania,Snyder,,0,0,0,0,0,0,0,0,2,6,12
+Mississippi,Attala,,0,0,0,0,0,0,0,1,8,6,5
+Missouri,Callaway,,0,0,0,0,0,0,0,0,8,11,1
+Iowa,Cedar,,0,0,0,0,0,0,0,0,7,5,8
+North Dakota,Ward,,0,0,0,0,0,0,1,2,4,7,6
+Virginia,Roanoke city,,0,0,0,0,0,0,0,0,1,9,10
+Ohio,Clark,,0,0,0,0,0,0,0,1,6,1,12
+Virginia,Danville city,,0,0,0,0,0,0,0,0,4,8,8
+Maryland,Worcester,,0,0,0,0,0,0,0,2,0,7,11
+Iowa,Henry,,0,0,0,0,0,0,0,1,2,5,11
+Tennessee,Gibson,,0,0,0,0,0,0,0,1,2,8,8
+South Carolina,Chester,,0,0,0,0,0,0,0,0,2,10,7
+Washington,Mason,,0,0,0,0,0,0,0,1,1,12,5
+Alabama,Clarke,,0,0,0,0,0,0,0,0,0,9,10
+Wisconsin,Dodge,,0,0,0,0,0,0,0,0,8,6,5
+Louisiana,Richland,,0,0,0,0,0,0,0,0,2,8,9
+Alabama,Autauga,,0,0,0,0,0,0,0,0,6,6,7
+Virginia,Winchester city,,0,0,0,0,0,0,0,0,1,10,8
+North Carolina,Vance,,0,0,0,0,0,0,0,0,3,9,7
+Illinois,Tazewell,,0,0,0,0,0,0,0,0,4,9,6
+Ohio,Hancock,,0,0,0,0,0,0,0,1,2,8,8
+Georgia,Brooks,,0,0,0,0,0,0,0,0,1,5,13
+New Mexico,Chaves,,0,0,0,0,0,0,0,0,8,5,6
+New Hampshire,Cheshire,,0,0,0,0,0,0,0,1,2,8,8
+New York,Tioga,,0,0,0,0,0,0,1,0,3,4,11
+Pennsylvania,Union,,0,0,0,0,0,0,0,0,0,6,13
+Georgia,Johnson,,0,0,0,0,0,0,0,0,0,3,16
+Texas,Liberty,,0,0,0,0,0,0,0,0,2,4,13
+Virginia,Culpeper,,0,0,0,0,0,0,0,2,0,6,11
+North Dakota,Morton,,0,0,0,0,0,0,0,8,6,2,3
+Nebraska,Custer,,0,0,0,0,0,0,0,0,0,0,19
+Indiana,Greene,,0,0,0,0,0,0,0,0,1,9,9
+Maryland,Queen Anne's,,0,0,0,0,0,0,0,0,4,9,6
+Mississippi,Winston,,0,0,0,0,0,0,0,2,2,8,7
+Indiana,Marshall,,0,0,0,0,0,0,0,0,3,3,13
+Idaho,Nez Perce,,0,0,0,0,0,0,0,0,4,9,6
+Kentucky,Madison,,0,0,0,0,0,0,0,2,5,4,8
+Indiana,Owen,,0,0,0,0,0,0,0,1,8,6,4
+Washington,Douglas,,0,0,0,0,0,0,0,0,5,5,8
+Louisiana,Concordia,,0,0,0,0,0,0,0,0,0,5,13
+North Carolina,Hoke,,0,0,0,0,0,0,0,1,2,7,8
+Iowa,Woodbury,,0,0,0,0,0,0,0,1,3,4,10
+Oklahoma,McClain,,0,0,0,0,0,0,0,1,1,10,6
+Oklahoma,Cherokee,,0,0,0,0,0,0,0,0,1,11,6
+Kentucky,Clark,,0,0,0,0,0,0,1,1,4,5,7
+Mississippi,Walthall,,0,0,0,0,0,0,0,2,3,7,6
+Texas,Walker,,0,0,0,0,0,0,0,0,3,7,8
+Tennessee,Dyer,,0,0,0,0,0,0,0,2,1,6,9
+Oregon,Josephine,,0,0,0,0,0,0,0,1,5,7,5
+New Mexico,Valencia,,0,0,0,0,0,0,0,0,2,5,11
+Kansas,Labette,,0,0,0,0,0,0,0,0,0,4,14
+Washington,Lewis,,0,0,0,0,0,0,1,1,8,6,2
+Kentucky,Shelby,,0,0,0,0,0,0,0,0,1,6,11
+Mississippi,Calhoun,,0,0,0,0,0,0,0,0,3,1,14
+Indiana,Kosciusko,,0,0,0,0,0,0,0,0,3,9,6
+Mississippi,Perry,,0,0,0,0,0,0,0,1,1,12,4
+West Virginia,Wood,,0,0,0,0,0,0,0,0,2,8,8
+Alabama,Coosa,,0,0,0,0,0,0,0,0,3,4,11
+Texas,Hunt,,0,0,0,0,0,0,0,0,1,7,10
+New York,Cortland,,0,0,0,0,0,0,0,1,5,8,4
+Oklahoma,Ottawa,,0,0,0,0,0,0,0,0,4,7,7
+Pennsylvania,Bradford,,0,0,0,0,0,0,0,0,3,7,8
+Louisiana,Caldwell,,0,0,0,0,0,0,0,0,1,9,8
+Arkansas,Union,,0,0,0,0,0,0,0,0,6,6,6
+Mississippi,Clay,,0,0,0,0,0,0,0,1,1,5,11
+Illinois,Ogle,,0,0,0,0,0,0,0,0,0,5,13
+Ohio,Ross,,0,0,0,0,0,0,0,0,0,4,13
+Indiana,Jasper,,0,0,0,0,0,0,0,0,6,6,5
+North Carolina,Caldwell,,0,0,0,0,0,0,0,0,3,3,11
+Missouri,Christian,,0,0,0,0,0,0,0,2,5,9,1
+South Carolina,Greenwood,,0,0,0,0,0,0,0,2,1,7,7
+Texas,Grayson,,0,0,0,0,0,0,0,0,3,9,5
+Tennessee,Bedford,,0,0,0,0,0,0,0,0,1,7,9
+Georgia,Stephens,,0,0,0,0,0,0,0,0,3,3,11
+Michigan,Grand Traverse,,0,0,0,0,0,0,0,1,5,6,5
+Florida,Baker,,0,0,0,0,0,0,1,1,6,4,5
+Nebraska,Lincoln,,0,0,0,0,0,0,0,3,0,12,2
+Virginia,Williamsburg city,,0,0,0,0,0,0,0,5,2,5,5
+Alabama,Greene,,0,0,0,0,0,0,0,0,3,3,11
+Indiana,Orange,,0,0,0,0,0,0,0,0,1,6,10
+Indiana,Scott,,0,0,0,0,0,0,0,1,0,7,9
+Indiana,Wayne,,0,0,0,0,0,0,0,1,0,7,9
+Texas,Fayette,,0,0,0,0,0,0,0,0,1,10,6
+Virginia,Petersburg city,,0,0,0,0,0,0,0,0,0,10,7
+Minnesota,Goodhue,,0,0,0,0,0,0,0,0,2,8,7
+Tennessee,Trousdale,,0,0,0,0,0,0,0,0,1,7,9
+Georgia,Lamar,,0,0,0,0,0,0,0,3,0,4,10
+Maryland,Caroline,,0,0,0,0,0,0,0,1,2,1,13
+Virginia,Shenandoah,,0,0,0,0,0,0,0,0,4,8,5
+Georgia,Liberty,,0,0,0,0,0,0,0,0,3,10,4
+Virginia,Augusta,,0,0,0,0,0,0,0,0,0,8,9
+Arizona,Yuma,,0,0,0,0,0,0,0,1,8,4,4
+Minnesota,Wright,,0,0,0,0,0,0,1,2,3,3,8
+Iowa,Benton,,0,0,0,0,0,0,0,0,4,5,8
+Georgia,Bulloch,,0,0,0,0,0,0,0,0,1,4,12
+West Virginia,Wayne,,0,0,0,0,0,0,0,0,0,0,17
+Tennessee,Cheatham,,0,0,0,0,0,0,0,4,4,5,4
+North Carolina,McDowell,,0,0,0,0,0,0,0,0,4,5,7
+Oregon,Umatilla,,0,0,0,0,0,0,2,0,2,3,9
+Colorado,Teller,,0,0,0,0,0,0,0,0,7,4,5
+Pennsylvania,Perry,,0,0,0,0,0,0,0,0,1,4,11
+Ohio,Crawford,,0,0,0,0,0,0,0,0,2,7,7
+Kentucky,Simpson,,0,0,0,0,0,0,0,0,2,11,3
+Georgia,Pike,,0,0,0,0,0,0,0,0,2,3,11
+Texas,Hood,,0,0,0,0,0,0,0,0,2,7,7
+Alaska,Juneau City and Borough,,0,0,0,0,0,0,0,0,5,9,2
+Colorado,Elbert,,0,0,0,0,0,0,0,3,0,6,7
+Illinois,Macoupin,,0,0,0,0,0,0,0,0,0,5,11
+Texas,Angelina,,0,0,0,0,0,0,0,0,3,7,6
+Nevada,Carson City,,0,0,0,0,0,0,1,2,2,5,6
+Georgia,Clay,,0,0,0,0,0,0,0,0,0,7,9
+Idaho,Elmore,,0,0,0,0,0,0,0,0,0,11,5
+Florida,Gadsden,,0,0,0,0,0,0,0,0,1,2,13
+Ohio,Lawrence,,0,0,0,0,0,0,0,0,1,7,8
+Tennessee,Loudon,,0,0,0,0,0,0,0,1,7,5,3
+Indiana,Miami,,0,0,0,0,0,0,0,1,0,6,9
+Minnesota,Crow Wing,,0,0,0,0,0,0,0,0,0,6,10
+North Carolina,Stanly,,0,0,0,0,0,0,0,1,4,2,9
+Ohio,Coshocton,,0,0,0,0,0,0,0,2,2,5,7
+Iowa,Warren,,0,0,0,0,0,0,0,0,1,9,6
+New York,Seneca,,0,0,0,0,0,0,0,0,0,9,7
+Texas,Rusk,,0,0,0,0,0,0,0,1,2,9,4
+Kentucky,Oldham,,0,0,0,0,0,0,0,1,2,3,10
+Minnesota,Dodge,,0,0,0,0,0,0,0,2,5,3,6
+South Carolina,Colleton,,0,0,0,0,0,0,0,1,3,4,8
+Georgia,Haralson,,0,0,0,0,0,0,0,0,2,8,6
+Texas,Harrison,,0,0,0,0,0,0,0,0,1,5,10
+Montana,Lewis and Clark,,0,0,0,0,0,0,1,2,7,4,2
+Alabama,Bibb,,0,0,0,0,0,0,0,0,0,7,9
+Illinois,Livingston,,0,0,0,0,0,0,0,1,1,5,9
+Kentucky,Calloway,,0,0,0,0,0,0,0,1,2,2,10
+Maine,Sagadahoc,,0,0,0,0,0,0,0,3,4,6,2
+Indiana,Rush,,0,0,0,0,0,0,0,0,2,8,5
+North Carolina,Washington,,0,0,0,0,0,0,0,0,1,3,11
+New Mexico,Taos,,0,0,0,0,0,0,0,3,6,4,2
+Indiana,Knox,,0,0,0,0,0,0,0,0,2,5,8
+North Carolina,Lincoln,,0,0,0,0,0,0,0,1,2,6,6
+Washington,Kittitas,,0,0,0,0,0,1,2,1,4,3,4
+Kentucky,Harrison,,0,0,0,0,0,1,5,4,1,2,2
+Pennsylvania,Clarion,,0,0,0,0,0,0,0,0,1,4,10
+Georgia,Seminole,,0,0,0,0,0,0,0,0,5,4,6
+North Carolina,Duplin,,0,0,0,0,0,0,0,0,1,3,11
+Virginia,Bedford,,0,0,0,0,0,0,0,1,1,2,11
+Ohio,Preble,,0,0,0,0,0,0,0,0,0,5,10
+Pennsylvania,Crawford,,0,0,0,0,0,0,0,0,3,4,8
+Ohio,Clinton,,0,0,0,0,0,0,0,1,2,5,7
+North Carolina,Pasquotank,,0,0,0,0,0,0,0,1,1,6,7
+Texas,Calhoun,,0,0,0,0,0,0,0,0,3,8,4
+Arizona,Cochise,,0,0,0,0,0,0,0,1,2,5,7
+Virginia,Warren,,0,0,0,0,0,0,0,0,2,2,11
+North Carolina,Lee,,0,0,0,0,0,0,0,1,1,1,12
+Georgia,Grady,,0,0,0,0,0,0,0,0,0,3,12
+Idaho,Lincoln,,0,0,0,0,0,0,0,0,1,8,6
+South Carolina,Williamsburg,,0,0,0,0,0,0,0,0,2,8,5
+Virginia,Accomack,,0,0,0,0,0,0,0,1,2,8,4
+Texas,Waller,,0,0,0,0,0,0,0,0,3,6,6
+Mississippi,Pontotoc,,0,0,0,0,0,0,0,1,3,8,3
+Alaska,Ketchikan Gateway Borough,,0,0,0,0,0,0,0,6,7,1,1
+Kansas,Finney,,0,0,0,0,0,0,0,0,1,9,5
+California,Yuba,,0,0,0,0,0,0,0,2,1,7,5
+Missouri,Scott,,0,0,0,0,0,0,0,1,2,4,8
+Alabama,Hale,,0,0,0,0,0,0,0,0,0,3,12
+Georgia,Habersham,,0,0,0,0,0,0,0,0,1,1,12
+Mississippi,Warren,,0,0,0,0,0,0,0,0,1,4,9
+Oklahoma,Mayes,,0,0,0,0,0,0,0,0,3,6,5
+Michigan,Ionia,,0,0,0,0,0,0,0,0,2,6,6
+Louisiana,Vernon,,0,0,0,0,0,0,0,0,2,8,4
+Kentucky,Woodford,,0,0,0,0,0,0,0,0,3,5,6
+Virginia,Roanoke,,0,0,0,0,0,0,0,0,2,3,9
+Alabama,Lowndes,,0,0,0,0,0,0,0,0,1,5,8
+Alaska,Matanuska-Susitna Borough,,0,0,0,0,0,0,0,0,2,2,10
+Missouri,Dunklin,,0,0,0,0,0,0,0,1,2,4,7
+Mississippi,Montgomery,,0,0,0,0,0,0,0,1,5,5,3
+Indiana,Noble,,0,0,0,0,0,0,1,0,1,9,3
+Georgia,Morgan,,0,0,0,0,0,0,0,0,1,1,12
+Mississippi,Kemper,,0,0,0,0,0,0,0,0,1,4,9
+Oregon,Douglas,,0,0,0,0,0,1,0,0,3,7,3
+Washington,Okanogan,,0,0,0,0,0,0,0,0,3,6,5
+Mississippi,Jasper,,0,0,0,0,0,0,0,0,0,3,11
+Mississippi,Webster,,0,0,0,0,0,0,0,1,2,8,3
+Maryland,Talbot,,0,0,0,0,0,0,0,1,2,4,7
+South Carolina,Oconee,,0,0,0,0,0,0,0,0,4,4,6
+North Carolina,Lenoir,,0,0,0,0,0,0,0,0,3,4,7
+Virginia,King George,,0,0,0,0,0,0,0,0,2,6,6
+Georgia,Bacon,,0,0,0,0,0,0,0,0,1,6,7
+Alabama,Macon,,0,0,0,0,0,0,0,0,1,4,9
+Georgia,Murray,,0,0,0,0,0,0,0,0,3,6,5
+Georgia,Baker,,0,0,0,0,0,0,0,0,1,4,9
+South Carolina,Laurens,,0,0,0,0,0,0,0,0,3,3,8
+Florida,Madison,,0,0,0,0,0,0,0,0,0,10,4
+Alaska,Kenai Peninsula Borough,,0,0,0,0,0,0,0,3,4,5,2
+Mississippi,Yalobusha,,0,0,0,0,0,0,0,0,3,6,5
+Alabama,Dallas,,0,0,0,0,0,0,0,0,2,5,7
+Nebraska,Scotts Bluff,,0,0,0,0,0,0,0,0,1,2,11
+Mississippi,Covington,,0,0,0,0,0,0,0,0,1,5,8
+Washington,Klickitat,,0,0,0,0,0,0,1,3,3,2,5
+Virginia,Franklin,,0,0,0,0,0,0,0,1,4,5,4
+South Carolina,Marlboro,,0,0,0,0,0,0,0,1,1,1,11
+Ohio,Huron,,0,0,0,0,0,0,0,1,2,3,8
+California,Butte,,0,0,0,0,0,0,0,2,3,6,3
+South Dakota,Brown,,0,0,0,0,0,0,0,1,1,7,5
+North Carolina,Rockingham,,0,0,0,0,0,0,0,0,0,6,8
+Ohio,Auglaize,,0,0,0,0,0,0,0,0,2,4,8
+Oklahoma,Stephens,,0,0,0,0,0,0,0,0,2,7,5
+Virginia,Hopewell city,,0,0,0,0,0,0,0,0,1,9,4
+Texas,Hockley,,0,0,0,0,0,0,0,2,5,3,4
+Alabama,Clay,,0,0,0,0,0,0,0,0,2,7,5
+Tennessee,Jefferson,,0,0,0,0,0,0,1,1,3,1,8
+Virginia,Buckingham,,0,0,0,0,0,0,0,0,0,4,10
+Missouri,Jasper,,0,0,0,0,0,0,0,1,1,6,5
+Mississippi,Prentiss,,0,0,0,0,0,0,0,0,4,5,4
+Indiana,Switzerland,,0,0,0,0,0,0,0,0,3,6,4
+Illinois,Marion,,0,0,0,0,0,0,0,0,0,3,10
+Montana,Cascade,,0,0,0,0,0,0,0,3,4,4,2
+Kentucky,Nelson,,0,0,0,0,0,0,1,0,2,1,9
+Nebraska,Dawson,,0,0,0,0,0,0,0,1,0,0,12
+Michigan,Kalkaska,,0,0,0,0,0,0,0,0,4,4,5
+Arkansas,Johnson,,0,0,0,0,0,0,0,0,1,7,5
+Louisiana,St. Helena,,0,0,0,0,0,0,0,0,0,5,8
+Alabama,Covington,,0,0,0,0,0,0,0,0,2,2,9
+Indiana,Dubois,,0,0,0,0,0,0,0,0,2,4,7
+Maine,Oxford,,0,0,0,0,0,0,0,4,5,2,2
+Washington,Whitman,,0,0,0,0,0,0,0,1,5,5,2
+Ohio,Carroll,,0,0,0,0,0,0,0,1,3,4,5
+Georgia,Catoosa,,0,0,0,0,0,0,0,0,3,3,7
+South Carolina,Newberry,,0,0,0,0,0,0,0,1,1,5,6
+Tennessee,Haywood,,0,0,0,0,0,0,0,0,2,1,10
+Oklahoma,Okmulgee,,0,0,0,0,0,0,0,0,3,8,2
+Pennsylvania,Cambria,,0,0,0,0,0,0,0,0,1,6,6
+Colorado,Logan,,0,0,0,0,0,0,0,0,5,4,4
+Washington,San Juan,,0,0,0,0,0,0,0,1,3,3,6
+Texas,Medina,,0,0,0,0,0,0,0,1,2,1,9
+Idaho,Bonneville,,0,0,0,0,0,0,0,0,1,5,7
+North Carolina,Beaufort,,0,0,0,0,0,0,0,0,3,5,5
+Minnesota,Carver,,0,0,0,0,0,1,0,7,1,1,3
+Ohio,Mercer,,0,0,0,0,0,0,0,0,2,5,6
+Kansas,Ford,,0,0,0,0,0,0,0,1,0,0,12
+Kansas,McPherson,,0,0,0,0,0,0,0,0,3,6,4
+Texas,Parker,,0,0,0,0,0,0,0,0,4,2,7
+Wisconsin,Marathon,,0,0,0,0,0,0,0,1,0,11,1
+Pennsylvania,Tioga,,0,0,0,0,0,0,0,0,1,2,10
+Utah,Iron,,0,0,0,0,0,0,0,0,4,9,0
+Virginia,Orange,,0,0,0,0,0,0,0,0,1,4,8
+Mississippi,Clarke,,0,0,0,0,0,0,0,0,1,4,8
+Missouri,Butler,,0,0,0,0,0,0,0,0,0,2,11
+Texas,Gray,,0,0,0,0,0,0,0,0,0,5,8
+Georgia,Dodge,,0,0,0,0,0,0,0,0,1,5,7
+Maryland,Allegany,,0,0,0,0,0,0,0,0,0,6,7
+Illinois,Lee,,0,0,0,0,0,0,0,0,0,2,11
+Kentucky,Boyle,,0,0,0,0,0,0,0,0,1,7,5
+Alabama,Blount,,0,0,0,0,0,0,0,0,5,5,3
+Iowa,Cerro Gordo,,0,0,0,0,0,0,0,2,4,4,3
+Alabama,Washington,,0,0,0,0,0,0,0,1,3,1,7
+Utah,Box Elder,,0,0,0,0,0,0,0,1,3,6,2
+Iowa,Harrison,,0,0,0,0,0,0,1,2,5,2,2
+Kentucky,Grant,,0,0,0,0,0,0,0,0,1,4,7
+Alabama,Cleburne,,0,0,0,0,0,0,0,0,5,2,5
+New York,Schoharie,,0,0,0,0,0,0,0,1,4,6,1
+New Mexico,Socorro,,0,0,0,0,0,0,2,0,0,3,7
+Indiana,Crawford,,0,0,0,0,0,0,0,0,1,4,7
+Michigan,Crawford,,0,0,0,0,0,0,0,0,1,0,11
+Michigan,Cass,,0,0,0,0,0,0,0,0,4,3,5
+Georgia,Monroe,,0,0,0,0,0,0,0,1,2,6,3
+Wyoming,Sheridan,,0,0,0,0,0,0,2,2,2,6,0
+Indiana,Whitley,,0,0,0,0,0,0,0,0,1,5,6
+Georgia,Jones,,0,0,0,0,0,0,0,0,2,4,6
+California,Inyo,,0,0,0,0,0,0,0,0,8,3,1
+Florida,Jefferson,,0,0,0,0,0,0,0,0,0,1,11
+North Carolina,Montgomery,,0,0,0,0,0,0,0,0,3,6,3
+Pennsylvania,Somerset,,0,0,0,0,0,0,0,0,2,2,8
+Indiana,Jefferson,,0,0,0,0,0,0,0,0,0,5,7
+Missouri,Warren,,0,0,0,0,0,0,0,0,2,7,3
+Virginia,Fredericksburg city,,0,0,0,0,0,0,0,0,1,6,5
+Georgia,Schley,,0,0,0,0,0,0,0,0,0,6,6
+Kansas,Franklin,,0,0,0,0,0,0,1,0,5,3,3
+Indiana,LaGrange,,0,0,0,0,0,0,0,0,2,2,8
+Tennessee,Anderson,,0,0,0,0,0,0,0,1,5,4,2
+Louisiana,Winn,,0,0,0,0,0,0,0,0,1,1,10
+Kentucky,Jackson,,0,0,0,0,0,0,0,0,0,0,12
+Colorado,San Miguel,,0,0,0,0,0,0,0,1,0,9,2
+Indiana,Brown,,0,0,0,0,0,0,0,0,3,2,7
+Mississippi,Quitman,,0,0,0,0,0,0,0,0,4,2,6
+Texas,Navarro,,0,0,0,0,0,0,0,0,1,6,5
+Iowa,Pottawattamie,,0,0,0,0,0,0,1,1,1,4,5
+Tennessee,Lawrence,,0,0,0,0,0,0,0,0,0,3,9
+Georgia,Oglethorpe,,0,0,0,0,0,0,0,0,0,1,11
+New York,Essex,,0,0,0,0,0,0,0,3,1,3,5
+Virginia,New Kent,,0,0,0,0,0,0,0,0,1,8,3
+New York,Franklin,,0,0,0,0,0,0,0,0,6,4,2
+Colorado,Montezuma,,0,0,0,0,0,0,0,0,1,7,4
+Pennsylvania,Mifflin,,0,0,0,0,0,0,0,0,2,7,3
+Massachusetts,Dukes,,0,0,0,0,0,0,0,0,1,7,4
+North Carolina,Bertie,,0,0,0,0,0,0,0,0,3,4,5
+Mississippi,Amite,,0,0,0,0,0,0,0,0,4,2,6
+Kentucky,Lyon,,0,0,0,0,0,0,0,1,0,3,8
+Texas,Erath,,0,0,0,0,0,0,0,0,1,6,5
+Indiana,Steuben,,0,0,0,0,0,0,0,0,1,5,6
+Texas,Val Verde,,0,0,0,0,0,0,0,0,5,0,7
+Washington,Clallam,,0,0,0,0,0,0,0,4,2,2,4
+South Dakota,Codington,,0,0,0,0,0,0,0,0,4,6,2
+Illinois,Douglas,,0,0,0,0,0,0,0,0,1,8,2
+Louisiana,LaSalle,,0,0,0,0,0,0,0,0,2,-2,11
+Illinois,Boone,,0,0,0,0,0,0,0,0,0,3,8
+Georgia,Toombs,,0,0,0,0,0,0,0,0,2,3,6
+Georgia,Pickens,,0,0,0,0,0,0,0,2,3,4,2
+Arkansas,Lawrence,,0,0,0,0,0,0,0,0,1,2,8
+Georgia,Irwin,,0,0,0,0,0,0,0,0,3,3,5
+Texas,Hale,,0,0,0,0,0,0,0,0,1,6,4
+Nebraska,Hamilton,,0,0,0,0,0,0,0,0,1,5,5
+Northern Mariana Islands,Unknown,,0,0,0,0,0,0,0,0,2,6,3
+South Carolina,Jasper,,0,0,0,0,0,0,0,1,2,6,2
+Ohio,Defiance,,0,0,0,0,0,0,0,2,3,2,4
+Kansas,Reno,,0,0,0,0,0,0,0,2,5,3,1
+Ohio,Wyandot,,0,0,0,0,0,0,0,0,1,4,6
+Louisiana,Red River,,0,0,0,0,0,0,0,0,1,1,9
+Georgia,White,,0,0,0,0,0,0,0,0,1,3,7
+Arkansas,Lincoln,,0,0,0,0,0,0,0,1,5,1,4
+Texas,Wilson,,0,0,0,0,0,0,0,0,2,4,5
+Oklahoma,Grady,,0,0,0,0,0,0,0,1,1,5,4
+Illinois,Jo Daviess,,0,0,0,0,0,0,0,1,0,4,6
+Georgia,Miller,,0,0,0,0,0,0,0,1,3,10,-3
+Vermont,Unknown,,0,0,0,0,0,0,0,0,23,-10,-2
+West Virginia,Putnam,,0,0,0,0,0,0,0,1,2,3,5
+Michigan,Charlevoix,,0,0,0,0,0,0,1,1,2,3,4
+Missouri,Adair,,0,0,0,0,0,0,0,0,2,8,1
+Texas,Kendall,,0,0,0,0,0,0,0,0,7,3,1
+Texas,Castro,,0,0,0,0,0,0,0,1,7,2,1
+Ohio,Sandusky,,0,0,0,0,0,0,0,0,3,2,6
+Kentucky,Marshall,,0,0,0,0,0,0,0,0,0,1,10
+Illinois,Fayette,,0,0,0,0,0,0,0,0,1,1,9
+Nevada,Elko,,0,0,0,0,0,0,0,2,1,4,4
+Oklahoma,Lincoln,,0,0,0,0,0,0,0,0,3,4,4
+Wyoming,Johnson,,0,0,0,0,0,0,0,0,5,3,3
+Washington,Grays Harbor,,0,0,0,0,0,0,1,0,0,5,5
+Wyoming,Campbell,,0,0,0,0,0,0,0,1,0,5,5
+Missouri,Clinton,,0,0,0,0,0,0,0,0,1,6,4
+North Dakota,Grand Forks,,0,0,0,0,0,0,0,0,0,11,0
+Georgia,Wilkinson,,0,0,0,0,0,0,0,0,0,2,9
+Texas,Limestone,,0,0,0,0,0,0,0,0,1,2,8
+Michigan,Mecosta,,0,0,0,0,0,0,0,0,1,5,5
+Iowa,Jasper,,0,0,0,0,0,0,0,0,4,4,3
+Louisiana,Grant,,0,0,0,0,0,0,0,0,2,6,3
+Indiana,Clay,,0,0,0,0,0,0,0,0,1,3,7
+Maryland,Kent,,0,0,0,0,0,0,0,0,3,2,6
+Kentucky,Butler,,0,0,0,0,0,0,0,0,1,0,10
+Colorado,Clear Creek,,0,0,0,0,0,0,1,2,0,3,5
+Kansas,Montgomery,,0,0,0,0,0,0,0,0,3,5,3
+Alabama,Henry,,0,0,0,0,0,0,0,0,0,3,8
+Texas,Andrews,,0,0,0,0,0,0,0,0,1,5,5
+Tennessee,Coffee,,0,0,0,0,0,0,0,0,1,4,6
+Indiana,Clinton,,0,0,0,0,0,0,0,0,1,3,7
+Montana,Silver Bow,,0,0,0,0,0,0,1,1,7,2,0
+North Carolina,Dare,,0,0,0,0,0,0,0,0,0,1,10
+North Carolina,Sampson,,0,0,0,0,0,0,0,1,0,1,9
+Texas,Henderson,,0,0,0,0,0,0,0,0,1,0,9
+Nevada,Douglas,,0,0,0,0,0,0,0,0,5,2,3
+Oregon,Wasco,,0,0,0,0,0,0,0,0,3,4,3
+Kentucky,Marion,,0,0,0,0,0,0,0,0,0,5,5
+Georgia,Madison,,0,0,0,0,0,0,0,0,3,4,3
+Texas,Van Zandt,,0,0,0,0,0,0,0,1,0,3,6
+Virginia,Manassas Park city,,0,0,0,0,0,0,0,0,1,1,8
+Ohio,Ottawa,,0,0,0,0,0,0,0,0,1,4,5
+Kentucky,Graves,,0,0,0,0,0,0,0,0,0,2,8
+Tennessee,Carroll,,0,0,0,0,0,0,0,2,3,2,3
+Colorado,Baca,,0,0,0,0,0,0,0,0,1,8,1
+Nebraska,Dodge,,0,0,0,0,0,0,0,0,3,4,3
+South Carolina,Edgefield,,0,0,0,0,0,0,0,1,1,4,4
+Virginia,Amherst,,0,0,0,0,0,0,0,1,1,4,4
+Alabama,Franklin,,0,0,0,0,0,0,0,0,3,3,4
+North Carolina,Surry,,0,0,0,0,0,0,0,0,2,1,7
+North Carolina,Yadkin,,0,0,0,0,0,0,0,0,1,8,1
+Georgia,Appling,,0,0,0,0,0,0,0,0,0,5,5
+Minnesota,Fillmore,,0,0,0,0,0,0,0,2,4,4,0
+Texas,Brown,,0,0,0,0,0,0,0,2,1,2,5
+Illinois,Morgan,,0,0,0,0,0,0,0,0,3,3,4
+Illinois,Williamson,,0,0,0,0,0,0,0,1,0,2,7
+Alabama,Barbour,,0,0,0,0,0,0,0,0,0,2,8
+Mississippi,Stone,,0,0,0,0,0,0,0,0,0,1,9
+North Carolina,Richmond,,0,0,0,0,0,0,0,0,1,-1,10
+Pennsylvania,Blair,,0,0,0,0,0,0,0,0,3,3,4
+Indiana,Randolph,,0,0,0,0,0,0,0,0,1,4,5
+Kentucky,Franklin,,0,0,0,0,0,0,0,1,2,5,2
+Mississippi,Newton,,0,0,0,0,0,0,0,0,1,6,3
+Oklahoma,Nowata,,0,0,0,0,0,0,0,0,3,6,1
+Ohio,Union,,0,0,0,0,0,0,0,1,2,5,2
+Texas,Panola,,0,0,0,0,0,0,0,0,0,4,6
+Missouri,Pulaski,,0,0,0,0,0,0,0,1,4,5,0
+North Carolina,Cherokee,,0,0,0,0,0,0,0,4,2,2,2
+Indiana,Daviess,,0,0,0,0,0,0,0,0,0,2,8
+North Carolina,Anson,,0,0,0,0,0,0,0,0,0,5,5
+Maine,Knox,,0,0,0,0,0,0,0,0,4,5,1
+Wisconsin,Jackson,,0,0,0,0,0,0,0,0,0,3,7
+Michigan,Cheboygan,,0,0,0,0,0,0,0,0,1,7,2
+Ohio,Knox,,0,0,0,0,0,0,0,0,3,4,3
+New Mexico,Torrance,,0,0,0,0,0,0,0,0,0,6,4
+Oregon,Columbia,,0,0,0,0,0,0,0,0,1,5,4
+New Mexico,Curry,,0,0,0,0,0,0,0,0,3,3,4
+Mississippi,Franklin,,0,0,0,0,0,0,0,3,0,2,5
+North Carolina,Greene,,0,0,0,0,0,0,0,0,3,3,4
+Michigan,Manistee,,0,0,0,0,0,0,0,0,1,3,6
+Arkansas,Grant,,0,0,0,0,0,0,0,1,2,1,6
+Mississippi,Choctaw,,0,0,0,0,0,0,0,0,5,3,2
+California,Kings,,0,0,0,0,0,0,0,0,2,3,5
+Texas,Austin,,0,0,0,0,0,0,0,0,2,3,5
+Arkansas,Ashley,,0,0,0,0,0,0,0,0,1,3,6
+Nevada,Nye,,0,0,0,0,0,0,0,1,0,6,3
+Ohio,Erie,,0,0,0,0,0,0,0,1,4,3,2
+Mississippi,Grenada,,0,0,0,0,0,0,0,2,1,4,3
+Alabama,Choctaw,,0,0,0,0,0,0,0,0,1,4,5
+Tennessee,Campbell,,0,0,0,0,0,0,1,1,2,1,5
+Pennsylvania,Huntingdon,,0,0,0,0,0,0,0,0,1,3,6
+Arkansas,Sebastian,,0,0,0,0,0,0,0,1,4,3,2
+Oklahoma,Garvin,,0,0,0,0,0,0,0,2,2,5,1
+Georgia,Marion,,0,0,0,0,0,0,0,0,0,2,8
+Virginia,Campbell,,0,0,0,0,0,0,0,0,0,2,7
+Michigan,Delta,,0,0,0,0,0,0,0,0,0,7,2
+Wisconsin,Dunn,,0,0,0,0,0,0,0,1,2,2,4
+Kansas,Saline,,0,0,0,0,0,0,0,0,0,5,4
+Tennessee,McNairy,,0,0,0,0,0,0,0,0,1,2,6
+Texas,Polk,,0,0,0,0,0,0,0,0,1,6,2
+Maine,Lincoln,,0,0,0,0,0,0,1,3,1,3,1
+Georgia,Fannin,,0,0,0,0,0,0,0,0,3,5,1
+Maryland,Dorchester,,0,0,0,0,0,0,0,0,0,1,8
+Tennessee,Marshall,,0,0,0,0,0,0,0,0,0,6,3
+Ohio,Seneca,,0,0,0,0,0,0,0,0,2,4,3
+Minnesota,Sherburne,,0,0,0,0,0,0,0,0,5,5,-1
+North Carolina,Polk,,0,0,0,0,0,0,0,0,2,4,3
+Georgia,Pulaski,,0,0,0,0,0,0,0,0,3,3,3
+Ohio,Fayette,,0,0,0,0,0,0,0,0,1,1,7
+Oklahoma,Pontotoc,,0,0,0,0,0,0,0,0,3,4,2
+Virginia,Prince Edward,,0,0,0,0,0,0,1,0,1,1,6
+Alabama,Cherokee,,0,0,0,0,0,0,0,0,2,4,3
+New Mexico,Grant,,0,0,0,0,0,0,0,0,0,1,8
+Minnesota,Steele,,0,0,0,0,0,0,0,3,2,3,1
+Virginia,Amelia,,0,0,0,0,0,0,0,0,1,5,3
+Oklahoma,Sequoyah,,0,0,0,0,0,0,0,0,2,2,5
+Michigan,Roscommon,,0,0,0,0,0,0,0,1,0,4,4
+North Carolina,Stokes,,0,0,0,0,0,0,0,0,0,6,3
+Kentucky,Caldwell,,0,0,0,0,0,0,0,0,0,3,6
+South Dakota,Lawrence,,0,0,0,0,0,0,0,0,3,6,0
+Kentucky,Rockcastle,,0,0,0,0,0,0,0,0,0,1,8
+Indiana,Tipton,,0,0,0,0,0,0,0,1,3,2,3
+Kentucky,Mercer,,0,0,0,0,0,0,0,0,2,1,6
+North Carolina,Scotland,,0,0,0,0,0,0,0,1,1,0,7
+Idaho,Gem,,0,0,0,0,0,0,0,0,3,4,2
+Georgia,Lincoln,,0,0,0,0,0,0,0,1,2,2,4
+Texas,San Augustine,,0,0,0,0,0,0,0,0,0,4,5
+Illinois,Iroquois,,0,0,0,0,0,0,0,0,2,3,4
+Tennessee,DeKalb,,0,0,0,0,0,0,0,0,3,4,2
+Missouri,Stoddard,,0,0,0,0,0,0,0,0,2,5,2
+Pennsylvania,Clearfield,,0,0,0,0,0,0,0,0,2,5,2
+Nebraska,Kimball,,0,0,0,0,0,0,0,0,0,5,4
+Texas,DeWitt,,0,0,0,0,0,0,0,1,2,4,2
+Virginia,Charles City,,0,0,0,0,0,0,0,1,0,3,5
+Wisconsin,Green,,0,0,0,0,0,0,0,1,3,5,0
+Indiana,Starke,,0,0,0,0,0,0,0,0,1,2,6
+South Carolina,Abbeville,,0,0,0,0,0,0,0,1,3,2,3
+Texas,Maverick,,0,0,0,0,0,0,0,0,1,6,2
+Wisconsin,Door,,0,0,0,0,0,0,0,0,0,4,5
+Texas,Atascosa,,0,0,0,0,0,0,0,0,2,0,7
+Louisiana,Sabine,,0,0,0,0,0,0,0,0,1,4,4
+Mississippi,Itawamba,,0,0,0,0,0,0,0,3,0,0,6
+Georgia,Talbot,,0,0,0,0,0,0,0,0,0,4,5
+Oklahoma,Caddo,,0,0,0,0,0,0,0,0,1,3,5
+Georgia,Lumpkin,,0,0,0,0,0,0,0,1,3,5,0
+Massachusetts,Nantucket,,0,0,0,0,0,0,0,1,4,4,0
+Alabama,Colbert,,0,0,0,0,0,0,0,0,2,4,3
+Mississippi,Humphreys,,0,0,0,0,0,0,0,1,1,2,5
+Virginia,Smyth,,0,0,0,0,0,0,0,0,0,2,7
+Pennsylvania,Wyoming,,0,0,0,0,0,0,0,0,0,5,4
+Georgia,Jenkins,,0,0,0,0,0,0,0,0,1,1,7
+Wisconsin,St. Croix,,0,0,0,0,0,0,0,2,2,3,2
+Georgia,Telfair,,0,0,0,0,0,0,0,0,0,4,5
+Georgia,Brantley,,0,0,0,0,0,0,0,0,0,0,8
+Alabama,Lawrence,,0,0,0,0,0,0,0,0,3,3,2
+Alabama,Dale,,0,0,0,0,0,0,0,0,0,2,6
+South Carolina,Cherokee,,0,0,0,0,0,0,0,0,0,2,6
+Alabama,Escambia,,0,0,0,0,0,0,0,0,1,2,5
+Illinois,Montgomery,,0,0,0,0,0,0,0,0,1,2,5
+Michigan,Antrim,,0,0,0,0,0,0,0,0,0,4,4
+Tennessee,Scott,,0,0,0,0,0,0,0,2,0,1,5
+Wisconsin,Clark,,0,0,0,0,0,0,0,0,3,3,2
+Ohio,Perry,,0,0,0,0,0,0,0,0,0,3,5
+North Carolina,Watauga,,0,0,0,0,0,0,1,1,3,2,1
+North Dakota,Williams,,0,0,0,0,0,0,0,0,0,5,3
+Maine,Somerset,,0,0,0,0,0,0,0,0,1,3,4
+Arkansas,Cleveland,,0,0,0,0,0,0,0,1,4,2,1
+Texas,Upshur,,0,0,0,0,0,0,0,1,0,2,5
+Kentucky,Montgomery,,0,0,0,0,0,0,1,1,0,5,1
+North Carolina,Person,,0,0,0,0,0,0,0,0,1,3,4
+Idaho,Cassia,,0,0,0,0,0,0,0,0,1,3,4
+North Carolina,Robeson,,0,0,0,0,0,0,0,1,1,3,3
+Arkansas,Randolph,,0,0,0,0,0,0,0,0,2,1,5
+South Dakota,Pennington,,0,0,0,0,0,0,0,0,4,2,2
+Wisconsin,Monroe,,0,0,0,0,0,0,0,0,1,5,2
+Florida,Levy,,0,0,0,0,0,0,0,0,2,2,4
+Ohio,Morrow,,0,0,0,0,0,0,0,0,0,5,3
+Mississippi,Wayne,,0,0,0,0,0,0,0,0,0,5,3
+Kentucky,Laurel,,0,0,0,0,0,0,0,0,1,1,6
+Virginia,Wise,,0,0,0,0,0,0,0,0,0,1,7
+Texas,Lamar,,0,0,0,0,0,0,0,0,3,2,3
+Tennessee,Lauderdale,,0,0,0,0,0,0,0,0,0,2,6
+Virginia,Henry,,0,0,0,0,0,0,0,0,0,3,5
+Oklahoma,Pittsburg,,0,0,0,0,0,0,0,0,2,4,2
+South Dakota,Brookings,,0,0,0,0,0,0,0,0,1,2,5
+Arizona,Santa Cruz,,0,0,0,0,0,0,0,1,1,2,4
+Virginia,Greensville,,0,0,0,0,0,0,0,0,1,3,4
+Michigan,Barry,,0,0,0,0,0,0,0,1,0,5,2
+Maine,Franklin,,0,0,0,0,0,0,0,0,2,2,4
+Kansas,Butler,,0,0,0,0,0,0,1,2,0,5,0
+Florida,Wakulla,,0,0,0,0,0,0,0,0,1,5,2
+Vermont,Caledonia,,0,0,0,0,0,0,0,0,2,4,2
+Montana,Madison,,0,0,0,0,0,0,0,1,3,5,-1
+Georgia,Ben Hill,,0,0,0,0,0,0,0,0,2,2,4
+Georgia,Emanuel,,0,0,0,0,0,0,0,0,0,1,7
+Tennessee,Monroe,,0,0,0,0,0,0,0,3,0,3,2
+Kentucky,Ohio,,0,0,0,0,0,0,0,0,0,5,3
+Texas,Hill,,0,0,0,0,0,0,0,0,0,5,3
+Idaho,Payette,,0,0,0,0,0,0,0,0,1,5,2
+Georgia,Jasper,,0,0,0,0,0,0,0,0,2,1,5
+Missouri,Randolph,,0,0,0,0,0,0,0,0,1,6,1
+Wyoming,Converse,,0,0,0,0,0,0,0,0,1,2,5
+West Virginia,Logan,,0,0,0,0,0,0,0,0,1,4,3
+Ohio,Muskingum,,0,0,0,0,0,0,0,0,2,2,4
+Colorado,Kit Carson,,0,0,0,0,0,0,0,0,1,4,3
+Illinois,Vermilion,,0,0,0,0,0,0,0,0,0,5,3
+Virginia,Westmoreland,,0,0,0,0,0,0,0,0,0,2,6
+Louisiana,Jackson,,0,0,0,0,0,0,0,0,2,-1,7
+Tennessee,Lincoln,,0,0,0,0,0,0,0,0,1,4,3
+Missouri,New Madrid,,0,0,0,0,0,0,0,0,0,1,7
+Missouri,Newton,,0,0,0,0,0,0,0,0,4,2,2
+Arkansas,Sevier,,0,0,0,0,0,0,0,1,1,4,2
+Vermont,Orleans,,0,0,0,0,0,0,0,0,5,3,0
+West Virginia,Mason,,0,0,0,0,0,0,0,0,3,1,4
+Arkansas,Hot Spring,,0,0,0,0,0,0,0,0,3,4,1
+Virginia,Cumberland,,0,0,0,0,0,0,0,0,0,2,6
+West Virginia,Mercer,,0,0,0,0,0,0,0,2,0,1,5
+Utah,San Juan,,0,0,0,0,0,0,0,0,4,1,3
+Pennsylvania,Clinton,,0,0,0,0,0,0,0,0,0,1,7
+Alabama,Lamar,,0,0,0,0,0,0,0,1,0,2,5
+West Virginia,Barbour,,0,0,0,0,0,0,0,0,0,3,5
+Iowa,Jones,,0,0,0,0,0,0,0,0,0,6,2
+California,Calaveras,,0,0,0,0,0,0,0,0,3,1,4
+Arkansas,Howard,,0,0,0,0,0,0,0,0,3,2,3
+Virginia,Sussex,,0,0,0,0,0,0,0,0,0,4,4
+Illinois,Stephenson,,0,0,0,0,0,0,0,1,2,0,5
+Tennessee,Hardeman,,0,0,0,0,0,0,0,0,1,5,1
+South Carolina,Hampton,,0,0,0,0,0,0,0,0,0,2,5
+Kentucky,Webster,,0,0,0,0,0,0,0,0,1,2,4
+Michigan,Wexford,,0,0,0,0,0,0,0,1,0,4,2
+Iowa,Iowa,,0,0,0,0,0,0,0,0,2,4,1
+Minnesota,Wilkin,,0,0,0,0,0,0,0,0,1,1,5
+Texas,Jasper,,0,0,0,0,0,0,0,0,0,2,5
+Washington,Stevens,,0,0,0,0,0,0,0,1,2,2,2
+Wisconsin,Pierce,,0,0,0,0,0,0,1,0,3,3,0
+Indiana,Wabash,,0,0,0,0,0,0,0,0,1,0,6
+Georgia,Banks,,0,0,0,0,0,0,0,0,0,3,4
+South Carolina,Bamberg,,0,0,0,0,0,0,0,0,0,5,2
+Mississippi,Simpson,,0,0,0,0,0,0,0,1,1,3,2
+Illinois,Woodford,,0,0,0,0,0,0,1,1,1,3,1
+Tennessee,Smith,,0,0,0,0,0,0,0,0,1,2,4
+Iowa,Sioux,,0,0,0,0,0,0,0,1,1,5,0
+Texas,Grimes,,0,0,0,0,0,0,0,0,2,1,4
+Arkansas,Mississippi,,0,0,0,0,0,0,0,0,0,4,3
+Georgia,Union,,0,0,0,0,0,0,0,0,0,1,6
+Kentucky,Todd,,0,0,0,0,0,0,0,0,0,0,7
+Montana,Park,,0,0,0,0,0,0,0,0,2,4,1
+Georgia,Gilmer,,0,0,0,0,0,0,0,0,0,1,6
+Arkansas,Stone,,0,0,0,0,0,0,0,0,4,1,2
+South Carolina,Marion,,0,0,0,0,0,0,0,0,1,1,5
+Colorado,Alamosa,,0,0,0,0,0,0,0,0,1,3,3
+Missouri,Ste. Genevieve,,0,0,0,0,0,0,0,0,0,6,1
+Tennessee,Cannon,,0,0,0,0,0,0,0,0,2,4,1
+Wisconsin,Douglas,,0,0,0,0,0,0,0,1,5,1,0
+New Mexico,Eddy,,0,0,0,0,0,0,0,0,4,0,3
+Virginia,Wythe,,0,0,0,0,0,0,0,0,1,1,5
+Minnesota,Brown,,0,0,0,0,0,0,0,0,0,3,4
+Tennessee,Obion,,0,0,0,0,0,0,0,0,1,1,5
+Texas,Deaf Smith,,0,0,0,0,0,0,0,1,1,3,2
+Colorado,Fremont,,0,0,0,0,0,0,0,0,1,2,4
+Nevada,Lyon,,0,0,0,0,0,0,0,0,1,2,4
+Illinois,Jefferson,,0,0,0,0,0,0,0,0,0,0,7
+Georgia,Chattooga,,0,0,0,0,0,0,0,1,0,2,4
+Kentucky,McCreary,,0,0,0,0,0,0,0,0,1,0,6
+Texas,Colorado,,0,0,0,0,0,0,0,0,0,2,5
+Iowa,Story,,0,0,0,0,0,0,0,1,1,3,2
+Michigan,Gratiot,,0,0,0,0,0,0,0,0,3,1,3
+Missouri,Taney,,0,0,0,0,0,0,0,0,2,3,2
+Arkansas,Bradley,,0,0,0,0,0,0,0,1,3,-3,6
+Kansas,Bourbon,,0,0,0,0,0,0,0,0,3,0,4
+Wyoming,Sweetwater,,0,0,0,0,0,0,0,0,1,4,2
+Georgia,Stewart,,0,0,0,0,0,0,0,0,0,1,6
+Oklahoma,Seminole,,0,0,0,0,0,0,0,0,1,1,5
+Utah,Morgan,,0,0,0,0,0,0,0,0,2,3,2
+Arkansas,Poinsett,,0,0,0,0,0,0,0,1,2,2,2
+Virginia,Appomattox,,0,0,0,0,0,0,0,0,0,0,7
+North Carolina,Jones,,0,0,0,0,0,0,0,0,0,0,7
+Ohio,Fulton,,0,0,0,0,0,0,0,0,2,3,2
+Texas,Starr,,0,0,0,0,0,0,0,0,2,4,1
+Georgia,Taylor,,0,0,0,0,0,0,0,0,1,1,5
+Mississippi,Union,,0,0,0,0,0,0,0,1,2,3,1
+Mississippi,George,,0,0,0,0,0,0,0,1,2,2,2
+Oklahoma,Craig,,0,0,0,0,0,0,0,0,1,2,4
+Georgia,Warren,,0,0,0,0,0,0,0,0,0,5,2
+Texas,San Patricio,,0,0,0,0,0,0,0,0,1,4,2
+Georgia,Cook,,0,0,0,0,0,0,0,0,0,1,6
+Montana,Lincoln,,0,0,0,0,0,0,0,0,4,3,0
+Missouri,Ray,,0,0,0,0,0,0,0,0,1,3,3
+West Virginia,Hancock,,0,0,0,0,0,0,0,0,3,3,1
+Oklahoma,Jackson,,0,0,0,0,0,0,1,0,0,3,3
+Minnesota,Stearns,,0,0,0,0,0,0,3,1,1,1,1
+Indiana,Parke,,0,0,0,0,0,0,0,0,0,2,5
+Texas,Uvalde,,0,0,0,0,0,0,0,0,2,2,3
+Virginia,Halifax,,0,0,0,0,0,0,0,0,1,1,5
+Iowa,Clayton,,0,0,0,0,0,0,0,0,1,3,3
+New Mexico,Rio Arriba,,0,0,0,0,0,0,0,0,2,4,1
+Georgia,Screven,,0,0,0,0,0,0,0,0,0,2,5
+Alabama,Butler,,0,0,0,0,0,0,0,0,1,0,6
+Ohio,Logan,,0,0,0,0,0,0,0,0,3,2,2
+Indiana,Huntington,,0,0,0,0,0,0,0,0,1,3,3
+Oklahoma,Logan,,0,0,0,0,0,0,0,1,2,3,1
+Mississippi,Carroll,,0,0,0,0,0,0,0,0,1,4,2
+Virginia,Emporia city,,0,0,0,0,0,0,0,0,0,2,5
+Minnesota,Chisago,,0,0,0,0,0,0,0,1,1,2,3
+Iowa,Buchanan,,0,0,0,0,0,0,0,0,2,3,2
+Texas,Milam,,0,0,0,0,0,0,0,0,2,1,4
+Mississippi,Alcorn,,0,0,0,0,0,0,0,0,0,6,1
+Missouri,Wright,,0,0,0,0,0,0,0,0,3,4,0
+North Dakota,McKenzie,,0,0,0,0,0,0,0,0,0,3,3
+Minnesota,Wabasha,,0,0,0,0,0,0,0,1,3,2,0
+New York,Lewis,,0,0,0,0,0,0,0,0,2,6,-2
+Arkansas,Polk,,0,0,0,0,0,0,0,1,1,3,1
+Florida,Jackson,,0,0,0,0,0,0,0,1,1,2,2
+Arkansas,Greene,,0,0,0,0,0,0,0,1,2,1,2
+Colorado,Delta,,0,0,0,0,0,0,0,0,1,3,2
+Tennessee,Henry,,0,0,0,0,0,0,0,0,1,3,2
+Kansas,Crawford,,0,0,0,0,0,0,0,0,4,2,0
+Virginia,Lee,,0,0,0,0,0,0,0,2,0,0,4
+South Dakota,Clay,,0,0,0,0,0,0,0,0,2,1,3
+Virginia,Caroline,,0,0,0,0,0,0,0,0,0,1,5
+Nebraska,Saunders,,0,0,0,0,0,0,0,0,2,2,2
+Texas,Burnet,,0,0,0,0,0,0,0,0,1,3,2
+Virginia,Colonial Heights city,,0,0,0,0,0,0,0,0,0,0,6
+Nebraska,Madison,,0,0,0,0,0,0,0,0,2,3,1
+Utah,Unknown,,0,0,0,0,0,0,0,0,1,13,-8
+Kansas,Cherokee,,0,0,0,0,0,0,0,1,1,3,1
+Kentucky,Edmonson,,0,0,0,0,0,0,0,0,0,5,1
+North Carolina,Pamlico,,0,0,0,0,0,0,0,0,1,2,3
+Arkansas,Drew,,0,0,0,0,0,0,0,0,2,3,1
+Missouri,Bates,,0,0,0,0,0,0,0,1,1,1,3
+Arkansas,Desha,,0,0,0,0,0,0,0,1,1,3,1
+Illinois,Jersey,,0,0,0,0,0,0,0,0,0,2,4
+Georgia,Putnam,,0,0,0,0,0,0,0,0,0,2,4
+Missouri,Harrison,,0,0,0,0,0,0,0,0,0,2,4
+Virginia,Franklin city,,0,0,0,0,0,0,0,0,0,4,2
+Arkansas,Searcy,,0,0,0,0,0,0,0,1,3,1,1
+Georgia,Jefferson,,0,0,0,0,0,0,0,0,0,3,3
+Kentucky,Spencer,,0,0,0,0,0,0,0,1,0,1,4
+Georgia,Walker,,0,0,0,0,0,0,0,0,0,3,3
+Georgia,Berrien,,0,0,0,0,0,0,0,0,0,3,3
+Wisconsin,Barron,,0,0,0,0,0,0,0,0,0,4,2
+Iowa,Shelby,,0,0,0,0,0,0,0,0,1,5,0
+Colorado,Archuleta,,0,0,0,0,0,0,0,0,0,6,0
+Michigan,Newaygo,,0,0,0,0,0,0,0,0,1,1,4
+Michigan,Huron,,0,0,0,0,0,0,0,0,3,1,2
+Texas,Dawson,,0,0,0,0,0,0,0,0,1,2,3
+North Carolina,Martin,,0,0,0,0,0,0,0,0,0,3,3
+Iowa,Poweshiek,,0,0,0,0,0,0,0,1,4,1,0
+Alabama,Monroe,,0,0,0,0,0,0,0,0,1,4,1
+Wisconsin,Juneau,,0,0,0,0,0,0,0,0,3,2,1
+Minnesota,Nicollet,,0,0,0,0,0,0,0,3,0,1,2
+Wisconsin,Oneida,,0,0,0,0,0,0,0,0,1,2,3
+South Carolina,Saluda,,0,0,0,0,0,0,0,1,0,3,2
+Missouri,Montgomery,,0,0,0,0,0,0,0,0,3,1,2
+New Hampshire,Sullivan,,0,0,0,0,0,0,0,1,2,3,0
+Ohio,Guernsey,,0,0,0,0,0,0,0,0,0,1,5
+Virginia,Page,,0,0,0,0,0,0,0,0,0,2,4
+Mississippi,Noxubee,,0,0,0,0,0,0,0,0,2,3,1
+Kentucky,Russell,,0,0,0,0,0,0,0,0,0,1,5
+North Carolina,Transylvania,,0,0,0,0,0,0,0,0,3,2,1
+Iowa,Crawford,,0,0,0,0,0,0,0,0,0,4,2
+Mississippi,Lawrence,,0,0,0,0,0,0,0,2,3,-1,2
+Georgia,Wilkes,,0,0,0,0,0,0,0,0,1,2,3
+West Virginia,Marshall,,0,0,0,0,0,0,0,2,2,1,1
+Missouri,Pike,,0,0,0,0,0,0,0,0,0,2,4
+Texas,Terry,,0,0,0,0,0,0,0,0,3,1,2
+Pennsylvania,Venango,,0,0,0,0,0,0,0,0,1,2,3
+Virginia,Madison,,0,0,0,0,0,0,0,0,3,0,3
+Mississippi,Claiborne,,0,0,0,0,0,0,0,0,1,0,5
+Arkansas,Cross,,0,0,0,0,0,0,0,0,2,3,1
+Oregon,Clatsop,,0,0,0,0,0,0,0,0,3,1,2
+Texas,Cherokee,,0,0,0,0,0,0,0,0,2,3,1
+Tennessee,Chester,,0,0,0,0,0,0,0,1,1,4,0
+Ohio,Champaign,,0,0,0,0,0,0,0,0,2,3,1
+West Virginia,Preston,,0,0,0,0,0,0,0,0,1,4,1
+Virginia,Dinwiddie,,0,0,0,0,0,0,0,0,0,0,6
+Georgia,Rabun,,0,0,0,0,0,0,0,0,0,3,3
+California,Amador,,0,0,0,0,0,0,0,1,0,1,4
+Minnesota,Cottonwood,,0,0,0,0,0,0,0,0,1,4,1
+Oklahoma,Noble,,0,0,0,0,0,0,0,1,2,3,0
+Ohio,Highland,,0,0,0,0,0,0,0,0,1,3,2
+Illinois,Coles,,0,0,0,0,0,0,0,0,0,0,6
+Ohio,Brown,,0,0,0,0,0,0,0,0,0,3,3
+Colorado,Park,,0,0,0,0,0,0,0,1,2,2,1
+Indiana,Sullivan,,0,0,0,0,0,0,0,0,1,2,3
+Texas,Caldwell,,0,0,0,0,0,0,0,0,1,2,3
+Kansas,Geary,,0,0,0,0,0,0,0,0,0,2,4
+West Virginia,Morgan,,0,0,0,0,0,0,0,0,1,2,3
+Wisconsin,Grant,,0,0,0,0,0,0,0,0,1,1,4
+Idaho,Teton,,0,0,0,0,0,0,1,1,0,2,2
+Texas,Burleson,,0,0,0,0,0,0,0,0,1,1,4
+Iowa,Monona,,0,0,0,0,0,0,0,0,2,4,0
+Nebraska,Platte,,0,0,0,0,0,0,0,0,1,4,1
+Iowa,Van Buren,,0,0,0,0,0,0,0,0,0,6,0
+Texas,Titus,,0,0,0,0,0,0,0,0,0,1,5
+Kentucky,McLean,,0,0,0,0,0,0,0,0,0,3,3
+Oklahoma,Garfield,,0,0,0,0,0,0,0,0,2,3,1
+South Carolina,Calhoun,,0,0,0,0,0,0,0,1,1,3,1
+Illinois,Piatt,,0,0,0,0,0,0,0,0,0,1,5
+Kansas,Linn,,0,0,0,0,0,0,0,1,4,1,0
+Alabama,Perry,,0,0,0,0,0,0,0,0,0,1,5
+Virginia,Poquoson city,,0,0,0,0,0,0,0,0,2,1,3
+Montana,Carbon,,0,0,0,0,0,0,0,0,0,1,5
+South Carolina,Allendale,,0,0,0,0,0,0,0,0,0,2,3
+South Dakota,Turner,,0,0,0,0,0,0,0,0,1,3,1
+Virginia,Southampton,,0,0,0,0,0,0,0,0,1,4,0
+Missouri,Cedar,,0,0,0,0,0,0,0,0,0,4,1
+Ohio,Gallia,,0,0,0,0,0,0,0,1,0,3,1
+Florida,Calhoun,,0,0,0,0,0,0,0,0,0,3,2
+Kentucky,Bracken,,0,0,0,0,0,0,0,0,1,0,4
+Utah,Uintah,,0,0,0,0,0,0,0,0,1,0,4
+Kansas,Seward,,0,0,0,0,0,0,0,0,0,0,5
+Minnesota,Unknown,,0,0,0,0,0,0,0,1,0,-1,5
+Mississippi,Jefferson Davis,,0,0,0,0,0,0,0,0,0,0,5
+Kentucky,Greenup,,0,0,0,0,0,0,0,0,0,1,4
+Illinois,Pulaski,,0,0,0,0,0,0,0,0,0,0,5
+Wisconsin,Richland,,0,0,0,0,0,0,0,0,2,1,2
+South Carolina,Barnwell,,0,0,0,0,0,0,0,0,0,3,2
+Texas,Fannin,,0,0,0,0,0,0,0,1,0,1,3
+Oklahoma,Custer,,0,0,0,0,0,0,0,1,3,1,0
+Pennsylvania,Bedford,,0,0,0,0,0,0,0,0,0,4,1
+Virginia,Nelson,,0,0,0,0,0,0,0,0,2,0,3
+Virginia,Powhatan,,0,0,0,0,0,0,0,0,1,3,1
+Maine,Hancock,,0,0,0,0,0,0,0,0,0,2,3
+New York,Schuyler,,0,0,0,0,0,0,0,0,1,3,1
+Texas,Cass,,0,0,0,0,0,0,0,1,1,2,1
+Illinois,Ford,,0,0,0,0,0,0,0,0,0,1,4
+West Virginia,McDowell,,0,0,0,0,0,0,0,0,0,0,5
+Arkansas,Hempstead,,0,0,0,0,0,0,0,0,1,2,2
+Idaho,Bannock,,0,0,0,0,0,0,0,0,3,2,0
+Virginia,Nottoway,,0,0,0,0,0,0,0,0,1,0,4
+Ohio,Paulding,,0,0,0,0,0,0,0,0,0,0,5
+Minnesota,Lyon,,0,0,0,0,0,0,0,0,0,3,2
+Colorado,Otero,,0,0,0,0,0,0,0,0,3,0,2
+Oregon,Morrow,,0,0,0,0,0,0,0,0,1,1,3
+West Virginia,Raleigh,,0,0,0,0,0,0,0,0,4,0,1
+Ohio,Hardin,,0,0,0,0,0,0,0,0,0,1,4
+Tennessee,Weakley,,0,0,0,0,0,0,0,0,1,4,0
+California,Siskiyou,,0,0,0,0,0,0,0,2,1,0,2
+Texas,San Jacinto,,0,0,0,0,0,0,0,0,1,0,4
+Texas,Wood,,0,0,0,0,0,0,0,0,0,2,3
+Indiana,Blackford,,0,0,0,0,0,0,0,0,0,3,2
+Indiana,Martin,,0,0,0,0,0,0,0,0,0,1,4
+Pennsylvania,Forest,,0,0,0,0,0,0,0,0,0,3,2
+Michigan,Arenac,,0,0,0,0,0,0,0,0,0,3,2
+Oklahoma,Kingfisher,,0,0,0,0,0,0,0,0,0,3,2
+Georgia,Tattnall,,0,0,0,0,0,0,0,1,1,1,2
+Montana,Lake,,0,0,0,0,0,0,0,0,3,1,1
+Arkansas,Independence,,0,0,0,0,0,0,0,1,2,2,0
+Arkansas,Chicot,,0,0,0,0,0,0,0,0,2,1,2
+Arkansas,Ouachita,,0,0,0,0,0,0,0,0,0,2,3
+Kansas,Barton,,0,0,0,0,0,0,0,0,0,3,2
+Indiana,Union,,0,0,0,0,0,0,0,0,0,3,2
+Minnesota,Beltrami,,0,0,0,0,0,0,0,0,2,4,-1
+Texas,Willacy,,0,0,0,0,0,0,0,0,2,3,0
+Illinois,Carroll,,0,0,0,0,0,0,0,0,1,3,1
+Illinois,Bureau,,0,0,0,0,0,0,0,0,1,2,2
+Tennessee,Morgan,,0,0,0,0,0,0,0,0,1,3,1
+Tennessee,Jackson,,0,0,0,0,0,0,0,0,0,3,2
+Virginia,Waynesboro city,,0,0,0,0,0,0,0,0,0,2,3
+Colorado,Rio Grande,,0,0,0,0,0,0,0,0,3,2,0
+Idaho,Minidoka,,0,0,0,0,0,0,0,0,0,3,2
+Mississippi,Benton,,0,0,0,0,0,0,0,0,4,1,0
+Georgia,Lanier,,0,0,0,0,0,0,0,0,0,1,4
+Indiana,Adams,,0,0,0,0,0,0,1,0,0,1,3
+Iowa,Winneshiek,,0,0,0,0,0,0,0,1,2,1,1
+Kentucky,Barren,,0,0,0,0,0,0,0,0,0,1,4
+Tennessee,Roane,,0,0,0,0,0,0,0,1,1,3,0
+Minnesota,Pine,,0,0,0,0,0,0,0,0,0,0,5
+Indiana,Posey,,0,0,0,0,0,0,0,0,3,2,0
+Wyoming,Albany,,0,0,0,0,0,0,0,0,1,3,1
+South Dakota,Hughes,,0,0,0,0,0,0,0,0,1,2,2
+Kentucky,Mason,,0,0,0,0,0,0,0,0,1,1,3
+New Mexico,Los Alamos,,0,0,0,0,0,0,0,0,0,2,3
+Florida,Okeechobee,,0,0,0,0,0,0,0,0,0,3,2
+Washington,Asotin,,0,0,0,0,0,0,0,0,0,3,2
+Wyoming,Lincoln,,0,0,0,0,0,0,0,0,0,3,2
+North Carolina,Pender,,0,0,0,0,0,0,0,0,0,1,4
+Wisconsin,Iowa,,0,0,0,0,0,0,0,0,3,0,2
+Indiana,DeKalb,,0,0,0,0,0,0,0,0,1,3,1
+Kansas,Pottawatomie,,0,0,0,0,0,0,0,0,1,1,3
+Kentucky,Union,,0,0,0,0,0,0,0,0,1,3,1
+Texas,Wise,,0,0,0,0,0,0,0,0,0,3,2
+Virginia,Richmond,,0,0,0,0,0,0,0,0,0,1,4
+Texas,Lynn,,0,0,0,0,0,0,0,0,1,2,2
+Tennessee,Overton,,0,0,0,0,0,0,0,0,2,1,2
+South Carolina,Dillon,,0,0,0,0,0,0,0,1,0,0,4
+Wisconsin,Shawano,,0,0,0,0,0,0,0,0,0,1,4
+Idaho,Madison,,0,0,0,0,0,0,0,2,0,2,1
+Kentucky,Whitley,,0,0,0,0,0,0,0,0,0,0,5
+Ohio,Ashland,,0,0,0,0,0,0,0,1,1,1,2
+Kentucky,Logan,,0,0,0,0,0,0,0,0,2,2,1
+Vermont,Orange,,0,0,0,0,0,0,0,3,0,1,1
+Kansas,Jefferson,,0,0,0,0,0,0,0,0,1,1,3
+Idaho,Gooding,,0,0,0,0,0,0,0,0,0,1,4
+Indiana,Carroll,,0,0,0,0,0,0,0,0,1,2,2
+Alabama,Conecuh,,0,0,0,0,0,0,0,0,0,2,3
+Indiana,Gibson,,0,0,0,0,0,0,0,0,4,0,0
+Alabama,Fayette,,0,0,0,0,0,0,0,0,0,1,3
+North Carolina,Gates,,0,0,0,0,0,0,0,0,0,1,3
+Idaho,Bonner,,0,0,0,0,0,0,0,0,0,2,2
+Iowa,Boone,,0,0,0,0,0,0,0,0,1,2,1
+North Carolina,Perquimans,,0,0,0,0,0,0,0,0,1,1,2
+California,Mendocino,,0,0,0,0,0,0,0,1,2,1,0
+Colorado,Lake,,0,0,0,0,0,0,0,0,0,3,1
+Tennessee,Stewart,,0,0,0,0,0,0,0,0,0,2,2
+Texas,Goliad,,0,0,0,0,0,0,0,0,0,1,3
+Florida,Glades,,0,0,0,0,0,0,0,0,1,3,0
+Tennessee,Hamblen,,0,0,0,0,0,0,0,2,0,2,0
+Iowa,Fayette,,0,0,0,0,0,0,0,1,1,1,1
+Wisconsin,Portage,,0,0,0,0,0,0,0,0,1,2,1
+North Carolina,Ashe,,0,0,0,0,0,0,0,0,0,1,3
+Missouri,Howell,,0,0,0,0,0,0,0,0,0,1,3
+Kansas,Harvey,,0,0,0,0,0,0,0,0,1,1,2
+Oregon,Union,,0,0,0,0,0,0,0,1,0,2,1
+Arkansas,Conway,,0,0,0,0,0,0,0,0,2,2,0
+North Carolina,Hertford,,0,0,0,0,0,0,0,0,2,2,0
+Colorado,Ouray,,0,0,0,0,0,0,0,0,0,2,2
+Michigan,Iosco,,0,0,0,0,0,0,0,0,1,2,1
+Illinois,Bond,,0,0,0,0,0,0,0,0,1,2,1
+Tennessee,Humphreys,,0,0,0,0,0,0,0,0,0,3,1
+South Dakota,Charles Mix,,0,0,0,0,0,0,1,0,0,1,2
+Virginia,Northumberland,,0,0,0,0,0,0,0,0,2,1,1
+Wyoming,Carbon,,0,0,0,0,0,0,0,1,2,1,0
+Texas,Palo Pinto,,0,0,0,0,0,0,0,0,0,1,3
+Illinois,Franklin,,0,0,0,0,0,0,0,0,2,-1,3
+Minnesota,Cass,,0,0,0,0,0,0,0,0,1,0,3
+Kentucky,Trigg,,0,0,0,0,0,0,0,0,0,0,4
+Colorado,Phillips,,0,0,0,0,0,0,0,0,0,3,1
+Ohio,Scioto,,0,0,0,0,0,0,0,0,0,0,4
+Michigan,Clare,,0,0,0,0,0,0,0,1,0,0,3
+Iowa,Plymouth,,0,0,0,0,0,0,0,0,0,4,0
+Georgia,Wayne,,0,0,0,0,0,0,0,0,0,1,3
+Alabama,Bullock,,0,0,0,0,0,0,0,0,3,-1,2
+Pennsylvania,Potter,,0,0,0,0,0,0,0,1,1,1,1
+Alabama,Winston,,0,0,0,0,0,0,0,0,2,1,1
+Virginia,Buena Vista city,,0,0,0,0,0,0,0,0,0,4,0
+Tennessee,Warren,,0,0,0,0,0,0,0,0,0,1,3
+Virginia,Pittsylvania,,0,0,0,0,0,0,0,0,1,1,2
+Virginia,Alleghany,,0,0,0,0,0,0,0,0,1,1,2
+Oklahoma,Cotton,,0,0,0,0,0,0,0,0,0,4,0
+Wisconsin,Waupaca,,0,0,0,0,0,0,0,0,1,1,2
+Maryland,Somerset,,0,0,0,0,0,0,0,1,0,3,0
+Iowa,Jackson,,0,0,0,0,0,0,0,0,0,3,1
+Maryland,Garrett,,0,0,0,0,0,0,0,0,3,0,1
+Georgia,Heard,,0,0,0,0,0,0,0,1,0,1,2
+Illinois,Clark,,0,0,0,0,0,0,0,0,0,2,2
+Tennessee,Benton,,0,0,0,0,0,0,0,0,3,1,0
+Michigan,Oscoda,,0,0,0,0,0,0,0,0,0,2,2
+Missouri,Chariton,,0,0,0,0,0,0,0,0,1,3,0
+Tennessee,Polk,,0,0,0,0,0,0,0,0,0,3,1
+Texas,Lavaca,,0,0,0,0,0,0,0,1,0,1,2
+Michigan,Mackinac,,0,0,0,0,0,0,0,0,0,2,2
+Oregon,Hood River,,0,0,0,0,0,0,0,0,2,0,2
+Colorado,Grand,,0,0,0,0,0,0,0,2,0,2,0
+Minnesota,Faribault,,0,0,0,0,0,0,0,0,1,2,1
+Kentucky,Bourbon,,0,0,0,0,0,0,1,1,0,2,0
+Arizona,La Paz,,0,0,0,0,0,0,0,0,2,1,1
+Idaho,Jefferson,,0,0,0,0,0,0,0,0,2,2,0
+Texas,Swisher,,0,0,0,0,0,0,0,0,1,0,3
+Oregon,Lincoln,,0,0,0,0,0,0,0,0,1,3,0
+Texas,Hopkins,,0,0,0,0,0,0,0,0,1,3,0
+Indiana,Wells,,0,0,0,0,0,0,1,0,0,1,2
+New Mexico,Otero,,0,0,0,0,0,0,0,0,0,3,1
+Florida,Washington,,0,0,0,0,0,0,0,0,1,0,3
+Texas,Tyler,,0,0,0,0,0,0,0,0,0,1,3
+California,Plumas,,0,0,0,0,0,0,0,0,0,3,1
+Kentucky,Grayson,,0,0,0,0,0,0,0,0,2,0,2
+Florida,Gilchrist,,0,0,0,0,0,0,0,0,0,0,4
+Georgia,Franklin,,0,0,0,0,0,0,0,0,2,3,-1
+South Dakota,Bon Homme,,0,0,0,0,0,0,1,0,0,0,3
+Mississippi,Jefferson,,0,0,0,0,0,0,0,0,1,2,1
+Kansas,Republic,,0,0,0,0,0,0,0,0,0,1,3
+North Carolina,Mitchell,,0,0,0,0,0,0,0,0,0,1,3
+Wyoming,Washakie,,0,0,0,0,0,0,0,0,1,3,0
+Nebraska,Colfax,,0,0,0,0,0,0,0,0,0,2,2
+Iowa,Mahaska,,0,0,0,0,0,0,0,0,2,1,1
+Oregon,Tillamook,,0,0,0,0,0,0,0,0,2,1,1
+Georgia,Candler,,0,0,0,0,0,0,0,0,1,1,2
+Virginia,Northampton,,0,0,0,0,0,0,0,0,1,1,2
+Kentucky,Pike,,0,0,0,0,0,0,0,0,0,1,3
+Virginia,Charlotte,,0,0,0,0,0,0,0,0,0,1,3
+West Virginia,Tucker,,0,0,0,0,0,0,0,2,0,1,1
+Utah,Millard,,0,0,0,0,0,0,0,0,0,1,3
+Minnesota,Isanti,,0,0,0,0,0,0,0,0,1,3,0
+Montana,Broadwater,,0,0,0,0,0,0,0,1,2,1,0
+California,Lake,,0,0,0,0,0,0,0,0,0,0,4
+Virginia,Tazewell,,0,0,0,0,0,0,0,0,1,1,2
+South Dakota,Roberts,,0,0,0,0,0,0,0,0,1,3,0
+Missouri,Osage,,0,0,0,0,0,0,0,0,0,3,1
+Missouri,Henry,,0,0,0,0,0,0,1,0,0,1,2
+Kentucky,Wayne,,0,0,0,0,0,0,0,0,1,3,0
+Texas,Jackson,,0,0,0,0,0,0,0,0,1,2,1
+Oklahoma,Latimer,,0,0,0,0,0,0,0,0,1,3,0
+West Virginia,Hampshire,,0,0,0,0,0,0,0,0,0,0,4
+Missouri,Webster,,0,0,0,0,0,0,0,0,0,3,1
+Michigan,Leelanau,,0,0,0,0,0,0,1,0,0,0,3
+Oregon,Malheur,,0,0,0,0,0,0,0,0,0,2,2
+West Virginia,Randolph,,0,0,0,0,0,0,0,0,0,3,1
+Missouri,Crawford,,0,0,0,0,0,0,0,0,0,3,1
+Missouri,Pemiscot,,0,0,0,0,0,0,0,0,1,2,1
+Texas,Blanco,,0,0,0,0,0,0,0,0,1,1,2
+Iowa,Des Moines,,0,0,0,0,0,0,0,0,1,0,3
+Arkansas,Baxter,,0,0,0,0,0,0,0,0,1,2,1
+Kansas,Osage,,0,0,0,0,0,0,0,0,1,2,1
+Wisconsin,Calumet,,0,0,0,0,0,0,0,1,0,3,0
+Tennessee,Grainger,,0,0,0,0,0,0,0,0,0,3,1
+Nebraska,York,,0,0,0,0,0,0,0,0,0,1,3
+Missouri,Cooper,,0,0,0,0,0,0,0,0,1,1,2
+Indiana,Jay,,0,0,0,0,0,0,0,0,0,3,1
+Minnesota,Watonwan,,0,0,0,0,0,0,0,0,0,4,0
+South Dakota,Union,,0,0,0,0,0,0,0,0,1,2,1
+Minnesota,Rice,,0,0,0,0,0,0,0,1,2,1,0
+Illinois,Shelby,,0,0,0,0,0,0,0,0,0,0,4
+Idaho,Owyhee,,0,0,0,0,0,0,0,0,1,1,2
+Michigan,Osceola,,0,0,0,0,0,0,0,0,2,2,0
+Wyoming,Uinta,,0,0,0,0,0,0,0,0,0,2,2
+West Virginia,Mineral,,0,0,0,0,0,0,0,0,0,2,2
+Iowa,Wapello,,0,0,0,0,0,0,0,0,1,0,3
+Illinois,Crawford,,0,0,0,0,0,0,0,0,0,3,1
+Tennessee,McMinn,,0,0,0,0,0,0,0,1,2,0,1
+Wisconsin,Vilas,,0,0,0,0,0,0,0,0,2,2,0
+Virginia,Greene,,0,0,0,0,0,0,0,0,1,2,1
+Michigan,Gladwin,,0,0,0,0,0,0,0,1,2,1,0
+Kentucky,Henry,,0,0,0,0,0,0,0,0,0,2,2
+Louisiana,West Carroll,,0,0,0,0,0,0,0,0,0,0,4
+North Carolina,Wilkes,,0,0,0,0,0,0,0,0,0,4,0
+Iowa,Jefferson,,0,0,0,0,0,0,0,0,0,3,1
+Virginia,Pulaski,,0,0,0,0,0,0,0,0,0,1,3
+Minnesota,Otter Tail,,0,0,0,0,0,0,0,0,1,0,3
+Michigan,Gogebic,,0,0,0,0,0,0,0,0,1,2,1
+Michigan,Ogemaw,,0,0,0,0,0,0,0,0,1,2,1
+Nebraska,Kearney,,0,0,0,0,0,0,0,0,1,1,1
+Tennessee,Bledsoe,,0,0,0,0,0,0,0,0,2,1,0
+Kansas,Miami,,0,0,0,0,0,0,0,0,1,1,1
+Iowa,Bremer,,0,0,0,0,0,0,0,0,0,2,1
+Kansas,Jewell,,0,0,0,0,0,0,0,0,0,1,2
+Arkansas,Boone,,0,0,0,0,0,0,0,1,0,2,0
+Kentucky,Taylor,,0,0,0,0,0,0,0,0,2,0,1
+Vermont,Grand Isle,,0,0,0,0,0,0,0,0,0,0,3
+Texas,Young,,0,0,0,0,0,0,0,0,1,2,0
+Maine,Unknown,,0,0,0,0,0,0,0,5,0,6,-8
+Arkansas,Phillips,,0,0,0,0,0,0,0,0,0,1,2
+Montana,Deer Lodge,,0,0,0,0,0,0,0,0,1,2,0
+Texas,Leon,,0,0,0,0,0,0,0,0,0,2,1
+Montana,Richland,,0,0,0,0,0,0,0,0,0,0,3
+Kentucky,Breckinridge,,0,0,0,0,0,0,0,0,2,0,1
+Georgia,Quitman,,0,0,0,0,0,0,0,0,0,1,2
+Mississippi,Sharkey,,0,0,0,0,0,0,0,0,1,2,0
+Minnesota,Renville,,0,0,0,0,0,0,1,0,0,1,1
+Wisconsin,Kewaunee,,0,0,0,0,0,0,0,0,0,0,3
+Oregon,Curry,,0,0,0,0,0,0,0,0,0,0,3
+Michigan,Dickinson,,0,0,0,0,0,0,0,0,0,1,2
+Utah,Duchesne,,0,0,0,0,0,0,0,0,0,1,2
+Virginia,Rockbridge,,0,0,0,0,0,0,0,0,2,1,0
+West Virginia,Greenbrier,,0,0,0,0,0,0,0,0,2,1,0
+Virginia,Scott,,0,0,0,0,0,0,0,0,0,0,3
+California,Glenn,,0,0,0,0,0,0,0,0,1,1,1
+North Dakota,Ramsey,,0,0,0,0,0,0,0,1,2,0,0
+Ohio,Athens,,0,0,0,0,0,0,0,0,3,0,0
+Virginia,Clarke,,0,0,0,0,0,0,0,0,0,2,1
+Tennessee,Houston,,0,0,0,0,0,0,0,1,1,0,1
+Missouri,Linn,,0,0,0,0,0,0,0,0,0,1,2
+South Dakota,Davison,,0,0,0,0,0,0,2,0,0,1,0
+Missouri,Vernon,,0,0,0,0,0,0,0,0,0,0,3
+South Carolina,McCormick,,0,0,0,0,0,0,0,0,0,1,2
+Kansas,Chautauqua,,0,0,0,0,0,0,0,0,0,3,0
+Kentucky,Larue,,0,0,0,0,0,0,0,0,1,2,0
+Arkansas,Columbia,,0,0,0,0,0,0,0,0,2,1,0
+Georgia,McIntosh,,0,0,0,0,0,0,0,0,0,2,1
+Tennessee,Cocke,,0,0,0,0,0,0,0,1,0,0,2
+Utah,Kane,,0,0,0,0,0,0,0,0,0,2,1
+Texas,Camp,,0,0,0,0,0,0,0,0,0,1,2
+Arizona,Gila,,0,0,0,0,0,0,0,0,1,2,0
+Texas,Eastland,,0,0,0,0,0,0,0,0,3,0,0
+Texas,Trinity,,0,0,0,0,0,0,0,0,0,2,1
+Idaho,Latah,,0,0,0,0,0,0,0,0,0,1,2
+Minnesota,Yellow Medicine,,0,0,0,0,0,0,0,0,0,1,2
+Iowa,Lyon,,0,0,0,0,0,0,0,0,0,2,1
+Missouri,DeKalb,,0,0,0,0,0,0,0,0,0,1,2
+Texas,Morris,,0,0,0,0,0,0,0,0,1,0,2
+Kansas,Marion,,0,0,0,0,0,0,0,0,0,2,1
+Oklahoma,Le Flore,,0,0,0,0,0,0,0,0,1,0,2
+Kentucky,Anderson,,0,0,0,0,0,0,0,1,1,1,0
+Kansas,Atchison,,0,0,0,0,0,0,0,0,0,2,1
+Illinois,Jasper,,0,0,0,0,0,0,0,0,0,3,0
+Indiana,Fulton,,0,0,0,0,0,0,0,0,1,1,1
+Kentucky,Breathitt,,0,0,0,0,0,0,0,1,1,0,1
+Illinois,Mason,,0,0,0,0,0,0,0,0,0,1,2
+Texas,Zapata,,0,0,0,0,0,0,0,0,0,0,3
+West Virginia,Tyler,,0,0,0,0,0,0,0,0,0,0,3
+Washington,Skamania,,0,0,0,0,0,0,0,0,1,0,2
+Virginia,Middlesex,,0,0,0,0,0,0,0,0,0,0,3
+Missouri,Stone,,0,0,0,0,0,0,0,0,0,3,0
+California,Colusa,,0,0,0,0,0,0,0,0,1,1,1
+Kentucky,Crittenden,,0,0,0,0,0,0,0,0,0,1,2
+Kansas,Woodson,,0,0,0,0,0,0,0,0,1,2,0
+Tennessee,Carter,,0,0,0,0,0,0,0,0,1,2,0
+Kentucky,Bath,,0,0,0,0,0,0,0,0,0,1,2
+West Virginia,Brooke,,0,0,0,0,0,0,0,0,0,0,3
+Texas,Oldham,,0,0,0,0,0,0,0,1,1,0,1
+Georgia,Clinch,,0,0,0,0,0,0,0,1,0,1,1
+Wisconsin,Marinette,,0,0,0,0,0,0,0,0,1,1,1
+Georgia,Towns,,0,0,0,0,0,0,0,0,0,1,2
+Wisconsin,Polk,,0,0,0,0,0,0,0,0,0,0,3
+Missouri,Moniteau,,0,0,0,0,0,0,0,0,4,0,-1
+Kentucky,Menifee,,0,0,0,0,0,0,0,0,2,1,0
+Indiana,Vermillion,,0,0,0,0,0,0,0,0,1,-1,3
+Michigan,Oceana,,0,0,0,0,0,0,0,0,2,1,0
+West Virginia,Wetzel,,0,0,0,0,0,0,0,0,1,1,1
+Iowa,Page,,0,0,0,0,0,0,0,0,2,0,1
+Ohio,Adams,,0,0,0,0,0,0,0,0,0,2,1
+Illinois,Logan,,0,0,0,0,0,0,0,0,0,1,2
+Missouri,Scotland,,0,0,0,0,0,0,0,0,0,0,3
+Tennessee,Perry,,0,0,0,0,0,0,0,1,1,1,0
+Wisconsin,Manitowoc,,0,0,0,0,0,0,0,0,0,3,0
+Tennessee,Meigs,,0,0,0,0,0,0,0,0,1,1,1
+Ohio,Williams,,0,0,0,0,0,0,0,0,0,1,2
+Wyoming,Crook,,0,0,0,0,0,0,0,0,0,1,2
+Kentucky,Pendleton,,0,0,0,0,0,0,0,0,0,2,1
+North Dakota,Walsh,,0,0,0,0,0,0,0,0,1,0,2
+Virginia,Surry,,0,0,0,0,0,0,0,0,0,3,0
+Alabama,Crenshaw,,0,0,0,0,0,0,0,0,1,1,1
+Wyoming,Goshen,,0,0,0,0,0,0,0,0,1,1,1
+Georgia,Chattahoochee,,0,0,0,0,0,0,0,0,1,1,1
+Georgia,Charlton,,0,0,0,0,0,0,1,0,0,1,1
+Virginia,Giles,,0,0,0,0,0,0,0,0,0,0,3
+Kentucky,Carter,,0,0,0,0,0,0,0,0,0,1,2
+Texas,Anderson,,0,0,0,0,0,0,0,0,0,1,2
+West Virginia,Taylor,,0,0,0,0,0,0,0,0,0,0,3
+Indiana,Warren,,0,0,0,0,0,0,0,0,2,0,1
+New York,Yates,,0,0,0,0,0,0,0,0,0,2,1
+New York,Hamilton,,0,0,0,0,0,0,0,2,0,0,1
+Nebraska,Cass,,0,0,0,0,0,0,1,0,1,0,1
+Missouri,Bollinger,,0,0,0,0,0,0,0,0,1,0,2
+Tennessee,Claiborne,,0,0,0,0,0,0,0,0,2,0,1
+Tennessee,Union,,0,0,0,0,0,0,0,0,1,0,2
+Missouri,Carter,,0,0,0,0,0,0,0,0,2,1,0
+Wisconsin,Buffalo,,0,0,0,0,0,0,0,0,0,2,1
+Minnesota,Waseca,,0,0,0,0,0,0,1,1,1,0,0
+Illinois,Effingham,,0,0,0,0,0,0,0,0,0,1,2
+Kansas,Ottawa,,0,0,0,0,0,0,0,0,1,2,0
+Texas,Llano,,0,0,0,0,0,0,0,0,2,1,0
+Georgia,Hancock,,0,0,0,0,0,0,0,0,0,0,3
+Texas,Lampasas,,0,0,0,0,0,0,0,0,0,1,2
+North Carolina,Chowan,,0,0,0,0,0,0,0,0,0,1,2
+Virginia,Lunenburg,,0,0,0,0,0,0,0,0,0,0,3
+Wisconsin,Crawford,,0,0,0,0,0,0,0,0,0,2,1
+Texas,Clay,,0,0,0,0,0,0,0,0,0,3,0
+Indiana,Perry,,0,0,0,0,0,0,0,0,0,0,3
+Missouri,Benton,,0,0,0,0,0,0,0,0,1,2,0
+North Carolina,Clay,,0,0,0,0,0,0,0,0,0,3,0
+North Carolina,Warren,,0,0,0,0,0,0,0,0,0,2,1
+Ohio,Holmes,,0,0,0,0,0,0,0,0,0,1,2
+Virginia,Lexington city,,0,0,0,0,0,0,0,0,0,3,0
+Texas,Live Oak,,0,0,0,0,0,0,0,0,0,3,0
+North Carolina,Haywood,,0,0,0,0,0,0,0,0,0,2,1
+Indiana,Spencer,,0,0,0,0,0,0,0,0,0,1,2
+Illinois,Saline,,0,0,0,0,0,0,0,0,0,1,2
+Kentucky,Washington,,0,0,0,0,0,0,0,0,2,1,0
+Tennessee,Giles,,0,0,0,0,0,0,0,0,0,3,0
+Missouri,Ripley,,0,0,0,0,0,0,0,0,2,0,1
+North Carolina,Caswell,,0,0,0,0,0,0,0,0,1,1,1
+Virginia,Brunswick,,0,0,0,0,0,0,0,0,0,1,2
+Wisconsin,Lafayette,,0,0,0,0,0,0,0,0,0,0,3
+Nebraska,Cheyenne,,0,0,0,0,0,0,0,0,0,0,3
+Georgia,Webster,,0,0,0,0,0,0,0,0,0,2,1
+West Virginia,Upshur,,0,0,0,0,0,0,0,0,1,0,2
+Georgia,Hart,,0,0,0,0,0,0,0,0,1,2,0
+Florida,Hardee,,0,0,0,0,0,0,0,0,0,2,1
+Missouri,Pettis,,0,0,0,0,0,0,0,0,1,1,1
+Iowa,Marion,,0,0,0,0,0,0,0,0,0,0,3
+Kentucky,Perry,,0,0,0,0,0,0,0,0,0,3,0
+Colorado,Saguache,,0,0,0,0,0,0,0,0,0,3,0
+Arkansas,Crawford,,0,0,0,0,0,0,0,0,2,1,0
+Wisconsin,Bayfield,,0,0,0,0,0,0,0,1,1,1,0
+Oklahoma,McCurtain,,0,0,0,0,0,0,0,0,0,1,2
+North Carolina,Currituck,,0,0,0,0,0,0,0,0,1,1,1
+Hawaii,Unknown,,0,0,0,0,0,0,0,0,10,0,-7
+Montana,Ravalli,,0,0,0,0,0,0,0,1,0,1,1
+North Dakota,Slope,,0,0,0,0,0,0,0,0,0,1,2
+Montana,Glacier,,0,0,0,0,0,0,0,0,0,1,2
+Texas,McCulloch,,0,0,0,0,0,0,0,0,0,0,3
+Georgia,Crawford,,0,0,0,0,0,0,0,0,0,1,2
+Wisconsin,Oconto,,0,0,0,0,0,0,0,0,0,1,2
+Texas,Comanche,,0,0,0,0,0,0,0,0,0,1,2
+Nebraska,Franklin,,0,0,0,0,0,0,0,0,0,0,3
+Georgia,Elbert,,0,0,0,0,0,0,0,0,0,1,2
+Kansas,Cloud,,0,0,0,0,0,0,0,0,0,1,2
+Iowa,Hancock,,0,0,0,0,0,0,0,0,3,0,0
+Virginia,Carroll,,0,0,0,0,0,0,0,0,0,1,2
+Idaho,Idaho,,0,0,0,0,0,0,0,0,1,1,1
+Oklahoma,Bryan,,0,0,0,0,0,0,0,0,1,2,0
+South Dakota,Jerauld,,0,0,0,0,0,0,0,0,0,0,3
+Colorado,Moffat,,0,0,0,0,0,0,0,0,2,2,-1
+Mississippi,Tallahatchie,,0,0,0,0,0,0,0,0,2,1,0
+Indiana,White,,0,0,0,0,0,0,0,0,1,2,0
+Oklahoma,Texas,,0,0,0,0,0,0,0,0,1,1,1
+Missouri,McDonald,,0,0,0,0,0,0,0,0,1,2,0
+Iowa,O'Brien,,0,0,0,0,0,0,0,0,0,3,0
+Montana,Roosevelt,,0,0,0,0,0,0,0,1,0,0,2
+Tennessee,White,,0,0,0,0,0,0,0,0,1,1,1
+Colorado,Costilla,,0,0,0,0,0,0,0,0,1,2,0
+Indiana,Fountain,,0,0,0,0,0,0,0,0,1,1,1
+Wisconsin,Rusk,,0,0,0,0,0,0,0,0,0,3,0
+South Dakota,Spink,,0,0,0,0,0,0,0,0,0,3,0
+Colorado,Mineral,,0,0,0,0,0,0,0,0,1,1,0
+Kansas,Osborne,,0,0,0,0,0,0,0,0,0,2,0
+Texas,Robertson,,0,0,0,0,0,0,0,0,2,0,0
+Minnesota,McLeod,,0,0,0,0,0,0,0,0,0,1,1
+Iowa,Hamilton,,0,0,0,0,0,0,0,0,0,1,1
+Texas,Gonzales,,0,0,0,0,0,0,0,0,0,1,1
+Wisconsin,Iron,,0,0,0,0,0,0,0,0,1,0,1
+Virginia,King William,,0,0,0,0,0,0,0,0,0,2,0
+Nebraska,Cuming,,0,0,0,0,0,0,0,0,0,2,0
+North Dakota,Burke,,0,0,0,0,0,0,0,0,0,2,0
+Arkansas,Carroll,,0,0,0,0,0,0,0,0,0,1,1
+Illinois,Knox,,0,0,0,0,0,0,0,0,1,0,1
+Texas,Kleberg,,0,0,0,0,0,0,0,0,1,1,0
+West Virginia,Hardy,,0,0,0,0,0,0,0,0,0,2,0
+Minnesota,Kandiyohi,,0,0,0,0,0,0,0,0,1,1,0
+Michigan,Mason,,0,0,0,0,0,0,0,0,0,0,2
+Tennessee,Lewis,,0,0,0,0,0,0,0,0,2,0,0
+Virginia,Mathews,,0,0,0,0,0,0,0,0,2,0,0
+Missouri,Dallas,,0,0,0,0,0,0,0,0,0,0,2
+Illinois,Massac,,0,0,0,0,0,0,0,0,0,2,0
+Oklahoma,Love,,0,0,0,0,0,0,0,0,0,2,0
+Missouri,St. Clair,,0,0,0,0,0,0,0,0,0,0,2
+Minnesota,Rock,,0,0,0,0,0,0,0,0,0,0,2
+Mississippi,Tishomingo,,0,0,0,0,0,0,0,0,0,1,1
+Kentucky,Hancock,,0,0,0,0,0,0,0,0,0,2,0
+West Virginia,Nicholas,,0,0,0,0,0,0,0,0,0,0,2
+Missouri,Gasconade,,0,0,0,0,0,0,0,0,0,2,0
+South Dakota,Lyman,,0,0,0,0,0,0,0,0,1,0,1
+Colorado,Crowley,,0,0,0,0,0,0,0,1,0,0,1
+Illinois,Warren,,0,0,0,0,0,0,0,0,0,0,2
+Nebraska,Dakota,,0,0,0,0,0,0,0,0,0,0,2
+California,Alpine,,0,0,0,0,0,0,0,0,0,1,1
+Arizona,Greenlee,,0,0,0,0,0,0,0,0,0,1,1
+Illinois,De Witt,,0,0,0,0,0,0,0,0,0,2,0
+Wisconsin,Adams,,0,0,0,0,0,0,0,0,0,1,1
+Texas,Hamilton,,0,0,0,0,0,0,0,0,0,0,2
+Illinois,Washington,,0,0,0,0,0,0,0,1,0,0,1
+Texas,Jim Wells,,0,0,0,0,0,0,0,0,0,2,0
+Missouri,Barry,,0,0,0,0,0,0,0,0,1,0,1
+Florida,Unknown,,0,0,0,0,0,0,0,1,0,3,-2
+Illinois,Menard,,0,0,0,0,0,0,0,0,1,0,1
+Virginia,Buchanan,,0,0,0,0,0,0,0,0,0,0,2
+Illinois,Wabash,,0,0,0,0,0,0,0,0,0,0,2
+Indiana,Benton,,0,0,0,0,0,0,0,0,0,0,2
+Idaho,Bingham,,0,0,0,0,0,0,0,1,0,1,0
+Georgia,Echols,,0,0,0,0,0,0,0,0,0,0,2
+Oklahoma,Choctaw,,0,0,0,0,0,0,0,0,1,1,0
+Kentucky,Clinton,,0,0,0,0,0,0,0,0,0,1,1
+Louisiana,Cameron,,0,0,0,0,0,0,0,0,0,0,2
+Nebraska,Polk,,0,0,0,0,0,0,0,0,0,0,2
+Illinois,Cumberland,,0,0,0,0,0,0,1,0,0,0,1
+Florida,Hamilton,,0,0,0,0,0,0,0,0,0,0,2
+Kentucky,Meade,,0,0,0,0,0,0,0,0,0,2,0
+Kansas,Morris,,0,0,0,0,0,0,0,2,0,0,0
+Wisconsin,Ashland,,0,0,0,0,0,0,0,0,0,1,1
+Iowa,Osceola,,0,0,0,0,0,0,0,0,0,0,2
+Michigan,Presque Isle,,0,0,0,0,0,0,0,0,0,0,2
+Georgia,Atkinson,,0,0,0,0,0,0,0,0,0,0,2
+Kansas,Scott,,0,0,0,0,0,0,0,0,0,0,2
+Tennessee,Henderson,,0,0,0,0,0,0,0,0,0,1,1
+Wyoming,Hot Springs,,0,0,0,0,0,0,0,0,1,0,1
+Washington,Lincoln,,0,0,0,0,0,0,1,0,0,0,1
+Illinois,Lawrence,,0,0,0,0,0,0,0,0,0,0,2
+Colorado,Yuma,,0,0,0,0,0,0,0,1,1,0,0
+Washington,Wahkiakum,,0,0,0,0,0,0,0,0,0,2,0
+Idaho,Custer,,0,0,0,0,0,0,0,0,1,1,0
+Colorado,Custer,,0,0,0,0,0,0,0,0,0,2,0
+Missouri,Reynolds,,0,0,0,0,0,0,0,0,0,2,0
+Maine,Aroostook,,0,0,0,0,0,0,0,0,0,1,1
+Michigan,Schoolcraft,,0,0,0,0,0,0,0,0,0,0,2
+Texas,Dickens,,0,0,0,0,0,0,0,0,0,0,2
+Tennessee,Hickman,,0,0,0,0,0,0,0,0,0,2,0
+New Mexico,Lea,,0,0,0,0,0,0,0,1,1,0,0
+Tennessee,Johnson,,0,0,0,0,0,0,0,0,2,0,0
+Texas,Gillespie,,0,0,0,0,0,0,0,0,0,2,0
+Utah,Carbon,,0,0,0,0,0,0,0,0,0,1,1
+North Dakota,Dunn,,0,0,0,0,0,0,0,0,1,0,1
+West Virginia,Roane,,0,0,0,0,0,0,0,0,0,2,0
+Iowa,Madison,,0,0,0,0,0,0,0,0,0,1,1
+Kentucky,Fleming,,0,0,0,0,0,0,0,0,0,0,2
+California,Del Norte,,0,0,0,0,0,0,0,0,0,2,0
+Texas,Newton,,0,0,0,0,0,0,0,0,0,1,1
+Arkansas,Lee,,0,0,0,0,0,0,0,0,0,2,0
+Texas,Aransas,,0,0,0,0,0,0,0,0,0,1,1
+Florida,Franklin,,0,0,0,0,0,0,0,0,0,2,0
+Tennessee,Clay,,0,0,0,0,0,0,0,0,0,1,1
+New Mexico,Luna,,0,0,0,0,0,0,0,0,0,0,2
+Montana,Jefferson,,0,0,0,0,0,0,0,0,2,0,0
+Texas,Karnes,,0,0,0,0,0,0,0,0,2,0,0
+Arkansas,Prairie,,0,0,0,0,0,0,0,0,0,2,0
+Kentucky,Cumberland,,0,0,0,0,0,0,0,0,0,1,1
+Wisconsin,Waushara,,0,0,0,0,0,0,0,0,0,0,2
+Iowa,Keokuk,,0,0,0,0,0,0,0,0,1,1,0
+Iowa,Delaware,,0,0,0,0,0,0,0,0,0,0,2
+Nebraska,Clay,,0,0,0,0,0,0,0,0,0,0,2
+Wisconsin,Marquette,,0,0,0,0,0,0,0,0,0,2,0
+Minnesota,Clearwater,,0,0,0,0,0,0,0,0,1,1,0
+Arkansas,Monroe,,0,0,0,0,0,0,0,0,0,1,1
+Illinois,Moultrie,,0,0,0,0,0,0,0,0,0,1,1
+Minnesota,Todd,,0,0,0,0,0,0,0,0,0,0,2
+Texas,Martin,,0,0,0,0,0,0,0,0,1,0,1
+Utah,Emery,,0,0,0,0,0,0,0,0,0,1,1
+Iowa,Webster,,0,0,0,0,0,0,0,0,1,0,1
+Pennsylvania,Elk,,0,0,0,0,0,0,0,0,0,0,2
+Kansas,Cowley,,0,0,0,0,0,0,0,0,0,1,1
+New Hampshire,Coos,,0,0,0,0,0,0,0,0,0,1,1
+Louisiana,Madison,,0,0,0,0,0,0,0,0,1,0,1
+Utah,Juab,,0,0,0,0,0,0,0,0,0,1,1
+Texas,Hutchinson,,0,0,0,0,0,0,0,0,0,2,0
+Florida,Holmes,,0,0,0,0,0,0,0,0,0,1,1
+Florida,Union,,0,0,0,0,0,0,0,0,0,2,0
+Kentucky,Owsley,,0,0,0,0,0,0,0,0,0,0,2
+Kansas,Sumner,,0,0,0,0,0,0,0,0,1,1,0
+Tennessee,Hardin,,0,0,0,0,0,0,0,0,1,1,0
+Texas,Montague,,0,0,0,0,0,0,0,0,1,0,1
+Tennessee,Wayne,,0,0,0,0,0,0,0,0,0,2,0
+Ohio,Monroe,,0,0,0,0,0,0,0,0,0,2,0
+Mississippi,Greene,,0,0,0,0,0,0,0,0,0,0,2
+Texas,Jones,,0,0,0,0,0,0,0,0,0,0,2
+North Carolina,Bladen,,0,0,0,0,0,0,0,0,1,0,1
+Kentucky,Lewis,,0,0,0,0,0,0,0,0,1,1,0
+Florida,Dixie,,0,0,0,0,0,0,0,0,0,1,1
+Pennsylvania,Jefferson,,0,0,0,0,0,0,0,0,0,0,2
+Minnesota,Lincoln,,0,0,0,0,0,0,0,0,1,0,1
+Missouri,Maries,,0,0,0,0,0,0,0,0,0,2,0
+Minnesota,Becker,,0,0,0,0,0,0,0,0,0,0,2
+Ohio,Morgan,,0,0,0,0,0,0,0,0,0,0,2
+North Carolina,Alleghany,,0,0,0,0,0,0,0,0,1,1,0
+Tennessee,Fentress,,0,0,0,0,0,0,0,0,0,2,0
+Iowa,Chickasaw,,0,0,0,0,0,0,0,0,0,0,2
+Ohio,Jackson,,0,0,0,0,0,0,0,0,0,0,2
+Nebraska,Merrick,,0,0,0,0,0,0,0,0,0,2,0
+Arkansas,Sharp,,0,0,0,0,0,0,0,0,0,1,1
+Kentucky,Allen,,0,0,0,0,0,0,0,1,0,2,-1
+Arkansas,Pike,,0,0,0,0,0,0,0,0,3,-1,0
+Idaho,Power,,0,0,0,0,0,0,0,0,0,0,2
+Texas,Kerr,,0,0,0,0,0,0,0,0,0,2,0
+West Virginia,Wirt,,0,0,0,0,0,0,0,0,1,0,1
+South Dakota,Lake,,0,0,0,0,0,0,0,0,0,1,1
+Illinois,Mercer,,0,0,0,0,0,0,0,0,0,2,0
+Kansas,Mitchell,,0,0,0,0,0,0,0,1,2,-1,0
+Iowa,Clay,,0,0,0,0,0,0,0,0,0,2,0
+Colorado,Washington,,0,0,0,0,0,0,0,0,1,0,1
+Minnesota,Itasca,,0,0,0,0,0,0,0,0,0,2,0
+Iowa,Clarke,,0,0,0,0,0,0,0,0,0,1,1
+Pennsylvania,McKean,,0,0,0,0,0,0,0,0,1,0,1
+Ohio,Hocking,,0,0,0,0,0,0,0,0,0,0,2
+Oklahoma,Grant,,0,0,0,0,0,0,0,0,0,1,1
+Georgia,Wheeler,,0,0,0,0,0,0,0,0,1,0,1
+North Carolina,Alexander,,0,0,0,0,0,0,0,0,0,2,0
+Arizona,Graham,,0,0,0,0,0,0,1,1,0,0,0
+Minnesota,Meeker,,0,0,0,0,0,0,0,0,0,1,1
+Kansas,Neosho,,0,0,0,0,0,0,0,0,1,0,1
+Iowa,Winnebago,,0,0,0,0,0,0,0,0,0,0,2
+Ohio,Van Wert,,0,0,0,0,0,0,0,0,1,1,0
+Wisconsin,Florence,,0,0,0,0,0,0,0,0,0,1,1
+South Dakota,Hutchinson,,0,0,0,0,0,0,0,0,2,0,0
+Arkansas,Lafayette,,0,0,0,0,0,0,0,0,0,2,0
+North Carolina,Macon,,0,0,0,0,0,0,0,0,0,1,1
+North Dakota,Pierce,,0,0,0,0,0,0,0,2,0,0,0
+Arkansas,Perry,,0,0,0,0,0,0,0,0,1,1,0
+Iowa,Buena Vista,,0,0,0,0,0,0,0,0,0,0,2
+Kansas,Stevens,,0,0,0,0,0,0,0,0,1,0,1
+Texas,Bandera,,0,0,0,0,0,0,0,0,0,0,2
+Texas,Bee,,0,0,0,0,0,0,0,0,0,0,2
+North Dakota,Richland,,0,0,0,0,0,0,0,0,0,0,2
+Virginia,Craig,,0,0,0,0,0,0,0,0,0,0,2
+West Virginia,Lewis,,0,0,0,0,0,0,0,0,0,0,2
+Minnesota,Traverse,,0,0,0,0,0,0,0,0,0,2,0
+Kansas,Rooks,,0,0,0,0,0,0,0,0,0,0,2
+South Dakota,McCook,,0,0,0,0,0,0,1,0,1,0,0
+Arkansas,Arkansas,,0,0,0,0,0,0,0,0,1,0,1
+Idaho,Valley,,0,0,0,0,0,0,0,1,0,1,0
+Idaho,Fremont,,0,0,0,0,0,0,0,0,1,0,1
+Wisconsin,Wood,,0,0,0,0,0,0,0,1,1,0,0
+North Dakota,McLean,,0,0,0,0,0,0,0,0,2,0,0
+West Virginia,Fayette,,0,0,0,0,0,0,0,0,0,0,2
+Kentucky,Carroll,,0,0,0,0,0,0,0,0,1,1,0
+North Dakota,Barnes,,0,0,0,0,0,0,0,0,2,0,0
+Georgia,Montgomery,,0,0,0,0,0,0,0,0,0,0,2
+Georgia,Dade,,0,0,0,0,0,0,0,0,0,1,1
+Georgia,Twiggs,,0,0,0,0,0,0,0,1,1,0,0
+Texas,Scurry,,0,0,0,0,0,0,0,0,0,0,2
+Arkansas,Logan,,0,0,0,0,0,0,0,0,0,0,2
+Texas,Crane,,0,0,0,0,0,0,0,1,0,1,0
+Kentucky,Monroe,,0,0,0,0,0,0,0,0,0,1,1
+Missouri,Macon,,0,0,0,0,0,0,0,0,0,2,0
+Colorado,Hinsdale,,0,0,0,0,0,0,0,1,0,0,1
+Virginia,King and Queen,,0,0,0,0,0,0,0,0,0,1,1
+Nebraska,Knox,,0,0,0,0,0,0,0,2,0,0,0
+Iowa,Mitchell,,0,0,0,0,0,0,0,0,0,2,0
+Colorado,Las Animas,,0,0,0,0,0,0,0,0,0,1,1
+Texas,Lee,,0,0,0,0,0,0,0,0,0,2,0
+Kentucky,Ballard,,0,0,0,0,0,0,0,0,0,0,2
+Missouri,Nodaway,,0,0,0,0,0,0,0,0,0,1,1
+West Virginia,Boone,,0,0,0,0,0,0,0,0,0,0,1
+Missouri,Atchison,,0,0,0,0,0,0,0,0,1,0,0
+Arkansas,Izard,,0,0,0,0,0,0,0,0,0,0,1
+Iowa,Guthrie,,0,0,0,0,0,0,0,0,0,1,0
+Texas,Dallam,,0,0,0,0,0,0,0,0,0,0,1
+Oregon,Sherman,,0,0,0,0,0,0,0,0,0,1,0
+Oklahoma,Carter,,0,0,0,0,0,0,0,0,1,0,0
+Illinois,McDonough,,0,0,0,0,0,0,0,0,0,0,1
+Kansas,Pratt,,0,0,0,0,0,0,0,0,0,1,0
+Alaska,Petersburg Borough,,0,0,0,0,0,0,0,0,0,1,0
+Texas,Stephens,,0,0,0,0,0,0,0,0,0,0,1
+Kansas,Stafford,,0,0,0,0,0,0,0,0,1,0,0
+Missouri,Caldwell,,0,0,0,0,0,0,0,0,0,1,0
+Minnesota,Mahnomen,,0,0,0,0,0,0,0,0,1,0,0
+Iowa,Howard,,0,0,0,0,0,0,0,0,0,1,0
+Alaska,Bethel Census Area,,0,0,0,0,0,0,0,0,0,0,1
+Minnesota,Redwood,,0,0,0,0,0,0,0,0,0,0,1
+Nebraska,Stanton,,0,0,0,0,0,0,0,0,0,0,1
+Virginia,Covington city,,0,0,0,0,0,0,0,0,0,1,0
+Kentucky,Nicholas,,0,0,0,0,0,0,0,0,1,0,0
+Missouri,Shelby,,0,0,0,0,0,0,0,0,1,0,0
+Illinois,Marshall,,0,0,0,0,0,0,0,0,1,0,0
+Iowa,Taylor,,0,0,0,0,0,0,0,0,1,0,0
+Idaho,Caribou,,0,0,0,0,0,0,0,0,0,1,0
+Virginia,Bristol city,,0,0,0,0,0,0,0,0,1,0,0
+Pennsylvania,Fulton,,0,0,0,0,0,0,0,0,0,1,0
+Virginia,Radford city,,0,0,0,0,0,0,0,0,1,0,0
+Minnesota,Nobles,,0,0,0,0,0,0,0,0,0,0,1
+Iowa,Worth,,0,0,0,0,0,0,0,0,0,0,1
+Wisconsin,Menominee,,0,0,0,0,0,0,0,0,0,1,0
+Missouri,Howard,,0,0,0,0,0,0,0,0,0,0,1
+Pennsylvania,Sullivan,,0,0,0,0,0,0,0,0,0,1,0
+South Dakota,Miner,,0,0,0,0,0,0,0,0,0,0,1
+North Dakota,Sargent,,0,0,0,0,0,0,0,0,0,0,1
+Virginia,Floyd,,0,0,0,0,0,0,0,0,0,0,1
+West Virginia,Mingo,,0,0,0,0,0,0,0,0,0,0,1
+Iowa,Grundy,,0,0,0,0,0,0,0,0,0,1,0
+Virginia,Galax city,,0,0,0,0,0,0,0,0,1,0,0
+Nebraska,Gosper,,0,0,0,0,0,0,0,0,1,0,0
+Iowa,Audubon,,0,0,0,0,0,0,0,0,0,1,0
+Iowa,Butler,,0,0,0,0,0,0,0,0,1,0,0
+Texas,Winkler,,0,0,0,0,0,0,0,0,0,0,1
+Missouri,Clark,,0,0,0,0,0,0,0,0,0,1,0
+Nebraska,Phelps,,0,0,0,0,0,0,0,0,0,1,0
+Iowa,Dickinson,,0,0,0,0,0,0,0,0,1,0,0
+Kansas,Morton,,0,0,0,0,0,0,0,0,0,0,1
+Arkansas,Dallas,,0,0,0,0,0,0,0,0,0,1,0
+Texas,Floyd,,0,0,0,0,0,0,0,0,0,0,1
+Texas,Hemphill,,0,0,0,0,0,0,0,0,0,1,0
+Indiana,Pike,,0,0,0,0,0,0,0,0,0,0,1
+Texas,Mitchell,,0,0,0,0,0,0,0,0,0,0,1
+Virginia,Lancaster,,0,0,0,0,0,0,0,0,1,0,0
+Oklahoma,Tillman,,0,0,0,0,0,0,0,0,0,1,0
+North Dakota,Foster,,0,0,0,0,0,0,0,0,1,0,0
+Iowa,Lee,,0,0,0,0,0,0,0,0,0,1,0
+Missouri,Iron,,0,0,0,0,0,0,0,0,0,0,1
+Montana,Stillwater,,0,0,0,0,0,0,0,0,0,0,1
+Alabama,Geneva,,0,0,0,0,0,0,0,0,0,0,1
+Iowa,Wright,,0,0,0,0,0,0,0,0,1,0,0
+Texas,Crosby,,0,0,0,0,0,0,0,0,0,0,1
+Idaho,Washington,,0,0,0,0,0,0,0,0,0,1,0
+Kansas,Phillips,,0,0,0,0,0,0,0,0,0,0,1
+Texas,Lamb,,0,0,0,0,0,0,0,0,1,0,0
+Alaska,Yukon-Koyukuk Census Area,,0,0,0,0,0,0,0,0,0,1,0
+Texas,Howard,,0,0,0,0,0,0,0,0,0,0,1
+New Mexico,Catron,,0,0,0,0,0,0,0,0,0,1,0
+West Virginia,Summers,,0,0,0,0,0,0,0,0,0,0,1
+Texas,Knox,,0,0,0,0,0,0,0,0,0,0,1
+Wyoming,Big Horn,,0,0,0,0,0,0,0,0,0,0,1
+Nebraska,Cherry,,0,0,0,0,0,0,0,0,0,1,0
+Virginia,Fairfax city,,0,0,0,0,0,0,0,0,1,-1,1
+New Hampshire,Unknown,,0,0,0,0,0,0,0,0,0,6,-5
+Tennessee,Unicoi,,0,0,0,0,0,0,0,0,1,0,0
+Oklahoma,Woodward,,0,0,0,0,0,0,0,0,0,1,0
+Missouri,Worth,,0,0,0,0,0,0,0,0,0,0,1
+Missouri,Morgan,,0,0,0,0,0,0,0,0,0,1,0
+Missouri,Phelps,,0,0,0,0,0,0,0,0,0,0,1
+Texas,Franklin,,0,0,0,0,0,0,0,0,1,0,0
+Missouri,Madison,,0,0,0,0,0,0,0,0,0,0,1
+West Virginia,Pleasants,,0,0,0,0,0,0,0,0,1,0,0
+Michigan,Menominee,,0,0,0,0,0,0,0,0,0,0,1
+Arkansas,Scott,,0,0,0,0,0,0,0,0,0,1,0
+Missouri,Andrew,,0,0,0,0,0,0,0,0,0,0,1
+Kansas,Barber,,0,0,0,0,0,0,0,0,0,0,1
+Texas,Sabine,,0,0,0,0,0,0,0,0,0,0,1
+Nebraska,Box Butte,,0,0,0,0,0,0,0,0,0,0,1
+Utah,Garfield,,0,0,0,0,0,0,0,0,1,0,0
+Minnesota,Murray,,0,0,0,0,0,0,0,0,0,0,1
+Oklahoma,Jefferson,,0,0,0,0,0,0,0,0,0,0,1
+Kansas,Gove,,0,0,0,0,0,0,0,0,1,0,0
+Arkansas,Nevada,,0,0,0,0,0,0,0,0,1,0,0
+Nebraska,Otoe,,0,0,0,0,0,0,0,0,0,1,0
+West Virginia,Monroe,,0,0,0,0,0,0,0,0,0,0,1
+Arkansas,Yell,,0,0,0,0,0,0,0,0,0,1,0
+Indiana,Pulaski,,0,0,0,0,0,0,0,0,0,0,1
+California,Tuolumne,,0,0,0,0,0,0,0,0,1,0,0
+New Mexico,San Miguel,,0,0,0,0,0,0,0,1,0,0,0
+Nebraska,Burt,,0,0,0,0,0,0,0,0,0,0,1
+Virginia,Rappahannock,,0,0,0,0,0,0,0,0,0,0,1
+South Dakota,Corson,,0,0,0,0,0,0,0,0,0,0,1
+Kentucky,Gallatin,,0,0,0,0,0,0,0,0,0,0,1
+Wyoming,Park,,0,0,0,0,0,0,0,1,0,0,0
+Georgia,Jeff Davis,,0,0,0,0,0,0,0,0,0,0,1
+Virginia,Russell,,0,0,0,0,0,0,0,0,0,0,1
+Texas,Callahan,,0,0,0,0,0,0,0,0,0,0,1
+Wisconsin,Trempealeau,,0,0,0,0,0,0,0,0,0,1,0
+Kansas,Doniphan,,0,0,0,0,0,0,0,0,1,0,0
+Alaska,Prince of Wales-Hyder Census Area,,0,0,0,0,0,0,0,0,0,0,1
+Illinois,Stark,,0,0,0,0,0,0,0,0,0,0,1
+Iowa,Adair,,0,0,0,0,0,0,0,1,0,0,0
+Utah,Grand,,0,0,0,0,0,0,0,0,0,1,0
+Arkansas,Madison,,0,0,0,0,0,0,0,0,0,0,1
+Minnesota,Benton,,0,0,0,0,0,0,0,1,0,0,0
+South Dakota,Sanborn,,0,0,0,0,0,0,0,0,0,0,1
+Colorado,Gilpin,,0,0,0,0,0,0,0,0,0,0,1
+Florida,Lafayette,,0,0,0,0,0,0,0,0,0,0,1
+Montana,Golden Valley,,0,0,0,0,0,0,0,0,0,0,1
+New Mexico,Quay,,0,0,0,0,0,0,0,0,0,0,1
+Wyoming,Sublette,,0,0,0,0,0,0,0,0,1,0,0
+Nebraska,Antelope,,0,0,0,0,0,0,0,0,0,1,0
+Texas,Concho,,0,0,0,0,0,0,0,0,0,0,1
+Nebraska,Johnson,,0,0,0,0,0,0,0,0,0,1,0
+Oklahoma,Atoka,,0,0,0,0,0,0,0,0,0,1,0
+Arkansas,Clay,,0,0,0,0,0,0,0,0,0,0,1
+West Virginia,Braxton,,0,0,0,0,0,0,0,0,0,0,1
+Kentucky,Knox,,0,0,0,0,0,0,0,0,0,0,1
+Texas,Pecos,,0,0,0,0,0,0,0,0,0,0,1
+Minnesota,Jackson,,0,0,0,0,0,0,0,1,0,0,0
+Wyoming,Niobrara,,0,0,0,0,0,0,0,0,0,0,1
+Nebraska,Seward,,0,0,0,0,0,0,0,0,0,1,0
+North Dakota,McIntosh,,0,0,0,0,0,0,0,0,1,0,0
+Kansas,Stanton,,0,0,0,0,0,0,0,0,0,0,1
+West Virginia,Wyoming,,0,0,0,0,0,0,0,0,0,0,1
+Montana,Liberty,,0,0,0,0,0,0,0,0,0,1,0
+Kentucky,Hart,,0,0,0,0,0,0,0,0,0,0,1
+South Dakota,Faulk,,0,0,0,0,0,0,0,0,1,0,0
+Washington,Columbia,,0,0,0,0,0,0,1,0,0,0,0
+Michigan,Chippewa,,0,0,0,0,0,0,0,0,1,1,-1
+Oregon,Grant,,0,0,0,0,0,0,0,1,0,0,0
+South Dakota,Oglala Lakota,,0,0,0,0,0,0,0,0,0,0,1
+Iowa,Appanoose,,0,0,0,0,0,0,0,0,1,0,0
+South Dakota,Aurora,,0,0,0,0,0,0,0,0,1,0,0
+Oklahoma,Beckham,,0,0,0,0,0,0,0,0,0,1,0
+Michigan,Houghton,,0,0,0,0,0,0,0,0,0,1,0
+Texas,Mason,,0,0,0,0,0,0,0,0,0,1,0
+Missouri,Oregon,,0,0,0,0,0,0,0,0,0,0,1
+Texas,Hansford,,0,0,0,0,0,0,0,0,0,0,1
+Idaho,Boundary,,0,0,0,0,0,0,0,0,0,0,1
+Vermont,Essex,,0,0,0,0,0,0,0,0,0,0,1
+Iowa,Union,,0,0,0,0,0,0,0,0,0,0,1
+Texas,Gaines,,0,0,0,0,0,0,0,0,1,0,0
+New Mexico,Colfax,,0,0,0,0,0,0,0,0,0,0,1
+Iowa,Franklin,,0,0,0,0,0,0,0,0,0,0,1
+Texas,Falls,,0,0,0,0,0,0,0,0,1,0,0
+Texas,Jack,,0,0,0,0,0,0,0,0,0,0,1
+Montana,Hill,,0,0,0,0,0,0,0,0,1,0,0
+Arkansas,Woodruff,,0,0,0,0,0,0,0,0,1,0,0
+Washington,Pend Oreille,,0,0,0,0,0,0,0,0,0,1,0
+Colorado,Prowers,,0,0,0,0,0,0,0,0,0,0,1
+Montana,Big Horn,,0,0,0,0,0,0,0,0,0,0,1
+Kansas,Greenwood,,0,0,0,0,0,0,0,0,0,1,0
+Idaho,Adams,,0,0,0,0,0,0,0,0,0,1,0
+Iowa,Hardin,,0,0,0,0,0,0,0,0,1,0,0
+Arkansas,Newton,,0,0,0,0,0,0,0,0,0,1,0
+Pennsylvania,Cameron,,0,0,0,0,0,0,0,0,1,0,0
+Iowa,Kossuth,,0,0,0,0,0,0,0,1,0,0,0
+Minnesota,Big Stone,,0,0,0,0,0,0,0,0,1,0,0
+Illinois,Gallatin,,0,0,0,0,0,0,0,0,0,1,0
+Texas,Cooke,,0,0,0,0,0,0,0,0,1,-1,1
+Missouri,Unknown,,0,0,0,0,0,0,0,1,7,-8,1
+Arkansas,Marion,,0,0,0,0,0,0,0,0,0,0,1
+Oklahoma,Marshall,,0,0,0,0,0,0,0,0,0,0,1
+Georgia,Long,,0,0,0,0,0,0,0,0,1,0,0
+Georgia,Evans,,0,0,0,0,0,0,0,0,0,0,1
+North Dakota,Emmons,,0,0,0,0,0,0,0,0,0,1,0
+Georgia,Bleckley,,0,0,0,0,0,0,0,0,0,1,0
+Minnesota,Koochiching,,0,0,0,0,0,0,0,0,0,1,0
+North Dakota,Stutsman,,0,0,0,0,0,0,0,0,0,0,1
+Kentucky,Lawrence,,0,0,0,0,0,0,0,0,0,1,0
+Michigan,Missaukee,,0,0,0,0,0,0,0,0,1,0,0
+North Dakota,Sioux,,0,0,0,0,0,0,0,0,1,0,0
+South Dakota,Deuel,,0,0,0,0,0,0,0,0,1,0,0
+Iowa,Greene,,0,0,0,0,0,0,0,0,0,0,1
+Michigan,Luce,,0,0,0,0,0,0,0,0,0,1,0
+Nebraska,Pierce,,0,0,0,0,0,0,0,0,0,0,1
+Minnesota,Sibley,,0,0,0,0,0,0,0,0,1,0,0
+North Dakota,Divide,,0,0,0,0,0,0,0,0,1,0,0
+Minnesota,Roseau,,0,0,0,0,0,0,0,0,0,0,1
+Pennsylvania,Warren,,0,0,0,0,0,0,0,0,1,0,0
+Kansas,Anderson,,0,0,0,0,0,0,0,0,0,0,1
+Wisconsin,Sawyer,,0,0,0,0,0,0,0,0,0,0,1
+Kansas,Hamilton,,0,0,0,0,0,0,0,0,0,0,1
+Oklahoma,Major,,0,0,0,0,0,0,0,0,0,1,0
+Kansas,Clay,,0,0,0,0,0,0,0,0,1,0,0
+Minnesota,Red Lake,,0,0,0,0,0,0,0,0,0,0,1
+Florida,Gulf,,0,0,0,0,0,0,0,0,0,1,0
+Ohio,Noble,,0,0,0,0,0,0,0,0,0,0,1
+Alaska,Southeast Fairbanks Census Area,,0,0,0,0,0,0,0,0,0,1,0
+South Dakota,Brule,,0,0,0,0,0,0,0,0,0,0,1
+Kentucky,Trimble,,0,0,0,0,0,0,0,0,0,0,1
+Maine,Washington,,0,0,0,0,0,0,0,0,0,1,0
+Tennessee,Sequatchie,,0,0,0,0,0,0,0,0,0,2,-1
+Missouri,Polk,,0,0,0,0,0,0,0,0,0,0,1
+Kentucky,Johnson,,0,0,0,0,0,0,0,0,0,1,0
+West Virginia,Pendleton,,0,0,0,0,0,0,0,0,0,1,0
+Kentucky,Lincoln,,0,0,0,0,0,0,0,0,0,1,0
+North Dakota,Bowman,,0,0,0,0,0,0,0,0,0,0,1
+New Mexico,Lincoln,,0,0,0,0,0,0,0,0,0,1,0
+Tennessee,Decatur,,0,0,0,0,0,0,0,0,1,-1,1
+Kentucky,Floyd,,0,0,0,0,0,0,0,0,1,0,0
+Kentucky,Letcher,,0,0,0,0,0,0,0,0,0,1,0
+Washington,Ferry,,0,0,0,0,0,0,0,0,1,0,0
+Kansas,Ellis,,0,0,0,0,0,0,0,0,0,0,1
+South Dakota,Clark,,0,0,0,0,0,0,0,0,1,0,0
+Oklahoma,Okfuskee,,0,0,0,0,0,0,0,0,0,0,1
+Texas,Frio,,0,0,0,0,0,0,0,0,0,0,1
+Washington,Pacific,,0,0,0,0,0,0,0,0,0,0,1
+Minnesota,Douglas,,0,0,0,0,0,0,0,0,1,0,0
+Texas,Delta,,0,0,0,0,0,0,0,0,0,0,1
+Missouri,Gentry,,0,0,0,0,0,0,0,0,0,0,1
+Iowa,Carroll,,0,0,0,0,0,0,1,0,0,0,0
+Kentucky,Martin,,0,0,0,0,0,0,0,0,1,0,0
+Nevada,White Pine,,0,0,0,0,0,0,0,0,0,0,1
+Minnesota,Pipestone,,0,0,0,0,0,0,0,0,0,1,0
+Wisconsin,Price,,0,0,0,0,0,0,0,0,0,0,1
+Texas,Rains,,0,0,0,0,0,0,0,0,0,0,1
+Montana,Meagher,,0,0,0,0,0,0,0,0,1,0,0
+Kansas,Jackson,,0,0,0,0,0,0,0,1,0,0,0
+Oregon,Wallowa,,0,0,0,0,0,0,0,0,0,1,0
+Florida,Liberty,,0,0,0,0,0,0,0,0,0,0,1
+Colorado,Rio Blanco,,0,0,0,0,0,0,0,0,0,1,0
+Illinois,Greene,,0,0,0,0,0,0,0,0,0,0,1
+Nebraska,Nemaha,,0,0,0,0,0,0,0,1,0,0,0
+North Dakota,Grant,,0,0,0,0,0,0,0,0,0,1,0
+Texas,Dimmit,,0,0,0,0,0,0,0,0,0,0,1
+Arkansas,Franklin,,0,0,0,0,0,0,0,0,0,0,1
+Michigan,Alpena,,0,0,0,0,0,0,0,0,0,0,1
+Missouri,Livingston,,0,0,0,0,0,0,0,0,0,1,0
+Louisiana,Tensas,,0,0,0,0,0,0,0,0,0,0,1
+Oregon,Coos,,0,0,0,0,0,0,0,0,0,0,1
+North Dakota,Rolette,,0,0,0,0,0,0,0,0,0,0,1
+Colorado,Lincoln,,0,0,0,0,0,0,0,0,1,0,0
+South Dakota,Meade,,0,0,0,0,0,0,0,0,1,0,0
+Oklahoma,Dewey,,0,0,0,0,0,0,0,0,0,0,1
+South Dakota,Marshall,,0,0,0,0,0,0,0,0,0,1,0
+Illinois,Richland,,0,0,0,0,0,0,0,0,0,0,1
+Illinois,Fulton,,0,0,0,0,0,0,0,0,0,0,1
+Oregon,Crook,,0,0,0,0,0,0,0,0,0,1,0
+Minnesota,Lac qui Parle,,0,0,0,0,0,0,0,0,1,0,0
+North Dakota,McHenry,,0,0,0,0,0,0,0,0,1,0,0
+Idaho,Camas,,0,0,0,0,0,0,0,0,0,1,0
+Illinois,Hancock,,0,0,0,0,0,0,0,0,0,0,1
+Minnesota,Houston,,0,0,0,0,0,0,0,0,0,1,0
+Oklahoma,Murray,,0,0,0,0,0,0,0,0,0,0,1
+Iowa,Montgomery,,0,0,0,0,0,0,0,0,1,0,0
+Minnesota,Polk,,0,0,0,0,0,0,0,0,0,1,0
+Nebraska,Cedar,,0,0,0,0,0,0,0,0,0,0,1
+Oklahoma,Beaver,,0,0,0,0,0,0,0,0,0,0,1
+Kansas,Kearny,,0,0,0,0,0,0,0,0,0,0,1
+Montana,Musselshell,,0,0,0,0,0,0,0,0,0,1,0
+Kentucky,Morgan,,0,0,0,0,0,0,0,0,0,0,1
+North Dakota,Eddy,,0,0,0,0,0,0,0,0,0,1,0
+Kansas,Wabaunsee,,0,0,0,0,0,0,0,0,0,1,0
+Montana,Beaverhead,,0,0,0,0,0,0,0,0,0,1,0
+Illinois,Calhoun,,0,0,0,0,0,0,0,0,0,1,0
+Ohio,Henry,,0,0,0,0,0,0,0,0,0,0,1
+Kentucky,Knott,,0,0,0,0,0,0,0,0,0,0,1
+North Dakota,Oliver,,0,0,0,0,0,0,0,0,0,1,0
+South Dakota,Todd,,0,0,0,0,0,0,0,0,1,0,0
+Georgia,Treutlen,,0,0,0,0,0,0,0,0,0,0,1
+South Dakota,Hamlin,,0,0,0,0,0,0,0,0,1,0,0
+Texas,Madison,,0,0,0,0,0,0,0,0,0,0,1
+Iowa,Mills,,0,0,0,0,0,0,0,0,0,1,0
+New Mexico,Roosevelt,,0,0,0,0,0,0,0,0,1,0,0
+California,Tehama,,0,0,0,0,0,0,0,0,0,1,0
+Indiana,Ohio,,0,0,0,0,0,0,0,0,1,0,0
+Nebraska,Wayne,,0,0,0,0,0,0,0,0,0,0,1
+Kentucky,Leslie,,0,0,0,0,0,0,0,0,0,1,0
+Virginia,Salem city,,0,0,0,0,0,0,0,0,0,1,0
+Ohio,Pike,,0,0,0,0,0,0,0,0,1,0,0
+Illinois,Pike,,0,0,0,0,0,0,0,0,0,1,0
+Louisiana,East Carroll,,0,0,0,0,0,0,0,0,1,0,0
+Oklahoma,Kiowa,,0,0,0,0,0,0,0,0,0,1,0
+Colorado,Huerfano,,0,0,0,0,0,0,0,0,1,0,0
+Missouri,Ralls,,0,0,0,0,0,0,0,0,1,0,0
+Kentucky,Powell,,0,0,0,0,0,0,0,0,0,1,0
+Florida,Taylor,,0,0,0,0,0,0,0,0,0,0,1
+Illinois,Perry,,0,0,0,0,0,0,0,0,0,0,1
+Ohio,Meigs,,0,0,0,0,0,0,0,0,0,0,1
+Kentucky,Rowan,,0,0,0,0,0,0,0,0,0,0,1
+Missouri,Washington,,0,0,0,0,0,0,0,0,0,0,1
+Kentucky,Green,,0,0,0,0,0,0,0,0,0,0,1
+Illinois,Schuyler,,0,0,0,0,0,0,0,0,0,0,1
+South Dakota,Walworth,,0,0,0,0,0,0,0,0,0,0,1
+West Virginia,Grant,,0,0,0,0,0,0,0,0,0,0,1
+Michigan,Lake,,0,0,0,0,0,0,0,0,0,0,1
+Nebraska,Webster,,0,0,0,0,0,0,0,0,0,0,1
+Virginia,Staunton city,,0,0,0,0,0,0,0,0,0,1,0
+South Dakota,Sully,,0,0,0,0,0,0,0,0,0,0,1
+Minnesota,Swift,,0,0,0,0,0,0,0,0,0,0,1
+South Dakota,Fall River,,0,0,0,0,0,0,0,0,1,0,0
+Michigan,Ontonagon,,0,0,0,0,0,0,0,0,0,1,-1
+Texas,Hall,,0,0,0,0,0,0,0,0,0,0,0
+Indiana,Unknown,,0,0,0,0,0,0,0,0,0,0,0
+Texas,Yoakum,,0,0,0,0,0,0,0,0,1,-1,0
+New Mexico,Unknown,,0,0,0,0,0,0,0,0,0,0,0
+North Dakota,Unknown,,0,0,0,0,0,0,0,0,0,0,0
+Ohio,Unknown,,0,0,0,0,0,0,0,0,0,0,0
+Idaho,Unknown,,0,0,0,0,0,0,0,0,0,0,0
+New York,Unknown,,0,0,0,0,0,0,0,0,0,0,0
+New Mexico,Hidalgo,,0,0,0,0,0,0,0,0,0,0,0
+Ohio,Putnam,,0,0,0,0,0,0,0,0,0,0,0
+Tennessee,Unknown,,0,0,0,0,0,0,0,28,162,-109,-81
+Alaska,Unknown,,0,0,0,0,0,0,0,0,0,0,0
+California,Unknown,,0,0,0,0,0,0,0,1,0,-1,0
+South Dakota,Unknown,,0,0,0,0,0,0,0,0,0,0,0
+Nevada,Unknown,,0,0,0,0,0,0,0,33,236,-217,-52
+Oklahoma,Washita,,0,0,0,0,0,0,0,0,0,0,0
+Tennessee,Rhea,,0,0,0,0,0,0,0,0,0,0,0
+Mississippi,Unknown,,0,0,0,0,0,0,0,0,0,0,0
+Oklahoma,McIntosh,,0,0,0,0,0,0,0,0,0,1,-1
+Delaware,Unknown,,0,0,0,0,0,0,0,0,0,0,0
+North Dakota,Mercer,,0,0,0,0,0,0,0,0,1,-1,0
+Nebraska,Unknown,,0,0,0,0,0,0,0,0,2,-2,0
+Michigan,Benzie,,0,0,0,0,0,0,0,0,0,1,-1
+North Carolina,Jackson,,0,0,0,0,0,0,0,0,1,-1,0
+Pennsylvania,Unknown,,0,0,0,0,0,0,0,0,0,0,0
+Missouri,Texas,,0,0,0,0,0,0,0,0,1,-1,0
+South Dakota,Butte,,0,0,0,0,0,0,0,0,0,0,0
+South Dakota,Kingsbury,,0,0,0,0,0,0,0,0,0,0,0
+Idaho,Lewis,,0,0,0,0,0,0,0,0,0,1,-1
+Virginia,Unknown,,0,0,0,0,0,0,0,0,0,18,-18
+Missouri,Marion,,0,0,0,0,0,0,0,0,0,0,0
+Kansas,Unknown,,0,0,0,0,0,0,0,0,0,0,0
+Nebraska,Logan,,0,0,0,0,0,0,0,0,0,1,-1
+Arizona,Unknown,,0,0,0,0,0,0,0,0,0,0,0
