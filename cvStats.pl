@@ -22,34 +22,9 @@ if ($ARGV[0] =~ m/^-/) {
 
 my $dir = shift @ARGV or die "$USAGE\n";
 
-my $reportedFile = "$dir/reported.csv";
-my $deltasFile = "$dir/deltas.csv";
-my $batchDeltasFile = "$dir/batch.csv";
-my $speedFile = "$dir/speed.csv";
 
 my $data = get $URL or die "Failed to open '$URL'\n$0";
 
-#REMOVE ME:
-my $fakeData = 
-"date,county,state,fips,cases,deaths
-03-01-2020,NYC,NY,123,0,0
-03-02-2020,NYC,NY,123,1,0
-03-03-2020,NYC,NY,123,2,0
-03-04-2020,NYC,NY,123,3,0
-03-05-2020,NYC,NY,123,4,0
-03-06-2020,NYC,NY,123,6,0
-03-07-2020,NYC,NY,123,8,0
-03-08-2020,NYC,NY,123,12,0
-03-09-2020,NYC,NY,123,16,0
-03-10-2020,NYC,NY,123,24,0
-03-11-2020,NYC,NY,123,32,0
-03-12-2020,NYC,NY,123,48,0
-03-13-2020,NYC,NY,123,64,0
-03-14-2020,NYC,NY,123,96,0
-03-15-2020,NYC,NY,123,128,0
-";
-
-#$data = $fakeData; #REMOVE ME
 
 open DATA, "<", \$data;
 
@@ -81,16 +56,17 @@ my @dates = sort keys %dates;
 
 
 my %batchDates = ();
-my $batchNumDays = 3;
+my $batchNumDays = 7;
 
-my @focusAreas = ('New York,New York City','New York,Nassau','Arizona,Maricopa');
+my @focusAreas = ('New York,New York City','New York,Nassau');
 my %focusAreas = map {$_ => 1} @focusAreas;
+my $focusAreasStartDate = undef;
 
 sub log2 {
     return log($_[0])/log(2);
 }
 
-#enrich with deltas and fill in blank dates
+#enrich with deltas, fill in blank dates, set focus areas start date
 while (my ($cid,$r) = each %data) {
     my $prev = undef;
     my $batchDay = 0;
@@ -107,6 +83,13 @@ while (my ($cid,$r) = each %data) {
 	if ($curr->{cases} > 0) {
 	    $curr->{logCases} = log2($curr->{cases});
 	}
+
+	if (exists($focusAreas{$cid}) &&
+	    !defined($focusAreasStartDate) &&
+	    $curr->{cases} > 10) { 
+	    $focusAreasStartDate = $date;
+	}
+	
 	
 	#print "CURR [$date]: ";print Dumper($curr);
 	
@@ -215,6 +198,7 @@ sub printCsvFocusAreas {
     my $filePrefix = shift;
     my $stat = shift;
     my $focusAreas = shift; #array
+    my $focusAreasStartDate = shift;
     
     my $filepath = "$dir/${filePrefix}-Focus.csv";
 
@@ -229,6 +213,8 @@ sub printCsvFocusAreas {
     print FILE "\n";
     
     for my $date (@$dates) {
+	next if($date le $focusAreasStartDate);
+	
 	print FILE "$date";
 	for my $cid (@$focusAreas) {
 	    print FILE ",$data{$cid}{$date}{$stat}";	
@@ -238,15 +224,15 @@ sub printCsvFocusAreas {
     close FILE;    
 }
 
-printCsvData(\%data,\@dates,     $dir,'Total'      ,'cases'          ,'cases');
-printCsvData(\%data,\@dates,     $dir,'Delta'      ,'deltaCases'     ,'cases');
-printCsvData(\%data,\@batchDates,$dir,'3DayDelta'  ,'batchDeltaCases','cases');
-printCsvData(\%data,\@dates,     $dir,'DoubleSpeed','doubleSpeed'    ,'cases');
+printCsvData(\%data,\@dates,     $dir,'Total',                  'cases',          'cases');
+printCsvData(\%data,\@dates,     $dir,'Delta',                  'deltaCases',     'cases');
+printCsvData(\%data,\@batchDates,$dir,"${batchNumDays}DayDelta",'batchDeltaCases','cases');
+printCsvData(\%data,\@dates,     $dir,'DoubleSpeed',            'doubleSpeed',    'cases');
 
-printCsvFocusAreas(\%data,\@dates,     $dir,'Total'      ,'cases'          ,\@focusAreas);
-printCsvFocusAreas(\%data,\@dates,     $dir,'Delta'      ,'deltaCases'     ,\@focusAreas);
-printCsvFocusAreas(\%data,\@batchDates,$dir,'3DayDelta'  ,'batchDeltaCases',\@focusAreas);
-printCsvFocusAreas(\%data,\@dates,     $dir,'DoubleSpeed','doubleSpeed'    ,\@focusAreas);
+printCsvFocusAreas(\%data,\@dates,     $dir,'Total',                  'cases',          \@focusAreas,$focusAreasStartDate);
+printCsvFocusAreas(\%data,\@dates,     $dir,'Delta',                  'deltaCases',     \@focusAreas,$focusAreasStartDate);
+printCsvFocusAreas(\%data,\@batchDates,$dir,"${batchNumDays}DayDelta",'batchDeltaCases',\@focusAreas,$focusAreasStartDate);
+printCsvFocusAreas(\%data,\@dates,     $dir,'DoubleSpeed',            'doubleSpeed',    \@focusAreas,$focusAreasStartDate);
 
 if ($gitCommit) {
     my $time = `date`;
