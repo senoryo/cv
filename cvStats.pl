@@ -86,7 +86,7 @@ while (my ($cid,$r) = each %data) {
 
 	if (exists($focusAreas{$cid}) &&
 	    !defined($focusAreasStartDate) &&
-	    $curr->{cases} > 10) { 
+	    $curr->{cases} <= 10) {
 	    $focusAreasStartDate = $date;
 	}
 	
@@ -211,7 +211,8 @@ sub printCsvFocusAreas {
 	print FILE ",$formattedCID";
     }
     print FILE "\n";
-    
+
+    #print "'$focusAreasStartDate'\n";
     for my $date (@$dates) {
 	next if($date le $focusAreasStartDate);
 	
