@@ -6,10 +6,6 @@ use Data::Dumper;
 
 $Data::Dumper::Sortkeys = 1;
 
-my $URL = 'https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv';
-
-#date,county,state,fips,cases,deaths
-#2020-01-21,Snohomish,Washington,53061,1,0
 
 my $USAGE = "Usage: $0 [--git-commit] <output-dir>";
 
@@ -23,59 +19,112 @@ if ($ARGV[0] =~ m/^-/) {
 my $dir = shift @ARGV or die "$USAGE\n";
 
 
-my $data = get $URL or die "Failed to open '$URL'\n$0";
+#US FORMAT:
+#date,county,state,fips,cases,deaths
+#2020-01-21,Snohomish,Washington,53061,1,0
 
 
-open DATA, "<", \$data;
+#GLOBAL FORMAT:
+#Date,Country/Region,Province/State,Lat,Long,Confirmed,Recovered,Deaths
+#2020-01-22,Afghanistan,,33,65,0,0,0
 
-my $header = <DATA>;
-chomp $header;
-my @header = split ',', $header;
-my $headerExp = 'date,county,state,fips,cases,deaths';
-$header eq $headerExp or die "Expected header '$headerExp'\nGot '$header'\n";
+
+my %dataSources = 
+    (
+
+     Global => 
+     {
+	 url => 'https://raw.githubusercontent.com/datasets/covid-19/master/data/time-series-19-covid-combined.csv',
+	 header => 'Date,Country/Region,Province/State,Lat,Long,Confirmed,Recovered,Deaths',
+	 createRecord => sub {
+	     my ($date,$nation,$state,$lat,$long,$cases,$recovered,$deaths) = split ',', $_[0];
+	     return {cases=>$cases, date=>$date, nation=>$nation, state=>$state, county=>''};	 
+	 }
+     },
+
+     US => 
+     {
+	 url => 'https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv',
+	 header => 'date,county,state,fips,cases,deaths',
+	 createRecord => sub {
+	     my ($date,$county,$state,$fips,$cases,$deaths) = split ',', $_[0];
+	     #return undef if ($county eq 'New York City'); #REMOVE ME
+	     
+	     return {cases=>$cases, date=>$date, nation=>'US', state=>$state, county=>$county};
+	 }
+     }
+     
+    );
 
 my %data = ();
 my %dates = ();
-
 my $dateCount = 0;
-while (my $line = <DATA>) {
-    chomp $line;
-    my ($date,$county,$state,$fips,$cases,$deaths) = split ',', $line;
-    #next unless $county eq 'New York City'; #REMOVE ME
 
-    my $countyID = "$state,$county"; #unique countID (but also convenient "state,county"
-    $data{$countyID}{$date} = {cases=>$cases, deaths=>$deaths, _date=>$date};
+
+while (my ($sourceName,$s) = each %dataSources) {
+    #next if ($sourceName eq 'Global'); #remove me
     
-    if (!exists($dates{$date})) {
-	$dates{$date} = ++$dateCount;
+    my $data = get $s->{url} or die "Failed to open URL '$s->{url}'\n$!\n";
+
+    open DATA, "<", \$data;
+    
+    my $header = <DATA>;
+    chomp $header;
+    $header =~ s/^\s+//g;
+    $header =~ s/\s+$//g;
+    
+    my @header = split ',', $header;
+    $header eq $s->{header} or die "Expected header '$s->{header}' for data source '$sourceName'\n Got '$header'\n";
+
+    while (my $line = <DATA>) {
+	chomp $line;
+	my $record = $s->{createRecord}($line);
+	next unless (defined $record);
+	    
+	my $locID = "$record->{nation},$record->{state},$record->{county}"; #unique locationID (but also convenient "nation,state,county"
+	my $date = $record->{date};
+	$data{$locID}{$date} = $record;
+	
+	if (!exists($dates{$date})) {
+	    $dates{$date} = ++$dateCount;
+	}
     }
+    close DATA;
 }
-close DATA;
+
 
 my @dates = sort keys %dates;
-
 
 my %batchDates = ();
 my $batchNumDays = 7;
 
-my @focusAreas = ('New York,New York City','New York,Nassau');
-my %focusAreas = map {$_ => 1} @focusAreas;
+my @focusAreasRegexes = ('New York,New York City','New York,Nassau', 'Japan');
+my @focusAreas = ();
+my %focusAreas = ();
 my $focusAreasStartDate = undef;
 
 sub log2 {
     return log($_[0])/log(2);
 }
 
-#enrich with deltas, fill in blank dates, set focus areas start date
-while (my ($cid,$r) = each %data) {
+#enrich with deltas, fill in blank dates, set focus areas and focus area start date
+while (my ($locid,$r) = each %data) {
     my $prev = undef;
     my $batchDay = 0;
     my $batchHead = undef;
     
+    for my $focusAreaRegex (@focusAreasRegexes) {
+	if ($locid =~ m/$focusAreaRegex/) {
+	    push @focusAreas, $locid;
+	    $focusAreas{$locid} = 1;
+	    last;
+	}
+    }
+    
     for my $date (sort {$b cmp $a} @dates) { #reverse order
 	my $curr = undef;
 	if (!exists($r->{$date})) {
-	    $r->{$date} = {_date=>$date,cases=>0,deaths=>0,deltaCases=>0,deltaDeaths=>0};
+	    $r->{$date} = {_date=>$date,cases=>0,deltaCases=>0};
 	}
 	
 	$curr = $r->{$date};
@@ -84,7 +133,7 @@ while (my ($cid,$r) = each %data) {
 	    $curr->{logCases} = log2($curr->{cases});
 	}
 
-	if (exists($focusAreas{$cid}) &&
+	if (exists($focusAreas{$locid}) &&
 	    !defined($focusAreasStartDate) &&
 	    $curr->{cases} <= 10) {
 	    $focusAreasStartDate = $date;
@@ -96,7 +145,6 @@ while (my ($cid,$r) = each %data) {
 	## 1-Day delta ##
 	if (defined $prev) {
 	    $prev->{deltaCases} = $prev->{cases} - $curr->{cases};
-	    $prev->{deltaDeaths} = $prev->{deaths} - $curr->{deaths};
 	    if (exists($curr->{logCases}) && exists($prev->{logCases})) {
 		$prev->{deltaLogCases} = $prev->{logCases} - $curr->{logCases};
 	    }
@@ -113,7 +161,6 @@ while (my ($cid,$r) = each %data) {
 #	if ($batchDay == 0) { #REMOVE ME
 	    if (defined $batchHead) {
 		$batchHead->{batchDeltaCases} = $batchHead->{cases} - $curr->{cases};
-		$batchHead->{batchDeltaDeaths} = $batchHead->{deaths} - $curr->{deaths};
 	    }
 	    $batchHead = $curr;
 	    $batchDates{$date} = 1;
@@ -124,7 +171,7 @@ while (my ($cid,$r) = each %data) {
 my @batchDates = sort keys %batchDates;
 
 #calc double speed
-while (my ($cid,$r) = each %data) {
+while (my ($locid,$r) = each %data) {
     for my $outDate (sort {$b cmp $a} @dates) { # reverse order - outer loop
 	my $curr = $r->{$outDate};
 
@@ -173,17 +220,17 @@ sub printCsvData {
     
     open FILE, ">$filepath" or die "Failed to open '$filepath' for writing.\n$!\n";
     
-    print FILE "state,county";
+    print FILE "nation,state,county";
     for my $date (@$dates) {
 	print FILE ",$date";
     }
     print FILE "\n";
     
     
-    for my $cid (sort {$data->{$b}{$dates->[-1]}{cases} <=> $data->{$a}{$dates->[-1]}{cases}} keys %$data) {
-	print FILE "$cid";
+    for my $locid (sort {$data->{$b}{$dates->[-1]}{cases} <=> $data->{$a}{$dates->[-1]}{cases}} keys %$data) {
+	print FILE "$locid";
 	for my $date (@$dates) {
-	    print FILE ",$data->{$cid}{$date}{$stat}";
+	    print FILE ",$data->{$locid}{$date}{$stat}";
 	}
 	print FILE "\n";
     }
@@ -205,10 +252,12 @@ sub printCsvFocusAreas {
     open FILE, ">$filepath" or die "Failed to open '$filepath' for writing\n$!\n";
     
     print FILE "date";
-    for my $cid (@$focusAreas) {
-	my $formattedCID = $cid;
-	$formattedCID =~ s/\,/-/;
-	print FILE ",$formattedCID";
+    for my $locid (@$focusAreas) {
+	my $formattedLOCID = $locid;
+	$formattedLOCID =~ s/\,/-/g;
+	$formattedLOCID =~ s/^-//;
+	$formattedLOCID =~ s/-$//;
+	print FILE ",$formattedLOCID";
     }
     print FILE "\n";
 
@@ -217,8 +266,8 @@ sub printCsvFocusAreas {
 	next if($date le $focusAreasStartDate);
 	
 	print FILE "$date";
-	for my $cid (@$focusAreas) {
-	    print FILE ",$data{$cid}{$date}{$stat}";	
+	for my $locid (@$focusAreas) {
+	    print FILE ",$data{$locid}{$date}{$stat}";	
 	}
 	print FILE "\n";
     }
