@@ -161,15 +161,17 @@ while (my ($locid,$r) = each %data) {
 	if ($batchDay == 1) { 
 	    if (defined $batchHead) {
 		$batchHead->{batchDeltaCases} = $batchHead->{cases} - $curr->{cases};
+		
+		if (!defined($casesDenom)) {
+		    $casesDenom = $batchHead->{batchDeltaCases};
+		}
+		
 		if ($casesDenom > 0) {
 		    $batchHead->{batchDeltaNormalCases} = 100 *($batchHead->{batchDeltaCases} / $casesDenom);
 		}
 		else {
 		    $batchHead->{batchDeltaNormalCases} = 100;
 		}
-	    }
-	    else {
-		$casesDenom = $curr->{cases};
 	    }
 	    
 	    $batchHead = $curr;
