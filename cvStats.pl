@@ -110,9 +110,11 @@ sub log2 {
 #enrich with deltas, fill in blank dates, set focus areas and focus area start date
 while (my ($locid,$r) = each %data) {
     my $prev = undef;
+    my $deltaDenom = undef;
+    
     my $batchDay = 0;
     my $batchHead = undef;
-    my $casesDenom = undef;
+    my $batchDenom = undef;
     
     for my $focusAreaRegex (@focusAreasRegexes) {
 	if ($locid =~ m/$focusAreaRegex/) {
@@ -146,9 +148,21 @@ while (my ($locid,$r) = each %data) {
 	## 1-Day delta ##
 	if (defined $prev) {
 	    $prev->{deltaCases} = $prev->{cases} - $curr->{cases};
+	    
 	    if (exists($curr->{logCases}) && exists($prev->{logCases})) {
 		$prev->{deltaLogCases} = $prev->{logCases} - $curr->{logCases};
 	    }
+	    
+	    if (!defined($deltaDenom)) {
+		$deltaDenom = $prev->{deltaCases};
+	    }
+	    
+	    if ($deltaDenom > 0) {
+		$prev->{deltaNormalCases} = 100 *($prev->{deltaCases} / $deltaDenom);
+	    }
+	    else {
+		$prev->{deltaNormalCases} = 100;
+	    }	    
 	}
 	$prev = $curr;
 	
@@ -162,12 +176,12 @@ while (my ($locid,$r) = each %data) {
 	    if (defined $batchHead) {
 		$batchHead->{batchDeltaCases} = $batchHead->{cases} - $curr->{cases};
 		
-		if (!defined($casesDenom)) {
-		    $casesDenom = $batchHead->{batchDeltaCases};
+		if (!defined($batchDenom)) {
+		    $batchDenom = $batchHead->{batchDeltaCases};
 		}
 		
-		if ($casesDenom > 0) {
-		    $batchHead->{batchDeltaNormalCases} = 100 *($batchHead->{batchDeltaCases} / $casesDenom);
+		if ($batchDenom > 0) {
+		    $batchHead->{batchDeltaNormalCases} = 100 *($batchHead->{batchDeltaCases} / $batchDenom);
 		}
 		else {
 		    $batchHead->{batchDeltaNormalCases} = 100;
@@ -288,12 +302,14 @@ sub printCsvFocusAreas {
 
 printCsvData(\%data,\@dates,     $dir,'Total',                        'cases',          'cases');
 printCsvData(\%data,\@dates,     $dir,'Delta',                        'deltaCases',     'cases');
+printCsvData(\%data,\@dates,     $dir,'DeltaNormal',                        'deltaNormalCases',     'cases');
 printCsvData(\%data,\@batchDates,$dir,"${batchNumDays}DayDelta",      'batchDeltaCases','cases');
 printCsvData(\%data,\@batchDates,$dir,"${batchNumDays}DayDeltaNormal",'batchDeltaNormalCases','cases');
 printCsvData(\%data,\@dates,     $dir,'DoubleSpeed',                  'doubleSpeed',    'cases');
 
 printCsvFocusAreas(\%data,\@dates,     $dir,'Total',                  'cases',          \@focusAreas,$focusAreasStartDate);
 printCsvFocusAreas(\%data,\@dates,     $dir,'Delta',                  'deltaCases',     \@focusAreas,$focusAreasStartDate);
+printCsvFocusAreas(\%data,\@dates,     $dir,'DeltaNormal',                  'deltaNormalCases',     \@focusAreas,$focusAreasStartDate);
 printCsvFocusAreas(\%data,\@batchDates,$dir,"${batchNumDays}DayDelta",'batchDeltaCases',\@focusAreas,$focusAreasStartDate);
 printCsvFocusAreas(\%data,\@batchDates,$dir,"${batchNumDays}DayDeltaNormal",'batchDeltaNormalCases',\@focusAreas,$focusAreasStartDate);
 printCsvFocusAreas(\%data,\@dates,     $dir,'DoubleSpeed',            'doubleSpeed',    \@focusAreas,$focusAreasStartDate);
