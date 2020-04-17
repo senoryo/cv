@@ -112,6 +112,7 @@ while (my ($locid,$r) = each %data) {
     my $prev = undef;
     my $batchDay = 0;
     my $batchHead = undef;
+    my $casesDenom = undef;
     
     for my $focusAreaRegex (@focusAreasRegexes) {
 	if ($locid =~ m/$focusAreaRegex/) {
@@ -157,11 +158,20 @@ while (my ($locid,$r) = each %data) {
 	++$batchDay;
 	$batchDay = 1 if($batchDay > $batchNumDays);
 	
-	if ($batchDay == 1) { #UNCOMMENT ME
-#	if ($batchDay == 0) { #REMOVE ME
+	if ($batchDay == 1) { 
 	    if (defined $batchHead) {
 		$batchHead->{batchDeltaCases} = $batchHead->{cases} - $curr->{cases};
+		if ($casesDenom > 0) {
+		    $batchHead->{batchDeltaNormalCases} = 100 *($batchHead->{batchDeltaCases} / $casesDenom);
+		}
+		else {
+		    $batchHead->{batchDeltaNormalCases} = 100;
+		}
 	    }
+	    else {
+		$casesDenom = $curr->{cases};
+	    }
+	    
 	    $batchHead = $curr;
 	    $batchDates{$date} = 1;
 	}
@@ -274,14 +284,16 @@ sub printCsvFocusAreas {
     close FILE;    
 }
 
-printCsvData(\%data,\@dates,     $dir,'Total',                  'cases',          'cases');
-printCsvData(\%data,\@dates,     $dir,'Delta',                  'deltaCases',     'cases');
-printCsvData(\%data,\@batchDates,$dir,"${batchNumDays}DayDelta",'batchDeltaCases','cases');
-printCsvData(\%data,\@dates,     $dir,'DoubleSpeed',            'doubleSpeed',    'cases');
+printCsvData(\%data,\@dates,     $dir,'Total',                        'cases',          'cases');
+printCsvData(\%data,\@dates,     $dir,'Delta',                        'deltaCases',     'cases');
+printCsvData(\%data,\@batchDates,$dir,"${batchNumDays}DayDelta",      'batchDeltaCases','cases');
+printCsvData(\%data,\@batchDates,$dir,"${batchNumDays}DayDeltaNormal",'batchDeltaNormalCases','cases');
+printCsvData(\%data,\@dates,     $dir,'DoubleSpeed',                  'doubleSpeed',    'cases');
 
 printCsvFocusAreas(\%data,\@dates,     $dir,'Total',                  'cases',          \@focusAreas,$focusAreasStartDate);
 printCsvFocusAreas(\%data,\@dates,     $dir,'Delta',                  'deltaCases',     \@focusAreas,$focusAreasStartDate);
 printCsvFocusAreas(\%data,\@batchDates,$dir,"${batchNumDays}DayDelta",'batchDeltaCases',\@focusAreas,$focusAreasStartDate);
+printCsvFocusAreas(\%data,\@batchDates,$dir,"${batchNumDays}DayDeltaNormal",'batchDeltaNormalCases',\@focusAreas,$focusAreasStartDate);
 printCsvFocusAreas(\%data,\@dates,     $dir,'DoubleSpeed',            'doubleSpeed',    \@focusAreas,$focusAreasStartDate);
 
 if ($gitCommit) {
