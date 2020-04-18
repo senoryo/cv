@@ -212,9 +212,16 @@ while (my ($locid,$r) = each %data) {
 		    $mostRecentBatchDelta = $batchHead->{batchDeltaCases};
 		}
 		elsif (!exists($recentAccelerations{$locid})) {
-		    $recentAccelerations{$locid} 
-		    = ($batchHead->{batchDeltaCases} - $mostRecentBatchDelta) / 
-			($batchHead->{batchDeltaCases} >= 1 ? $batchHead->{batchDeltaCases} : 1);
+		    my $diff = $mostRecentBatchDelta - $batchHead->{batchDeltaCases};
+		    if ($diff < 100 && $diff > -100) {
+			$recentAccelerations{$locid} = 0; #di minimis, make it 0
+		    }
+		    elsif ($batchHead->{batchDeltaCases} == 0) {
+			$recentAccelerations{$locid} = 10; #i.e. 1,000% -- arbitrarily high
+		    }
+		    else {
+			$recentAccelerations{$locid} = $diff / $batchHead->{batchDeltaCases};			
+		    }
 		}
 	    }
 	    
@@ -254,15 +261,12 @@ my $hotspotFocus =
 push @focuses, $hotspotFocus;
 
 for my $locid (sort {$recentAccelerations{$b} <=> $recentAccelerations{$a}} keys %recentAccelerations) {
-    next if ($data{$locid}{$dates[-1]}{batchDeltaCases} < 5000); #skip small cases
+    next if ($data{$locid}{$dates[-1]}{batchDeltaCases} < 3000); #skip small cases
     
-    last if (++$numAccelerations > 30);
+    last if (++$numAccelerations > 15);
     push @{$hotspotFocus->{locids}}, $locid;
     $hotspotFocus->{locidsHash}{$locid} = 1;
-
-    print "$locid ($data{$locid}{$dates[-1]}{batchDeltaCases}): $recentAccelerations{$locid}\n";
 }
-
 
 #populate focuses start dates
 while (my ($locid,$r) = each %data) {
