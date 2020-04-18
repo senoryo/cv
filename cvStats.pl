@@ -83,6 +83,9 @@ while (my ($sourceName,$s) = each %dataSources) {
 	    
 	my $locID = "$record->{nation},$record->{state},$record->{county}"; #unique locationID (but also convenient "nation,state,county"
 	my $date = $record->{date};
+
+	$s->{maxDate} = $date if(!defined($s->{maxDate}) || ($date ge $s->{maxDate}));
+	
 	$data{$locID}{$date} = $record;
 	
 	if (!exists($dates{$date})) {
@@ -92,6 +95,19 @@ while (my ($sourceName,$s) = each %dataSources) {
     close DATA;
 }
 
+my $minOfTheMaxDates = undef;
+while (my ($sourceName,$s) = each %dataSources) {
+    if (defined($minOfTheMaxDates)) {
+	$minOfTheMaxDates = $s->{maxDate} if($s->{maxDate} lt $minOfTheMaxDates);
+    }
+    else {
+	$minOfTheMaxDates = $s->{maxDate};
+    }
+}
+
+for my $date (keys %dates) {
+    delete $dates{$date} if($date gt $minOfTheMaxDates);
+}
 
 my @dates = sort keys %dates;
 
