@@ -175,7 +175,7 @@ while (my ($locid,$r) = each %data) {
 	}
 	
 	for my $f (@focuses) {
-	    if (exists($f->{locidHash}{$locid}) &&
+	    if (exists($f->{locidsHash}{$locid}) &&
 		($f->{startDate} eq '') &&
 		$curr->{cases} <= 10) {
 		
@@ -229,6 +229,7 @@ while (my ($locid,$r) = each %data) {
 	}
     }
 }
+
 
 my @batchDates = sort keys %batchDates;
 
