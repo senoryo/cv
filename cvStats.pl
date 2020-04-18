@@ -118,7 +118,7 @@ my @focuses =
     (
      {
 	 name => 'NY',
-	 regexes => ['New York,New York City','New York,Nassau'],
+	 regexes => ['New York,New York City','New York,Nassau','Chicago','Maricopa','Singapore','Israel','Hong Kong'],
 	 locids => [],
 	 locidsHash => {},
 	 startDate => ''
