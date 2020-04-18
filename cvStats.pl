@@ -192,6 +192,9 @@ while (my ($locid,$r) = each %data) {
     
     #set normalized deltas and batchDeltas
     if ($deltaMax > 0 && $batchMax > 0) {
+	$deltaMax *= 1.05;
+	$batchMax *= 1.05;
+	
 	while (my ($k,$v) = each %$r) {
 	    if (defined($v->{deltaCases})) {
 		$v->{deltaNormalCases} = 100* $v->{deltaCases} / $deltaMax;
