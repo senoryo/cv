@@ -114,10 +114,29 @@ my @dates = sort keys %dates;
 my %batchDates = ();
 my $batchNumDays = 7;
 
-my @focusAreasRegexes = ('New York,New York City','New York,Nassau', 'Japan');
-my @focusAreas = ();
-my %focusAreas = ();
-my $focusAreasStartDate = undef;
+my @focuses = 
+    (
+     {
+	 name => 'NY',
+	 regexes => ['New York,New York City','New York,Nassau'],
+	 locids => [],
+	 locidsHash => {},
+	 startDate => ''
+     },
+     
+     {
+	 name => 'Asia',
+	 regexes => ['Japan', 'Hubei', 'Hong Kong'],
+	 locids => [],
+	 locidsHash => {},
+	 startDate => ''     
+     }     
+    );
+     
+#my @focusAreasRegexes = ('New York,New York City','New York,Nassau', 'Japan');
+#my @focusAreas = ();
+#my %focusAreas = ();
+#my $focusAreasStartDate = undef;
 
 sub log2 {
     return log($_[0])/log(2);
@@ -132,12 +151,14 @@ while (my ($locid,$r) = each %data) {
 
     my $deltaMax = 0;
     my $batchMax = 0;
-    
-    for my $focusAreaRegex (@focusAreasRegexes) {
-	if ($locid =~ m/$focusAreaRegex/) {
-	    push @focusAreas, $locid;
-	    $focusAreas{$locid} = 1;
-	    last;
+
+    for my $f (@focuses) {
+	for my $regex (@{$f->{regexes}}) {
+	    if ($locid =~ m/$regex/) {
+		push @{$f->{locids}}, $locid;
+		$f->{locidsHash}{$locid} = 1;
+		last;
+	    }
 	}
     }
     
@@ -152,13 +173,16 @@ while (my ($locid,$r) = each %data) {
 	if ($curr->{cases} > 0) {
 	    $curr->{logCases} = log2($curr->{cases});
 	}
-
-	if (exists($focusAreas{$locid}) &&
-	    !defined($focusAreasStartDate) &&
-	    $curr->{cases} <= 10) {
-	    $focusAreasStartDate = $date;
-	}
 	
+	for my $f (@focuses) {
+	    if (exists($f->{locidHash}{$locid}) &&
+		($f->{startDate} eq '') &&
+		$curr->{cases} <= 10) {
+		
+		$f->{startDate} = $date;
+	    }
+	}
+	    
 	
 	#print "CURR [$date]: ";print Dumper($curr);
 	
@@ -192,7 +216,7 @@ while (my ($locid,$r) = each %data) {
     
     #set normalized deltas and batchDeltas
     if ($deltaMax > 0 && $batchMax > 0) {
-	$deltaMax *= 1.05;
+	$deltaMax *= 1.05; #extra headroom for charting, so that max point doesnt hit top of chart
 	$batchMax *= 1.05;
 	
 	while (my ($k,$v) = each %$r) {
@@ -276,21 +300,20 @@ sub printCsvData {
     close FILE;    
 }
 
-sub printCsvFocusAreas {
+sub printCsvFocus {
     my $data = shift;
     my $dates = shift;
     my $dir = shift;
     my $filePrefix = shift;
     my $stat = shift;
-    my $focusAreas = shift; #array
-    my $focusAreasStartDate = shift;
+    my $f = shift; #focus record
     
-    my $filepath = "$dir/${filePrefix}-Focus.csv";
+    my $filepath = "$dir/${filePrefix}-$f->{name}.csv";
 
     open FILE, ">$filepath" or die "Failed to open '$filepath' for writing\n$!\n";
     
     print FILE "date";
-    for my $locid (@$focusAreas) {
+    for my $locid (@{$f->{locids}}) {
 	my $formattedLOCID = $locid;
 	$formattedLOCID =~ s/\,/-/g;
 	$formattedLOCID =~ s/^-//;
@@ -299,12 +322,11 @@ sub printCsvFocusAreas {
     }
     print FILE "\n";
 
-    #print "'$focusAreasStartDate'\n";
     for my $date (@$dates) {
-	next if($date le $focusAreasStartDate);
+	next if($date le $f->{startDate});
 	
 	print FILE "$date";
-	for my $locid (@$focusAreas) {
+	for my $locid (@{$f->{locids}}) {
 	    print FILE ",$data{$locid}{$date}{$stat}";	
 	}
 	print FILE "\n";
@@ -319,12 +341,14 @@ printCsvData(\%data,\@batchDates,$dir,"${batchNumDays}DayDelta",      'batchDelt
 printCsvData(\%data,\@batchDates,$dir,"${batchNumDays}DayDeltaNormal",'batchDeltaNormalCases','cases');
 printCsvData(\%data,\@dates,     $dir,'DoubleSpeed',                  'doubleSpeed',    'cases');
 
-printCsvFocusAreas(\%data,\@dates,     $dir,'Total',                  'cases',          \@focusAreas,$focusAreasStartDate);
-printCsvFocusAreas(\%data,\@dates,     $dir,'Delta',                  'deltaCases',     \@focusAreas,$focusAreasStartDate);
-printCsvFocusAreas(\%data,\@dates,     $dir,'DeltaNormal',                  'deltaNormalCases',     \@focusAreas,$focusAreasStartDate);
-printCsvFocusAreas(\%data,\@batchDates,$dir,"${batchNumDays}DayDelta",'batchDeltaCases',\@focusAreas,$focusAreasStartDate);
-printCsvFocusAreas(\%data,\@batchDates,$dir,"${batchNumDays}DayDeltaNormal",'batchDeltaNormalCases',\@focusAreas,$focusAreasStartDate);
-printCsvFocusAreas(\%data,\@dates,     $dir,'DoubleSpeed',            'doubleSpeed',    \@focusAreas,$focusAreasStartDate);
+for my $f (@focuses) {
+    printCsvFocus(\%data,\@dates,     $dir,'Total',                  'cases',          $f);
+    printCsvFocus(\%data,\@dates,     $dir,'Delta',                  'deltaCases',     $f);
+    printCsvFocus(\%data,\@dates,     $dir,'DeltaNormal',                  'deltaNormalCases', $f);
+    printCsvFocus(\%data,\@batchDates,$dir,"${batchNumDays}DayDelta",'batchDeltaCases',$f);
+    printCsvFocus(\%data,\@batchDates,$dir,"${batchNumDays}DayDeltaNormal",'batchDeltaNormalCases', $f);
+    printCsvFocus(\%data,\@dates,     $dir,'DoubleSpeed',            'doubleSpeed',    $f);
+}
 
 if ($gitCommit) {
     my $time = `date`;
