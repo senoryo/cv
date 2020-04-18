@@ -130,19 +130,17 @@ my @focuses =
 	 locids => [],
 	 locidsHash => {},
 	 startDate => ''     
-     }     
+     }
+
     );
      
-#my @focusAreasRegexes = ('New York,New York City','New York,Nassau', 'Japan');
-#my @focusAreas = ();
-#my %focusAreas = ();
-#my $focusAreasStartDate = undef;
-
 sub log2 {
     return log($_[0])/log(2);
 }
 
-#enrich with deltas, fill in blank dates, set focus areas and focus area start date
+my %recentAccelerations = ();
+
+#enrich with deltas, fill in blank dates, set focus locids, set accelerating locids
 while (my ($locid,$r) = each %data) {
     my $prev = undef;
     
@@ -151,7 +149,9 @@ while (my ($locid,$r) = each %data) {
 
     my $deltaMax = 0;
     my $batchMax = 0;
-
+    
+    my $mostRecentBatchDelta = undef;
+    
     for my $f (@focuses) {
 	for my $regex (@{$f->{regexes}}) {
 	    if ($locid =~ m/$regex/) {
@@ -206,7 +206,16 @@ while (my ($locid,$r) = each %data) {
 	if ($batchDay == 1) { 
 	    if (defined $batchHead) {
 		$batchHead->{batchDeltaCases} = $batchHead->{cases} - $curr->{cases};
-		$batchMax = $batchHead->{batchDeltaCases} if($batchHead->{batchDeltaCases} > $batchMax);		
+		$batchMax = $batchHead->{batchDeltaCases} if($batchHead->{batchDeltaCases} > $batchMax);
+		
+		if (!defined($mostRecentBatchDelta)) {
+		    $mostRecentBatchDelta = $batchHead->{batchDeltaCases};
+		}
+		elsif (!exists($recentAccelerations{$locid})) {
+		    $recentAccelerations{$locid} 
+		    = ($batchHead->{batchDeltaCases} - $mostRecentBatchDelta) / 
+			($batchHead->{batchDeltaCases} >= 1 ? $batchHead->{batchDeltaCases} : 1);
+		}
 	    }
 	    
 	    $batchHead = $curr;
@@ -230,8 +239,46 @@ while (my ($locid,$r) = each %data) {
     }
 }
 
-
 my @batchDates = sort keys %batchDates;
+
+
+#create hotspots focus areas based on recent accelerations
+my $numAccelerations = 0;
+my $hotspotFocus =
+{
+    name => 'Hotspots',
+    locids => [],
+    locidsHash => {},
+    startDate => ''     
+};
+push @focuses, $hotspotFocus;
+
+for my $locid (sort {$recentAccelerations{$b} <=> $recentAccelerations{$a}} keys %recentAccelerations) {
+    next if ($data{$locid}{$dates[-1]}{batchDeltaCases} < 5000); #skip small cases
+    
+    last if (++$numAccelerations > 30);
+    push @{$hotspotFocus->{locids}}, $locid;
+    $hotspotFocus->{locidsHash}{$locid} = 1;
+
+    print "$locid ($data{$locid}{$dates[-1]}{batchDeltaCases}): $recentAccelerations{$locid}\n";
+}
+
+
+#populate focuses start dates
+while (my ($locid,$r) = each %data) {
+    for my $date (sort @dates) {
+	for my $f (@focuses) {
+	    if (exists($f->{locidsHash}{$locid}) &&
+		($f->{startDate} eq '') &&
+		$r->{$date}{cases} >= 10) {
+		
+		$f->{startDate} = $date;
+	    }
+	}
+    }
+}
+
+
 
 #calc double speed
 while (my ($locid,$r) = each %data) {
