@@ -110,11 +110,12 @@ sub log2 {
 #enrich with deltas, fill in blank dates, set focus areas and focus area start date
 while (my ($locid,$r) = each %data) {
     my $prev = undef;
-    my $deltaDenom = undef;
     
     my $batchDay = 0;
     my $batchHead = undef;
-    my $batchDenom = undef;
+
+    my $deltaMax = 0;
+    my $batchMax = 0;
     
     for my $focusAreaRegex (@focusAreasRegexes) {
 	if ($locid =~ m/$focusAreaRegex/) {
@@ -148,21 +149,11 @@ while (my ($locid,$r) = each %data) {
 	## 1-Day delta ##
 	if (defined $prev) {
 	    $prev->{deltaCases} = $prev->{cases} - $curr->{cases};
+	    $deltaMax = $prev->{deltaCases} if($prev->{deltaCases} > $deltaMax);
 	    
 	    if (exists($curr->{logCases}) && exists($prev->{logCases})) {
 		$prev->{deltaLogCases} = $prev->{logCases} - $curr->{logCases};
 	    }
-	    
-	    if (!defined($deltaDenom)) {
-		$deltaDenom = $prev->{deltaCases};
-	    }
-	    
-	    if ($deltaDenom > 0) {
-		$prev->{deltaNormalCases} = 100 *($prev->{deltaCases} / $deltaDenom);
-	    }
-	    else {
-		$prev->{deltaNormalCases} = 100;
-	    }	    
 	}
 	$prev = $curr;
 	
@@ -175,21 +166,23 @@ while (my ($locid,$r) = each %data) {
 	if ($batchDay == 1) { 
 	    if (defined $batchHead) {
 		$batchHead->{batchDeltaCases} = $batchHead->{cases} - $curr->{cases};
-		
-		if (!defined($batchDenom)) {
-		    $batchDenom = $batchHead->{batchDeltaCases};
-		}
-		
-		if ($batchDenom > 0) {
-		    $batchHead->{batchDeltaNormalCases} = 100 *($batchHead->{batchDeltaCases} / $batchDenom);
-		}
-		else {
-		    $batchHead->{batchDeltaNormalCases} = 100;
-		}
+		$batchMax = $batchHead->{batchDeltaCases} if($batchHead->{batchDeltaCases} > $batchMax);		
 	    }
 	    
 	    $batchHead = $curr;
 	    $batchDates{$date} = 1;
+	}
+    }
+    
+    #set normalized deltas and batchDeltas
+    if ($deltaMax > 0 && $batchMax > 0) {
+	while (my ($k,$v) = each %$r) {
+	    if (defined($v->{deltaCases})) {
+		$v->{deltaNormalCases} = 100* $v->{deltaCases} / $deltaMax;
+	    }
+	    if (defined($v->{batchDeltaCases})) {
+		$v->{batchDeltaNormalCases} = 100* $v->{batchDeltaCases} / $batchMax;
+	    } 
 	}
     }
 }
