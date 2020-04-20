@@ -427,7 +427,7 @@ sub printCsvFocus {
     close FILE;    
 }
 
-printCsvNarrow(\%data,\@dates,$dir,'All',
+printCsvNarrow(\%data,\@dates,$dir,'All2',
 	       [
 		['cases','Cases'],
 		['deltaCases','Delta'],
