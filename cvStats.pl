@@ -377,8 +377,10 @@ sub printCsvNarrow {
 	
 	for my $date (@$dates) {
 	    my $r = $data->{$locid}{$date};
-	    
+
+	    #reduce file size so we can import into goolgle sheets:
 	    next if (exists($r->{_fake}));
+	    next if ($r->{cases} < 10);
 	    
 	    print FILE "$key,$locid,$date";
 	    for my $stat (@stats) {
