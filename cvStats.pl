@@ -380,7 +380,7 @@ sub printCsvNarrow {
 
 	    #reduce file size so we can import into goolgle sheets:
 	    next if (exists($r->{_fake}));
-	    next if ($r->{cases} < 10);
+	    next if ($r->{cases} < 100);
 	    
 	    print FILE "$key,$locid,$date";
 	    for my $stat (@stats) {
@@ -427,7 +427,7 @@ sub printCsvFocus {
     close FILE;    
 }
 
-printCsvNarrow(\%data,\@dates,$dir,'All2',
+printCsvNarrow(\%data,\@dates,$dir,'All3',
 	       [
 		['cases','Cases'],
 		['deltaCases','Delta'],
