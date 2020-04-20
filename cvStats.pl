@@ -165,7 +165,7 @@ while (my ($locid,$r) = each %data) {
     for my $date (sort {$b cmp $a} @dates) { #reverse order
 	my $curr = undef;
 	if (!exists($r->{$date})) {
-	    $r->{$date} = {_date=>$date,cases=>0,deltaCases=>0};
+	    $r->{$date} = {_fake=>1,date=>$date,cases=>0,deltaCases=>0};
 	}
 	
 	$curr = $r->{$date};
@@ -377,6 +377,8 @@ sub printCsvNarrow {
 	
 	for my $date (@$dates) {
 	    my $r = $data->{$locid}{$date};
+	    
+	    next if (exists($r->{_fake}));
 	    
 	    print FILE "$key,$locid,$date";
 	    for my $stat (@stats) {
