@@ -321,7 +321,6 @@ while (my ($locid,$r) = each %data) {
 
 #OUTPUT:
 
-
 sub printCsvData {
     my $data = shift;
     my $dates = shift;
@@ -350,6 +349,44 @@ sub printCsvData {
     }
     
     close FILE;    
+}
+
+sub printCsvNarrow {
+    my $data = shift;
+    my $dates = shift;
+    my $dir = shift;
+    my $filePrefix = shift;
+    my $statColPairs = shift; #ordered array of pairs of stat name and logical col name
+    
+    my @stats = map {$_->[0]} @$statColPairs;
+    my @cols = map {$_->[1]} @$statColPairs;
+    
+    my $filepath = "$dir/${filePrefix}.csv";
+    
+    open FILE, ">$filepath" or die "Failed to open '$filepath' for writing.\n$!\n";
+    
+    print FILE "key,nation,state,county,date";
+    for my $col (@cols) {
+	print FILE ",$col";
+    }
+    print FILE "\n";
+    
+    
+    for my $locid (sort keys %$data) {
+	my $key = join('-', (split ',', $locid));
+	
+	for my $date (@$dates) {
+	    my $r = $data->{$locid}{$date};
+	    
+	    print FILE "$key,$locid,$date";
+	    for my $stat (@stats) {
+		print FILE ",$r->{$stat}";
+	    }
+	    print FILE "\n";
+	}
+    }
+    
+    close FILE;     
 }
 
 sub printCsvFocus {
@@ -385,6 +422,17 @@ sub printCsvFocus {
     }
     close FILE;    
 }
+
+printCsvNarrow(\%data,\@dates,$dir,'All',
+	       [
+		['cases','Cases'],
+		['deltaCases','Delta'],
+		['deltaNormalCases','DeltaNormal'],
+		['batchDeltaCases',"${batchNumDays}DayDelta"],
+		['batchDeltaNormalCases',"${batchNumDays}DayDeltaNormal"],
+		['doubleSpeed','DoubleSpeed']
+	       ]
+    );
 
 printCsvData(\%data,\@dates,     $dir,'Total',                        'cases',          'cases');
 printCsvData(\%data,\@dates,     $dir,'Delta',                        'deltaCases',     'cases');
