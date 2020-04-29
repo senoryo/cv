@@ -380,7 +380,7 @@ sub printCsvNarrow {
 
 	    #reduce file size so we can import into goolgle sheets:
 	    next if (exists($r->{_fake}));
-	    next if ($r->{cases} < 300);
+	    next if ($r->{cases} < 500);
 	    
 	    print FILE "$key,$locid,$date";
 	    for my $stat (@stats) {
