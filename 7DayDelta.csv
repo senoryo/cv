@@ -172,8 +172,8 @@ US,Michigan,Unknown,,0,0,0,0,0,0,0,0,78,289,102,175,490,842
 US,Delaware,New Castle,,0,0,0,0,0,0,8,50,98,340,423,310,400,305
 Bosnia and Herzegovina,,,,0,0,0,0,0,3,22,111,232,306,363,272,256,361
 US,Colorado,Weld,,0,0,0,0,0,0,4,46,165,289,304,313,423,353
+US,Puerto Rico,Unknown,,0,0,0,0,0,0,5,26,143,339,390,349,136,487
 US,Michigan,Kent,,0,0,0,0,0,0,5,23,68,81,134,239,550,754
-US,Puerto Rico,Unknown,,0,0,0,0,0,0,5,26,143,339,390,349,136,455
 US,Georgia,Cobb,,0,0,0,0,0,4,18,57,171,267,299,380,287,356
 US,Ohio,Pickaway,,0,0,0,0,0,0,0,0,5,22,56,1163,452,130
 US,Texas,Travis,,0,0,0,0,0,0,6,73,127,296,354,318,290,352
@@ -3157,6 +3157,7 @@ US,Arizona,Unknown,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 US,Iowa,Decatur,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 US,South Dakota,Unknown,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 US,South Dakota,Kingsbury,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+US,Texas,Coke,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 US,Oklahoma,Washita,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 US,Idaho,Lewis,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 US,California,Unknown,,0,0,0,0,0,0,0,1,0,-1,0,0,3,-3
@@ -3177,11 +3178,14 @@ US,New Mexico,Hidalgo,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 US,Virginia,Covington city,,0,0,0,0,0,0,0,0,0,1,0,0,0,-1
 US,Nebraska,Unknown,,0,0,0,0,0,0,0,0,2,-2,1,9,-10,0
 US,Idaho,Boundary,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+US,Texas,Bailey,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Canada,Recovery aggregated,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 US,Nebraska,Arthur,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+US,Texas,Collingsworth,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 US,Michigan,Ontonagon,,0,0,0,0,0,0,0,0,0,1,-1,0,0,0
 US,Colorado,San Juan,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 US,Idaho,Unknown,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+US,Minnesota,Pope,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 US,Iowa,Emmet,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 US,Missouri,Unknown,,0,0,0,0,0,0,0,1,11,-10,-1,0,-1,0
 US,Kentucky,Unknown,,0,0,0,0,0,0,0,9,50,-59,23,12,-24,-11
