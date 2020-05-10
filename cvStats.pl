@@ -220,7 +220,8 @@ while (my ($locid,$r) = each %data) {
 			$recentAccelerations{$locid} = 10; #i.e. 1,000% -- arbitrarily high
 		    }
 		    else {
-			$recentAccelerations{$locid} = $diff / $batchHead->{batchDeltaCases};			
+			$recentAccelerations{$locid} = $diff / $batchHead->{batchDeltaCases};
+			$data{$locid}{$dates[-1]}{recentAcceleration} = $diff / $batchHead->{batchDeltaCases};
 		    }
 		}
 	    }
@@ -434,7 +435,8 @@ printCsvNarrow(\%data,\@dates,$dir,'All3',
 		['deltaNormalCases','DeltaNormal'],
 		['batchDeltaCases',"${batchNumDays}DayDelta"],
 		['batchDeltaNormalCases',"${batchNumDays}DayDeltaNormal"],
-		['doubleSpeed','DoubleSpeed']
+		['doubleSpeed','DoubleSpeed'],
+		['recentAcceleration','Acceleration']		
 	       ]
     );
 
