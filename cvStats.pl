@@ -262,7 +262,7 @@ my $hotspotFocus =
 push @focuses, $hotspotFocus;
 
 for my $locid (sort {$recentAccelerations{$b} <=> $recentAccelerations{$a}} keys %recentAccelerations) {
-    next if ($data{$locid}{$dates[-1]}{batchDeltaCases} < 3000); #skip small cases
+    next if ($data{$locid}{$dates[-1]}{batchDeltaCases} < 4000); #skip small cases
     
     last if (++$numAccelerations > 15);
     push @{$hotspotFocus->{locids}}, $locid;
