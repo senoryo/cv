@@ -379,9 +379,9 @@ sub printCsvNarrow {
 	for my $date (@$dates) {
 	    my $r = $data->{$locid}{$date};
 
-	    #reduce file size so we can import into goolgle sheets #gdocs:
+	    #reduce file size so we can import into google sheets #gdocs:
 	    next if (exists($r->{_fake}));
-	    next if ($r->{cases} < 3000);
+	    next if ($locid !~ m/Hong Kong/ && $r->{cases} < 3000);
 	    
 	    print FILE "$key,$locid,$date";
 	    for my $stat (@stats) {
