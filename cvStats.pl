@@ -440,21 +440,21 @@ printCsvNarrow(\%data,\@dates,$dir,'All3',
 	       ]
     );
 
-printCsvData(\%data,\@dates,     $dir,'Total',                        'cases',          'cases');
-printCsvData(\%data,\@dates,     $dir,'Delta',                        'deltaCases',     'cases');
-printCsvData(\%data,\@dates,     $dir,'DeltaNormal',                        'deltaNormalCases',     'cases');
-printCsvData(\%data,\@batchDates,$dir,"${batchNumDays}DayDelta",      'batchDeltaCases','cases');
-printCsvData(\%data,\@batchDates,$dir,"${batchNumDays}DayDeltaNormal",'batchDeltaNormalCases','cases');
-printCsvData(\%data,\@dates,     $dir,'DoubleSpeed',                  'doubleSpeed',    'cases');
+#printCsvData(\%data,\@dates,     $dir,'Total',                        'cases',          'cases');
+#printCsvData(\%data,\@dates,     $dir,'Delta',                        'deltaCases',     'cases');
+#printCsvData(\%data,\@dates,     $dir,'DeltaNormal',                        'deltaNormalCases',     'cases');
+#printCsvData(\%data,\@batchDates,$dir,"${batchNumDays}DayDelta",      'batchDeltaCases','cases');
+#printCsvData(\%data,\@batchDates,$dir,"${batchNumDays}DayDeltaNormal",'batchDeltaNormalCases','cases');
+#printCsvData(\%data,\@dates,     $dir,'DoubleSpeed',                  'doubleSpeed',    'cases');
 
-for my $f (@focuses) {
-    printCsvFocus(\%data,\@dates,     $dir,'Total',                  'cases',          $f);
-    printCsvFocus(\%data,\@dates,     $dir,'Delta',                  'deltaCases',     $f);
-    printCsvFocus(\%data,\@dates,     $dir,'DeltaNormal',                  'deltaNormalCases', $f);
-    printCsvFocus(\%data,\@batchDates,$dir,"${batchNumDays}DayDelta",'batchDeltaCases',$f);
-    printCsvFocus(\%data,\@batchDates,$dir,"${batchNumDays}DayDeltaNormal",'batchDeltaNormalCases', $f);
-    printCsvFocus(\%data,\@dates,     $dir,'DoubleSpeed',            'doubleSpeed',    $f);
-}
+#for my $f (@focuses) {
+#    printCsvFocus(\%data,\@dates,     $dir,'Total',                  'cases',          $f);
+#    printCsvFocus(\%data,\@dates,     $dir,'Delta',                  'deltaCases',     $f);
+#    printCsvFocus(\%data,\@dates,     $dir,'DeltaNormal',                  'deltaNormalCases', $f);
+#    printCsvFocus(\%data,\@batchDates,$dir,"${batchNumDays}DayDelta",'batchDeltaCases',$f);
+#    printCsvFocus(\%data,\@batchDates,$dir,"${batchNumDays}DayDeltaNormal",'batchDeltaNormalCases', $f);
+#    printCsvFocus(\%data,\@dates,     $dir,'DoubleSpeed',            'doubleSpeed',    $f);
+#}
 
 if ($gitCommit) {
     my $time = `date`;
