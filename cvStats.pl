@@ -35,9 +35,11 @@ my %dataSources =
      Global => 
      {
 	 url => 'https://raw.githubusercontent.com/datasets/covid-19/master/data/time-series-19-covid-combined.csv',
-	 header => 'Date,Country/Region,Province/State,Lat,Long,Confirmed,Recovered,Deaths',
+	 #header => 'Date,Country/Region,Province/State,Lat,Long,Confirmed,Recovered,Deaths',
+	 header => 'Date,Country/Region,Province/State,Confirmed,Recovered,Deaths',
 	 createRecord => sub {
-	     my ($date,$nation,$state,$lat,$long,$cases,$recovered,$deaths) = split ',', $_[0];
+	     #my ($date,$nation,$state,$lat,$long,$cases,$recovered,$deaths) = split ',', $_[0];
+	     my ($date,$nation,$state,$cases,$recovered,$deaths) = split ',', $_[0];
 	     return {cases=>$cases, date=>$date, nation=>$nation, state=>$state, county=>''};	 
 	 }
      },
@@ -80,7 +82,7 @@ while (my ($sourceName,$s) = each %dataSources) {
 	chomp $line;
 	my $record = $s->{createRecord}($line);
 	next unless (defined $record);
-	    
+	
 	my $locID = "$record->{nation},$record->{state},$record->{county}"; #unique locationID (but also convenient "nation,state,county"
 	my $date = $record->{date};
 
