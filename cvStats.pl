@@ -383,7 +383,7 @@ sub printCsvNarrow {
 
 	    #reduce file size so we can import into google sheets #gdocs:
 	    next if (exists($r->{_fake}));
-	    next if ($locid !~ m/US-|Japan|Israel|Singapore|Hong Kong|United Kingdom/ && $r->{cases} < 200000);
+	    next if ($r->{nation} ne 'US' && $locid !~ m/Japan|Israel|Singapore|Hong Kong|United Kingdom/ && $r->{cases} < 200000);
 	    
 	    print FILE "$key,$locid,$date";
 	    for my $stat (@stats) {
